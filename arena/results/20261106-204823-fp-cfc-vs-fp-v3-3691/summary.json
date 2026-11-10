@@ -1,0 +1,719 @@
+{
+  "run": {
+    "name": "fp-cfc-vs-fp-v3",
+    "started": "2026-11-06T20:48:23",
+    "argv": [
+      "ab",
+      "bots/fp-v3",
+      "bots/fp-cfc",
+      "--field",
+      "v0-baseline",
+      "check_or_fold",
+      "arch-folder",
+      "arch-shover",
+      "arch-station",
+      "cap-floor-count-v6",
+      "--tables",
+      "1600",
+      "--seed",
+      "fpcfc1",
+      "--agent",
+      "Claude(cap-floor-count-agent)",
+      "--name",
+      "fp-cfc-vs-fp-v3",
+      "--question",
+      "end-all hybrid: fp-v3 preflop/select/ICM + cap-floor-count-v6 postflop vs fp-v3 (archetype field)"
+    ],
+    "mode": "fast",
+    "seed": "fpcfc1",
+    "scheme": "ab",
+    "hero": "fp-v3",
+    "challenger": "fp-cfc",
+    "tables_planned": 3206,
+    "rules": {
+      "variant": "flop_discard_reveal",
+      "players": 8,
+      "starting_stack": 2000,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hand_cap": 250,
+      "payouts": [
+        50,
+        30,
+        20
+      ],
+      "decision_ms": 1,
+      "time_bank_ms": 100,
+      "memory_bytes": 65536
+    },
+    "bots": {
+      "fp-v3": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\fp-v3",
+        "fingerprint": "02259ba4dd1f3309"
+      },
+      "fp-cfc": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\fp-cfc",
+        "fingerprint": "9ea2b9d31959828f"
+      },
+      "v0-baseline": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\v0-baseline",
+        "fingerprint": "a10ee1d03910be31"
+      },
+      "check_or_fold": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\starter-kit\\examples\\check_or_fold",
+        "fingerprint": "11ac875de874fe93"
+      },
+      "arch-folder": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\arch-folder",
+        "fingerprint": "9ec6e2541dc8f4de"
+      },
+      "arch-shover": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\arch-shover",
+        "fingerprint": "6c57f4b6adcc4f98"
+      },
+      "arch-station": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\arch-station",
+        "fingerprint": "cba4fbfdc46caed8"
+      },
+      "cap-floor-count-v6": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\cap-floor-count-v6",
+        "fingerprint": "ad2b69dc09c35f68"
+      }
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10"
+  },
+  "run_dir": "arena/results/20261106-204823-fp-cfc-vs-fp-v3-3691",
+  "tables": 3206,
+  "hands": 414071,
+  "ranking": [
+    {
+      "label": "fp-v3",
+      "tables": 1148,
+      "seats": 1832,
+      "avg_points": 21.51928673580786,
+      "ci95": 0.9450505137009161,
+      "sd": 20.624455341266682,
+      "avg_place": 3.2603711790393013,
+      "place_share": {
+        "1": 0.26582969432314413,
+        "2": 0.1970524017467249,
+        "3": 0.11626637554585152,
+        "4": 0.10807860262008734,
+        "5": 0.13700873362445415,
+        "6": 0.1091703056768559,
+        "7": 0.05349344978165939,
+        "8": 0.013100436681222707
+      },
+      "top3_share": 0.5791484716157205,
+      "decisions": 212094,
+      "failures": 20,
+      "timeouts": 20,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 9.429781134779862e-05,
+      "lat_p50_ms": 0.0345,
+      "lat_p99_ms": 18.33,
+      "lat_max_ms": 178.2618,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 76.07509293680297,
+      "survived_share": 0.26582969432314413
+    },
+    {
+      "label": "fp-cfc",
+      "tables": 1148,
+      "seats": 1832,
+      "avg_points": 20.585880622270743,
+      "ci95": 0.9739131260160616,
+      "sd": 21.254343003456135,
+      "avg_place": 3.3346069868995634,
+      "place_share": {
+        "1": 0.2778384279475983,
+        "2": 0.15611353711790393,
+        "3": 0.1009825327510917,
+        "4": 0.1413755458515284,
+        "5": 0.14192139737991266,
+        "6": 0.11735807860262008,
+        "7": 0.05294759825327511,
+        "8": 0.01146288209606987
+      },
+      "top3_share": 0.5349344978165939,
+      "decisions": 200971,
+      "failures": 52,
+      "timeouts": 52,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.00025874379885655147,
+      "lat_p50_ms": 0.0346,
+      "lat_p99_ms": 19.4316,
+      "lat_max_ms": 175.582,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 68.27815570672713,
+      "survived_share": 0.2778384279475983
+    },
+    {
+      "label": "cap-floor-count-v6",
+      "tables": 2350,
+      "seats": 3664,
+      "avg_points": 18.395196506550217,
+      "ci95": 0.6951840256686064,
+      "sd": 21.462776285721766,
+      "avg_place": 3.6956877729257642,
+      "place_share": {
+        "1": 0.26337336244541487,
+        "2": 0.11981441048034934,
+        "3": 0.08160480349344978,
+        "4": 0.11790393013100436,
+        "5": 0.1634825327510917,
+        "6": 0.14383187772925765,
+        "7": 0.08406113537117904,
+        "8": 0.025927947598253277
+      },
+      "top3_share": 0.46479257641921395,
+      "decisions": 401513,
+      "failures": 52,
+      "timeouts": 52,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.00012951012794106293,
+      "lat_p50_ms": 0.0225,
+      "lat_p99_ms": 19.5831,
+      "lat_max_ms": 227.413,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 56.01370878103001,
+      "survived_share": 0.26337336244541487
+    },
+    {
+      "label": "arch-folder",
+      "tables": 2348,
+      "seats": 3664,
+      "avg_points": 16.42194323144105,
+      "ci95": 0.5083752272945481,
+      "sd": 15.695331552148142,
+      "avg_place": 3.460971615720524,
+      "place_share": {
+        "1": 0.05922489082969432,
+        "2": 0.32914847161572053,
+        "3": 0.1793122270742358,
+        "4": 0.14683406113537117,
+        "5": 0.14465065502183405,
+        "6": 0.09770742358078603,
+        "7": 0.036299126637554587,
+        "8": 0.006823144104803494
+      },
+      "top3_share": 0.5676855895196506,
+      "decisions": 436698,
+      "failures": 10,
+      "timeouts": 10,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 2.289912021580131e-05,
+      "lat_p50_ms": 0.015,
+      "lat_p99_ms": 12.0732,
+      "lat_max_ms": 158.1734,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 96.52772133526851,
+      "survived_share": 0.0597707423580786
+    },
+    {
+      "label": "v0-baseline",
+      "tables": 2316,
+      "seats": 3664,
+      "avg_points": 14.174854421397379,
+      "ci95": 0.6789606910153446,
+      "sd": 20.96190487698008,
+      "avg_place": 4.315775109170306,
+      "place_share": {
+        "1": 0.22652838427947597,
+        "2": 0.056495633187772926,
+        "3": 0.05813318777292576,
+        "4": 0.1037117903930131,
+        "5": 0.17740174672489084,
+        "6": 0.1875,
+        "7": 0.14683406113537117,
+        "8": 0.043395196506550215
+      },
+      "top3_share": 0.3411572052401747,
+      "decisions": 380102,
+      "failures": 29,
+      "timeouts": 29,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 7.629531020620781e-05,
+      "lat_p50_ms": 0.023,
+      "lat_p99_ms": 16.4874,
+      "lat_max_ms": 245.6378,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 31.059633027522935,
+      "survived_share": 0.22652838427947597
+    },
+    {
+      "label": "check_or_fold",
+      "tables": 2342,
+      "seats": 3664,
+      "avg_points": 13.799126637554584,
+      "ci95": 0.38475517902464795,
+      "sd": 11.878745810127961,
+      "avg_place": 3.3351528384279474,
+      "place_share": {
+        "2": 0.18531659388646288,
+        "3": 0.412117903930131,
+        "4": 0.29694323144104806,
+        "5": 0.09334061135371179,
+        "6": 0.012281659388646287
+      },
+      "top3_share": 0.5974344978165939,
+      "decisions": 411166,
+      "failures": 2,
+      "timeouts": 2,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 4.8642154263728036e-06,
+      "lat_p50_ms": 0.0047,
+      "lat_p99_ms": 0.1445,
+      "lat_max_ms": 139.4808,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 104.65338427947599,
+      "survived_share": 0.0
+    },
+    {
+      "label": "arch-shover",
+      "tables": 2336,
+      "seats": 3664,
+      "avg_points": 2.6892284934497814,
+      "ci95": 0.351486464305289,
+      "sd": 10.851623559083198,
+      "avg_place": 6.09306768558952,
+      "place_share": {
+        "1": 0.04694323144104803,
+        "2": 0.0027292576419213972,
+        "3": 0.013919213973799126,
+        "4": 0.04175764192139738,
+        "5": 0.1539301310043668,
+        "6": 0.28820960698689957,
+        "7": 0.287117903930131,
+        "8": 0.1653930131004367
+      },
+      "top3_share": 0.06359170305676856,
+      "decisions": 46496,
+      "failures": 1,
+      "timeouts": 1,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 2.1507226428079834e-05,
+      "lat_p50_ms": 0.0041,
+      "lat_p99_ms": 0.4588,
+      "lat_max_ms": 145.5397,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 5.8098510882016035,
+      "survived_share": 0.04694323144104803
+    },
+    {
+      "label": "arch-station",
+      "tables": 2392,
+      "seats": 3664,
+      "avg_points": 0.9670669213973799,
+      "ci95": 0.17903791619115703,
+      "sd": 5.527530265352206,
+      "avg_place": 6.195960698689956,
+      "place_share": {
+        "1": 0.007096069868995633,
+        "2": 0.005185589519650655,
+        "3": 0.023744541484716157,
+        "4": 0.06468340611353712,
+        "5": 0.16703056768558952,
+        "6": 0.2781113537117904,
+        "7": 0.2884825327510917,
+        "8": 0.16566593886462883
+      },
+      "top3_share": 0.036026200873362446,
+      "decisions": 185930,
+      "failures": 2,
+      "timeouts": 2,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 1.0756736406174367e-05,
+      "lat_p50_ms": 0.0068,
+      "lat_p99_ms": 0.8249,
+      "lat_max_ms": 129.1002,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 8.90929081913139,
+      "survived_share": 0.007096069868995633
+    }
+  ],
+  "head_to_head": {
+    "arch-folder": {
+      "arch-station": [
+        1636,
+        0,
+        76
+      ],
+      "cap-floor-count-v6": [
+        774,
+        0,
+        898
+      ],
+      "fp-v3": [
+        281,
+        0,
+        538
+      ],
+      "v0-baseline": [
+        913,
+        0,
+        721
+      ],
+      "fp-cfc": [
+        308,
+        0,
+        511
+      ],
+      "arch-shover": [
+        1510,
+        0,
+        150
+      ],
+      "check_or_fold": [
+        986,
+        0,
+        652
+      ]
+    },
+    "arch-station": {
+      "arch-folder": [
+        76,
+        0,
+        1636
+      ],
+      "cap-floor-count-v6": [
+        96,
+        14,
+        1598
+      ],
+      "fp-v3": [
+        53,
+        4,
+        763
+      ],
+      "v0-baseline": [
+        239,
+        51,
+        1418
+      ],
+      "arch-shover": [
+        808,
+        248,
+        624
+      ],
+      "check_or_fold": [
+        29,
+        0,
+        1685
+      ],
+      "fp-cfc": [
+        30,
+        3,
+        787
+      ]
+    },
+    "cap-floor-count-v6": {
+      "arch-folder": [
+        898,
+        0,
+        774
+      ],
+      "arch-station": [
+        1598,
+        14,
+        96
+      ],
+      "fp-v3": [
+        377,
+        1,
+        428
+      ],
+      "v0-baseline": [
+        906,
+        6,
+        714
+      ],
+      "arch-shover": [
+        1422,
+        22,
+        188
+      ],
+      "check_or_fold": [
+        943,
+        0,
+        717
+      ],
+      "fp-cfc": [
+        371,
+        1,
+        434
+      ]
+    },
+    "fp-v3": {
+      "arch-folder": [
+        538,
+        0,
+        281
+      ],
+      "arch-station": [
+        763,
+        4,
+        53
+      ],
+      "cap-floor-count-v6": [
+        428,
+        1,
+        377
+      ],
+      "v0-baseline": [
+        467,
+        2,
+        326
+      ],
+      "arch-shover": [
+        740,
+        10,
+        63
+      ],
+      "check_or_fold": [
+        561,
+        0,
+        250
+      ]
+    },
+    "v0-baseline": {
+      "arch-folder": [
+        721,
+        0,
+        913
+      ],
+      "arch-station": [
+        1418,
+        51,
+        239
+      ],
+      "cap-floor-count-v6": [
+        714,
+        6,
+        906
+      ],
+      "fp-v3": [
+        326,
+        2,
+        467
+      ],
+      "fp-cfc": [
+        332,
+        2,
+        461
+      ],
+      "arch-shover": [
+        1347,
+        47,
+        258
+      ],
+      "check_or_fold": [
+        786,
+        0,
+        850
+      ]
+    },
+    "arch-shover": {
+      "arch-station": [
+        624,
+        248,
+        808
+      ],
+      "cap-floor-count-v6": [
+        188,
+        22,
+        1422
+      ],
+      "check_or_fold": [
+        130,
+        0,
+        1522
+      ],
+      "fp-v3": [
+        63,
+        10,
+        740
+      ],
+      "fp-cfc": [
+        67,
+        10,
+        736
+      ],
+      "arch-folder": [
+        150,
+        0,
+        1510
+      ],
+      "v0-baseline": [
+        258,
+        47,
+        1347
+      ]
+    },
+    "check_or_fold": {
+      "arch-shover": [
+        1522,
+        0,
+        130
+      ],
+      "arch-station": [
+        1685,
+        0,
+        29
+      ],
+      "cap-floor-count-v6": [
+        717,
+        0,
+        943
+      ],
+      "fp-v3": [
+        250,
+        0,
+        561
+      ],
+      "fp-cfc": [
+        269,
+        0,
+        542
+      ],
+      "arch-folder": [
+        652,
+        0,
+        986
+      ],
+      "v0-baseline": [
+        850,
+        0,
+        786
+      ]
+    },
+    "fp-cfc": {
+      "arch-shover": [
+        736,
+        10,
+        67
+      ],
+      "arch-station": [
+        787,
+        3,
+        30
+      ],
+      "cap-floor-count-v6": [
+        434,
+        1,
+        371
+      ],
+      "check_or_fold": [
+        542,
+        0,
+        269
+      ],
+      "arch-folder": [
+        511,
+        0,
+        308
+      ],
+      "v0-baseline": [
+        461,
+        2,
+        332
+      ]
+    }
+  },
+  "bot_errors": [],
+  "ab": {
+    "n": 1148,
+    "mean_diff": -0.7524680603948897,
+    "se": 0.5086101028328491,
+    "ci95": 0.99791050349322,
+    "t": -1.4794595235206773,
+    "p_value": 0.13929212599751467,
+    "b_better_tables": 278,
+    "a_better_tables": 319,
+    "tied_tables": 551,
+    "hero": "fp-v3",
+    "challenger": "fp-cfc",
+    "hero_avg_points": 22.145325174216026,
+    "challenger_avg_points": 21.392857113821137,
+    "tables_for_1pt": 1141
+  },
+  "elapsed_s": 150.3
+}

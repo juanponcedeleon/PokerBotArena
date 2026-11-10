@@ -1,0 +1,1087 @@
+{
+  "run": {
+    "name": "ladder",
+    "started": "2026-11-06T19:22:42",
+    "argv": [
+      "watch",
+      "--interval",
+      "30",
+      "--tables",
+      "200",
+      "--agent",
+      "arena-watch",
+      "--question",
+      "auto-ladder-on-bots-change"
+    ],
+    "mode": "fast",
+    "seed": "a78f66de",
+    "scheme": "league",
+    "hero": null,
+    "challenger": null,
+    "tables_planned": 209,
+    "rules": {
+      "variant": "flop_discard_reveal",
+      "players": 8,
+      "starting_stack": 2000,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hand_cap": 250,
+      "payouts": [
+        50,
+        30,
+        20
+      ],
+      "decision_ms": 1,
+      "time_bank_ms": 100,
+      "memory_bytes": 65536
+    },
+    "bots": {
+      "cap-floor-count": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\cap-floor-count",
+        "fingerprint": "5d7b1a09d9479a50"
+      },
+      "cap-floor-count-v2": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\cap-floor-count-v2",
+        "fingerprint": "a8eca30568f3478d"
+      },
+      "cap-floor-count-v3": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\cap-floor-count-v3",
+        "fingerprint": "95c1688ebb48ed21"
+      },
+      "icm-pushfold": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\icm-pushfold",
+        "fingerprint": "46a934fe884cda57"
+      },
+      "keep-made-plus-draw": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\keep-made-plus-draw",
+        "fingerprint": "cb8d23745666e220"
+      },
+      "keep-made-plus-draw-v2": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\keep-made-plus-draw-v2",
+        "fingerprint": "1e33159dc3c166e9"
+      },
+      "v0-baseline": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\v0-baseline",
+        "fingerprint": "a10ee1d03910be31"
+      },
+      "v0-nowar": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\v0-nowar",
+        "fingerprint": "c0330914fea447c7"
+      },
+      "check_or_fold": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\starter-kit\\examples\\check_or_fold",
+        "fingerprint": "11ac875de874fe93"
+      },
+      "min_raiser": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\starter-kit\\examples\\min_raiser",
+        "fingerprint": "573cab087d252756"
+      },
+      "bot": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bot",
+        "fingerprint": "c0330914fea447c7"
+      }
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10"
+  },
+  "run_dir": "arena/results/20261106-192242-ladder-c564",
+  "tables": 209,
+  "hands": 17378,
+  "ranking": [
+    {
+      "label": "check_or_fold",
+      "tables": 108,
+      "seats": 152,
+      "avg_points": 22.82894736842105,
+      "ci95": 1.4687670957269183,
+      "sd": 9.164989759690123,
+      "avg_place": 2.625,
+      "place_share": {
+        "2": 0.4934210526315789,
+        "3": 0.40131578947368424,
+        "4": 0.09210526315789473,
+        "5": 0.013157894736842105
+      },
+      "top3_share": 0.8947368421052632,
+      "decisions": 16933,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0055,
+      "lat_p99_ms": 0.2802,
+      "lat_max_ms": 18.1671,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 87.40789473684211,
+      "survived_share": 0.0
+    },
+    {
+      "label": "v0-nowar",
+      "tables": 121,
+      "seats": 152,
+      "avg_points": 15.328947368421053,
+      "ci95": 3.1077334128693437,
+      "sd": 19.39200911271638,
+      "avg_place": 4.052631578947368,
+      "place_share": {
+        "1": 0.17763157894736842,
+        "2": 0.11842105263157894,
+        "3": 0.14473684210526316,
+        "4": 0.13815789473684212,
+        "5": 0.10526315789473684,
+        "6": 0.1513157894736842,
+        "7": 0.09868421052631579,
+        "8": 0.06578947368421052
+      },
+      "top3_share": 0.4407894736842105,
+      "decisions": 14402,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0244,
+      "lat_p99_ms": 11.6922,
+      "lat_max_ms": 22.7974,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 36.616,
+      "survived_share": 0.17763157894736842
+    },
+    {
+      "label": "bot",
+      "tables": 117,
+      "seats": 152,
+      "avg_points": 13.75,
+      "ci95": 2.826233767329608,
+      "sd": 17.635473732645643,
+      "avg_place": 3.986842105263158,
+      "place_share": {
+        "1": 0.11842105263157894,
+        "2": 0.1513157894736842,
+        "3": 0.16447368421052633,
+        "4": 0.16447368421052633,
+        "5": 0.16447368421052633,
+        "6": 0.09210526315789473,
+        "7": 0.11842105263157894,
+        "8": 0.02631578947368421
+      },
+      "top3_share": 0.4342105263157895,
+      "decisions": 14207,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0237,
+      "lat_p99_ms": 12.3506,
+      "lat_max_ms": 18.7055,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 36.6865671641791,
+      "survived_share": 0.11842105263157894
+    },
+    {
+      "label": "cap-floor-count-v3",
+      "tables": 114,
+      "seats": 152,
+      "avg_points": 13.68421052631579,
+      "ci95": 3.0456323052399155,
+      "sd": 19.004503144516953,
+      "avg_place": 4.131578947368421,
+      "place_share": {
+        "1": 0.15789473684210525,
+        "2": 0.11842105263157894,
+        "3": 0.1118421052631579,
+        "4": 0.1513157894736842,
+        "5": 0.1513157894736842,
+        "6": 0.17105263157894737,
+        "7": 0.09210526315789473,
+        "8": 0.046052631578947366
+      },
+      "top3_share": 0.3881578947368421,
+      "decisions": 13028,
+      "failures": 1,
+      "timeouts": 1,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 7.675775253300584e-05,
+      "lat_p50_ms": 0.0245,
+      "lat_p99_ms": 15.4207,
+      "lat_max_ms": 23.6602,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 32.46875,
+      "survived_share": 0.15789473684210525
+    },
+    {
+      "label": "keep-made-plus-draw-v2",
+      "tables": 117,
+      "seats": 152,
+      "avg_points": 13.618421052631579,
+      "ci95": 3.327789796299282,
+      "sd": 20.76514342826399,
+      "avg_place": 4.5,
+      "place_share": {
+        "1": 0.21710526315789475,
+        "2": 0.05263157894736842,
+        "3": 0.05921052631578947,
+        "4": 0.125,
+        "5": 0.14473684210526316,
+        "6": 0.1513157894736842,
+        "7": 0.13157894736842105,
+        "8": 0.11842105263157894
+      },
+      "top3_share": 0.32894736842105265,
+      "decisions": 11415,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0231,
+      "lat_p99_ms": 13.4579,
+      "lat_max_ms": 18.5442,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 19.084033613445378,
+      "survived_share": 0.21710526315789475
+    },
+    {
+      "label": "keep-made-plus-draw",
+      "tables": 111,
+      "seats": 152,
+      "avg_points": 13.355263157894736,
+      "ci95": 3.129691648585467,
+      "sd": 19.52902675565284,
+      "avg_place": 4.355263157894737,
+      "place_share": {
+        "1": 0.17763157894736842,
+        "2": 0.07894736842105263,
+        "3": 0.10526315789473684,
+        "4": 0.09210526315789473,
+        "5": 0.17105263157894737,
+        "6": 0.18421052631578946,
+        "7": 0.1513157894736842,
+        "8": 0.039473684210526314
+      },
+      "top3_share": 0.3618421052631579,
+      "decisions": 12693,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0234,
+      "lat_p99_ms": 15.28,
+      "lat_max_ms": 20.5227,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 25.784,
+      "survived_share": 0.17763157894736842
+    },
+    {
+      "label": "cap-floor-count-v2",
+      "tables": 115,
+      "seats": 152,
+      "avg_points": 13.026315789473685,
+      "ci95": 3.210680395815908,
+      "sd": 20.034390091457805,
+      "avg_place": 4.598684210526316,
+      "place_share": {
+        "1": 0.19078947368421054,
+        "2": 0.07236842105263158,
+        "3": 0.06578947368421052,
+        "4": 0.11842105263157894,
+        "5": 0.13815789473684212,
+        "6": 0.125,
+        "7": 0.16447368421052633,
+        "8": 0.125
+      },
+      "top3_share": 0.32894736842105265,
+      "decisions": 10191,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0235,
+      "lat_p99_ms": 14.8944,
+      "lat_max_ms": 21.9361,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 18.178861788617887,
+      "survived_share": 0.19078947368421054
+    },
+    {
+      "label": "icm-pushfold",
+      "tables": 114,
+      "seats": 152,
+      "avg_points": 11.31578947368421,
+      "ci95": 2.612787423320932,
+      "sd": 16.303585536910543,
+      "avg_place": 4.315789473684211,
+      "place_share": {
+        "1": 0.09210526315789473,
+        "2": 0.09210526315789473,
+        "3": 0.19736842105263158,
+        "4": 0.19736842105263158,
+        "5": 0.13157894736842105,
+        "6": 0.10526315789473684,
+        "7": 0.10526315789473684,
+        "8": 0.07894736842105263
+      },
+      "top3_share": 0.3815789473684211,
+      "decisions": 12403,
+      "failures": 8,
+      "timeouts": 8,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0006450052406675804,
+      "lat_p50_ms": 0.0386,
+      "lat_p99_ms": 17.4316,
+      "lat_max_ms": 22.22,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 33.007246376811594,
+      "survived_share": 0.09210526315789473
+    },
+    {
+      "label": "v0-baseline",
+      "tables": 111,
+      "seats": 152,
+      "avg_points": 10.0,
+      "ci95": 2.7726924148040903,
+      "sd": 17.30137995491605,
+      "avg_place": 4.75,
+      "place_share": {
+        "1": 0.1118421052631579,
+        "2": 0.09868421052631579,
+        "3": 0.07236842105263158,
+        "4": 0.13157894736842105,
+        "5": 0.15789473684210525,
+        "6": 0.20394736842105263,
+        "7": 0.10526315789473684,
+        "8": 0.11842105263157894
+      },
+      "top3_share": 0.28289473684210525,
+      "decisions": 10353,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0234,
+      "lat_p99_ms": 12.9652,
+      "lat_max_ms": 18.6701,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 23.451851851851853,
+      "survived_share": 0.1118421052631579
+    },
+    {
+      "label": "cap-floor-count",
+      "tables": 109,
+      "seats": 152,
+      "avg_points": 9.407894736842104,
+      "ci95": 2.761835283595322,
+      "sd": 17.23363232042896,
+      "avg_place": 4.940789473684211,
+      "place_share": {
+        "1": 0.1118421052631579,
+        "2": 0.09210526315789473,
+        "3": 0.05263157894736842,
+        "4": 0.14473684210526316,
+        "5": 0.13157894736842105,
+        "6": 0.14473684210526316,
+        "7": 0.19736842105263158,
+        "8": 0.125
+      },
+      "top3_share": 0.2565789473684211,
+      "decisions": 10299,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0238,
+      "lat_p99_ms": 15.4576,
+      "lat_max_ms": 19.0756,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 23.25925925925926,
+      "survived_share": 0.1118421052631579
+    },
+    {
+      "label": "min_raiser",
+      "tables": 116,
+      "seats": 152,
+      "avg_points": 1.1842105263157894,
+      "ci95": 1.1800235757126418,
+      "sd": 7.363253179529327,
+      "avg_place": 6.546052631578948,
+      "place_share": {
+        "1": 0.019736842105263157,
+        "2": 0.006578947368421052,
+        "4": 0.07236842105263158,
+        "5": 0.09210526315789473,
+        "6": 0.20394736842105263,
+        "7": 0.3026315789473684,
+        "8": 0.3026315789473684
+      },
+      "top3_share": 0.02631578947368421,
+      "decisions": 3091,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0057,
+      "lat_p99_ms": 0.1528,
+      "lat_max_ms": 15.4445,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 3.4966442953020134,
+      "survived_share": 0.019736842105263157
+    }
+  ],
+  "head_to_head": {
+    "bot": {
+      "cap-floor-count": [
+        35,
+        1,
+        25
+      ],
+      "cap-floor-count-v2": [
+        33,
+        0,
+        28
+      ],
+      "cap-floor-count-v3": [
+        27,
+        0,
+        33
+      ],
+      "v0-baseline": [
+        33,
+        0,
+        24
+      ],
+      "icm-pushfold": [
+        40,
+        0,
+        24
+      ],
+      "keep-made-plus-draw-v2": [
+        34,
+        0,
+        28
+      ],
+      "min_raiser": [
+        53,
+        1,
+        5
+      ],
+      "v0-nowar": [
+        34,
+        0,
+        32
+      ],
+      "check_or_fold": [
+        11,
+        0,
+        42
+      ],
+      "keep-made-plus-draw": [
+        31,
+        0,
+        28
+      ]
+    },
+    "cap-floor-count": {
+      "bot": [
+        25,
+        1,
+        35
+      ],
+      "cap-floor-count-v2": [
+        27,
+        0,
+        30
+      ],
+      "cap-floor-count-v3": [
+        19,
+        1,
+        37
+      ],
+      "v0-baseline": [
+        27,
+        0,
+        26
+      ],
+      "icm-pushfold": [
+        24,
+        0,
+        33
+      ],
+      "keep-made-plus-draw-v2": [
+        22,
+        0,
+        33
+      ],
+      "min_raiser": [
+        43,
+        2,
+        7
+      ],
+      "check_or_fold": [
+        11,
+        0,
+        42
+      ],
+      "v0-nowar": [
+        19,
+        0,
+        40
+      ],
+      "keep-made-plus-draw": [
+        18,
+        0,
+        33
+      ]
+    },
+    "cap-floor-count-v2": {
+      "bot": [
+        28,
+        0,
+        33
+      ],
+      "cap-floor-count": [
+        30,
+        0,
+        27
+      ],
+      "cap-floor-count-v3": [
+        30,
+        0,
+        26
+      ],
+      "v0-baseline": [
+        33,
+        1,
+        26
+      ],
+      "icm-pushfold": [
+        26,
+        1,
+        33
+      ],
+      "keep-made-plus-draw-v2": [
+        31,
+        1,
+        31
+      ],
+      "keep-made-plus-draw": [
+        35,
+        0,
+        29
+      ],
+      "min_raiser": [
+        51,
+        4,
+        6
+      ],
+      "check_or_fold": [
+        14,
+        0,
+        36
+      ],
+      "v0-nowar": [
+        23,
+        1,
+        35
+      ]
+    },
+    "cap-floor-count-v3": {
+      "bot": [
+        33,
+        0,
+        27
+      ],
+      "cap-floor-count": [
+        37,
+        1,
+        19
+      ],
+      "cap-floor-count-v2": [
+        26,
+        0,
+        30
+      ],
+      "v0-baseline": [
+        34,
+        0,
+        20
+      ],
+      "icm-pushfold": [
+        30,
+        0,
+        30
+      ],
+      "keep-made-plus-draw-v2": [
+        35,
+        0,
+        25
+      ],
+      "min_raiser": [
+        57,
+        0,
+        4
+      ],
+      "keep-made-plus-draw": [
+        20,
+        0,
+        27
+      ],
+      "check_or_fold": [
+        12,
+        0,
+        41
+      ],
+      "v0-nowar": [
+        30,
+        0,
+        38
+      ]
+    },
+    "v0-baseline": {
+      "bot": [
+        24,
+        0,
+        33
+      ],
+      "cap-floor-count": [
+        26,
+        0,
+        27
+      ],
+      "cap-floor-count-v2": [
+        26,
+        1,
+        33
+      ],
+      "cap-floor-count-v3": [
+        20,
+        0,
+        34
+      ],
+      "icm-pushfold": [
+        21,
+        0,
+        35
+      ],
+      "keep-made-plus-draw-v2": [
+        28,
+        0,
+        29
+      ],
+      "min_raiser": [
+        51,
+        1,
+        12
+      ],
+      "v0-nowar": [
+        23,
+        0,
+        33
+      ],
+      "keep-made-plus-draw": [
+        29,
+        0,
+        26
+      ],
+      "check_or_fold": [
+        14,
+        0,
+        37
+      ]
+    },
+    "icm-pushfold": {
+      "bot": [
+        24,
+        0,
+        40
+      ],
+      "cap-floor-count": [
+        33,
+        0,
+        24
+      ],
+      "cap-floor-count-v2": [
+        33,
+        1,
+        26
+      ],
+      "keep-made-plus-draw-v2": [
+        27,
+        1,
+        31
+      ],
+      "cap-floor-count-v3": [
+        30,
+        0,
+        30
+      ],
+      "min_raiser": [
+        48,
+        1,
+        10
+      ],
+      "v0-baseline": [
+        35,
+        0,
+        21
+      ],
+      "v0-nowar": [
+        34,
+        0,
+        31
+      ],
+      "check_or_fold": [
+        14,
+        0,
+        41
+      ],
+      "keep-made-plus-draw": [
+        28,
+        0,
+        22
+      ]
+    },
+    "keep-made-plus-draw-v2": {
+      "bot": [
+        28,
+        0,
+        34
+      ],
+      "cap-floor-count": [
+        33,
+        0,
+        22
+      ],
+      "cap-floor-count-v2": [
+        31,
+        1,
+        31
+      ],
+      "icm-pushfold": [
+        31,
+        1,
+        27
+      ],
+      "cap-floor-count-v3": [
+        25,
+        0,
+        35
+      ],
+      "min_raiser": [
+        43,
+        8,
+        6
+      ],
+      "v0-baseline": [
+        29,
+        0,
+        28
+      ],
+      "check_or_fold": [
+        20,
+        0,
+        40
+      ],
+      "keep-made-plus-draw": [
+        24,
+        0,
+        38
+      ],
+      "v0-nowar": [
+        29,
+        0,
+        35
+      ]
+    },
+    "min_raiser": {
+      "cap-floor-count": [
+        7,
+        2,
+        43
+      ],
+      "cap-floor-count-v3": [
+        4,
+        0,
+        57
+      ],
+      "icm-pushfold": [
+        10,
+        1,
+        48
+      ],
+      "keep-made-plus-draw-v2": [
+        6,
+        8,
+        43
+      ],
+      "v0-baseline": [
+        12,
+        1,
+        51
+      ],
+      "bot": [
+        5,
+        1,
+        53
+      ],
+      "v0-nowar": [
+        8,
+        0,
+        62
+      ],
+      "cap-floor-count-v2": [
+        6,
+        4,
+        51
+      ],
+      "keep-made-plus-draw": [
+        6,
+        1,
+        51
+      ],
+      "check_or_fold": [
+        3,
+        0,
+        54
+      ]
+    },
+    "v0-nowar": {
+      "bot": [
+        32,
+        0,
+        34
+      ],
+      "icm-pushfold": [
+        31,
+        0,
+        34
+      ],
+      "min_raiser": [
+        62,
+        0,
+        8
+      ],
+      "v0-baseline": [
+        33,
+        0,
+        23
+      ],
+      "cap-floor-count-v2": [
+        35,
+        1,
+        23
+      ],
+      "check_or_fold": [
+        20,
+        0,
+        46
+      ],
+      "keep-made-plus-draw": [
+        29,
+        1,
+        28
+      ],
+      "keep-made-plus-draw-v2": [
+        35,
+        0,
+        29
+      ],
+      "cap-floor-count": [
+        40,
+        0,
+        19
+      ],
+      "cap-floor-count-v3": [
+        38,
+        0,
+        30
+      ]
+    },
+    "keep-made-plus-draw": {
+      "cap-floor-count-v2": [
+        29,
+        0,
+        35
+      ],
+      "cap-floor-count-v3": [
+        27,
+        0,
+        20
+      ],
+      "min_raiser": [
+        51,
+        1,
+        6
+      ],
+      "v0-baseline": [
+        26,
+        0,
+        29
+      ],
+      "check_or_fold": [
+        17,
+        0,
+        44
+      ],
+      "icm-pushfold": [
+        22,
+        0,
+        28
+      ],
+      "keep-made-plus-draw-v2": [
+        38,
+        0,
+        24
+      ],
+      "v0-nowar": [
+        28,
+        1,
+        29
+      ],
+      "bot": [
+        28,
+        0,
+        31
+      ],
+      "cap-floor-count": [
+        33,
+        0,
+        18
+      ]
+    },
+    "check_or_fold": {
+      "cap-floor-count-v2": [
+        36,
+        0,
+        14
+      ],
+      "icm-pushfold": [
+        41,
+        0,
+        14
+      ],
+      "keep-made-plus-draw": [
+        44,
+        0,
+        17
+      ],
+      "keep-made-plus-draw-v2": [
+        40,
+        0,
+        20
+      ],
+      "min_raiser": [
+        54,
+        0,
+        3
+      ],
+      "v0-nowar": [
+        46,
+        0,
+        20
+      ],
+      "cap-floor-count": [
+        42,
+        0,
+        11
+      ],
+      "cap-floor-count-v3": [
+        41,
+        0,
+        12
+      ],
+      "v0-baseline": [
+        37,
+        0,
+        14
+      ],
+      "bot": [
+        42,
+        0,
+        11
+      ]
+    }
+  },
+  "bot_errors": [],
+  "elapsed_s": 19.4
+}

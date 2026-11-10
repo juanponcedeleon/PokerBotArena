@@ -1,0 +1,43 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- Virtual environments (recreate from starter-kit/requirements.txt) ----
+.venv/
+.venv-wsl/
+venv/
+starter-kit/.venv/
+starter-kit/.venv-wsl/
+
+# ---- Arena run artifacts (hundreds of MB). Keep only the leaderboard and per-run summaries. ----
+arena/results/*
+!arena/results/LEADERBOARD.md
+!arena/results/*/
+arena/results/*/*
+!arena/results/*/summary.json
+!arena/results/*/leaderboard.md
+
+# ---- Raw hand histories (large .jsonl.gz downloads; re-fetch with fetch_history.py) ----
+data/hands/
+starter-kit/hand-history/*.jsonl.gz
+
+# ---- Evolutionary tuning runs (generated candidates; promoted genomes live in bots/) ----
+evolve/runs/
+
+# ---- Submission archives and local secrets ----
+*.zip
+api-key
+*.env
+.env*
+
+# ---- OS / editor noise ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp

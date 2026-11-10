@@ -1,0 +1,129 @@
+{
+  "family": "v0-nowar",
+  "parent": "bots/v0-nowar",
+  "strategy": "the former submission (strategy/02 S2.1 capped 3-bet escalation, 07 A20; v0 heuristics everywhere else)",
+  "generated_by": "evolve/hoist.py",
+  "parameters": {
+    "PUSHFOLD_BB": {
+      "default": 12.0,
+      "min": 6.0,
+      "max": 20.0,
+      "note": "push/fold at or below this many BB"
+    },
+    "PUSH_MARGINAL_BB": {
+      "default": 6.0,
+      "min": 2.0,
+      "max": 12.0,
+      "note": "class-1 hands shove unopened at or below this"
+    },
+    "OPEN_PREMIUM_BB": {
+      "default": 3.0,
+      "min": 2.0,
+      "max": 5.0,
+      "note": "open size (BB) with class 3; also the 3-bet floor"
+    },
+    "OPEN_GOOD_BB": {
+      "default": 2.5,
+      "min": 2.0,
+      "max": 4.5,
+      "note": "open size (BB) with class 2"
+    },
+    "THREEBET_MULT": {
+      "default": 3.0,
+      "min": 2.2,
+      "max": 5.0,
+      "note": "3-bet to this multiple of the amount to call"
+    },
+    "CALL_GOOD_MAX_BB": {
+      "default": 6.0,
+      "min": 2.0,
+      "max": 14.0,
+      "note": "class 2 calls a single open up to this many BB"
+    },
+    "CALL_MID_PAIR_FRAC": {
+      "default": 0.3,
+      "min": 0.05,
+      "max": 0.7,
+      "note": "TT-JJ call a 3-bet up to this share of stack"
+    },
+    "CALL_LOW_PAIR_FRAC": {
+      "default": 0.12,
+      "min": 0.0,
+      "max": 0.4,
+      "note": "77-99 call a 3-bet up to this share of stack"
+    },
+    "LIMP_MARGINAL_BB": {
+      "default": 1.0,
+      "min": 0.0,
+      "max": 3.0,
+      "note": "class 1 limps when to_call <= this * bb"
+    },
+    "STRONG_BET_POT": {
+      "default": 0.7,
+      "min": 0.3,
+      "max": 1.5,
+      "note": "bet size (pot fraction) with two pair+"
+    },
+    "STRONG_CALL_POT": {
+      "default": 1.0,
+      "min": 0.3,
+      "max": 3.0,
+      "note": "two pair raises a bet up to this * pot, calls above"
+    },
+    "RAISE_MULT": {
+      "default": 2.5,
+      "min": 2.0,
+      "max": 4.0,
+      "note": "raise = this * to_call + RAISE_POT_ADD * pot"
+    },
+    "RAISE_POT_ADD": {
+      "default": 0.5,
+      "min": 0.0,
+      "max": 1.2
+    },
+    "MEDIUM_BET_POT": {
+      "default": 0.5,
+      "min": 0.2,
+      "max": 1.0,
+      "note": "bet size with top pair"
+    },
+    "MEDIUM_CALL_POT": {
+      "default": 0.6,
+      "min": 0.1,
+      "max": 1.5,
+      "note": "top pair calls up to this * pot"
+    },
+    "WEAK_CALL_POT": {
+      "default": 0.3,
+      "min": 0.0,
+      "max": 1.0,
+      "note": "any pair calls up to this * pot"
+    },
+    "FD_CALL_POT": {
+      "default": 0.35,
+      "min": 0.0,
+      "max": 1.0,
+      "note": "flush draw calls up to this * pot"
+    },
+    "CBET_POT": {
+      "default": 0.5,
+      "min": 0.25,
+      "max": 1.0,
+      "note": "continuation bet size"
+    },
+    "CBET_MIN_RANK": {
+      "default": 9,
+      "min": 5,
+      "max": 13,
+      "int": true,
+      "note": "c-bet needs a hole card of this rank (9 = J, 13 = never)"
+    },
+    "EXPOSE_LOW_PROB": {
+      "default": 1.0,
+      "min": 0.0,
+      "max": 1.0,
+      "note": "P(expose the weaker kept card); strategy/03 S3.2"
+    }
+  },
+  "constraints": []
+}

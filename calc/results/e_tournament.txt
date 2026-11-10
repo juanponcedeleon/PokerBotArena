@@ -1,0 +1,32 @@
+hands      blinds       avg stack (BB) with 8 / 6 / 4 / 3 players left
+  1- 20      10/20       100.0  133.3  200.0  266.7 
+ 21- 40      20/40        50.0   66.7  100.0  133.3 
+ 41- 60      30/60        33.3   44.4   66.7   88.9 
+ 61- 80      50/100       20.0   26.7   40.0   53.3 
+ 81-100      80/160       12.5   16.7   25.0   33.3 
+101-120     125/250        8.0   10.7   16.0   21.3 
+121-140     200/400        5.0    6.7   10.0   13.3 
+141-160     300/600        3.3    4.4    6.7    8.9 
+161-180     500/1000       2.0    2.7    4.0    5.3 
+181-200     800/1600       1.2    1.7    2.5    3.3 
+201-220    1200/2400       0.8    1.1    1.7    2.2 
+221-240    2000/4000       0.5    0.7    1.0    1.3 
+level 12 (2000/4000) repeats until the 250-hand cap
+
+ICM, 8 x 2000, payouts 50/30/20: each player = 12.50 pts
+Double up on hand 1 (4000 vs six 2000s): 22.50 pts  (x1.800, not x2)
+Bust = 0. Break-even win% for a full-stack flip on hand 1: 55.6%  (chip-EV says 50%)
+
+Break-even equity to put stacks in vs seat 1 (chip-EV break-even is 50%):
+  8 left, equal 2000, I shove/call for full stacks     now 12.50  win 22.50  lose  0.00  break-even 55.6%
+  6 left, equal 2667, flip for stacks                  now 16.67  win 28.67  lose  0.00  break-even 58.1%
+  4 left (bubble), equal 4000, flip for stacks         now 25.00  win 38.33  lose  0.00  break-even 65.2%
+  4 left, I'm short 2000 vs 4667s, flip vs one         now 15.21  win 25.40  lose  0.00  break-even 59.9%
+  4 left, I'm big 7000, flip vs a 3000                 now 34.60  win 41.63  lose 25.70  break-even 55.8%
+  3 left (all paid), equal 5333, flip                  now 33.33  win 43.33  lose  0.00  break-even 76.9%
+  5 left, I'm big 6000 vs short 1500                   now 31.02  win 35.83  lose 25.60  break-even 52.9%
+
+Hand cap: at hand 250 survivors split remaining points by ICM (chip share matters, not place).
+  stacks [8000, 4000, 2000, 2000] -> [37.2, 27.6, 17.6, 17.6]
+  stacks [6000, 6000, 4000] -> [34.8, 34.8, 30.5]
+  stacks [10000, 3000, 3000] -> [41.6, 29.2, 29.2]

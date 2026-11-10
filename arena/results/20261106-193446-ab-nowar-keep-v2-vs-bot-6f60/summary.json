@@ -1,0 +1,271 @@
+{
+  "run": {
+    "name": "ab-nowar-keep-v2-vs-bot",
+    "started": "2026-11-06T19:34:46",
+    "argv": [
+      "ab",
+      "bot",
+      "nowar-keep-v2",
+      "--field",
+      "v0-nowar",
+      "--tables",
+      "2000",
+      "--seed",
+      "s31g",
+      "--agent",
+      "Claude (keep-rule agent)",
+      "--question",
+      "nowar-keep-v2 vs bot (= v0-nowar), field = v0-nowar copies (self-play of the submission), 2000 pairs",
+      "--quiet"
+    ],
+    "mode": "fast",
+    "seed": "s31g",
+    "scheme": "ab",
+    "hero": "bot",
+    "challenger": "nowar-keep-v2",
+    "tables_planned": 4000,
+    "rules": {
+      "variant": "flop_discard_reveal",
+      "players": 8,
+      "starting_stack": 2000,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hand_cap": 250,
+      "payouts": [
+        50,
+        30,
+        20
+      ],
+      "decision_ms": 1,
+      "time_bank_ms": 100,
+      "memory_bytes": 65536
+    },
+    "bots": {
+      "bot": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bot",
+        "fingerprint": "c0330914fea447c7"
+      },
+      "nowar-keep-v2": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\nowar-keep-v2",
+        "fingerprint": "597320940f21d80c"
+      },
+      "v0-nowar": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\v0-nowar",
+        "fingerprint": "c0330914fea447c7"
+      }
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10"
+  },
+  "run_dir": "arena/results/20261106-193446-ab-nowar-keep-v2-vs-bot-6f60",
+  "tables": 4000,
+  "hands": 441749,
+  "ranking": [
+    {
+      "label": "v0-nowar",
+      "tables": 4000,
+      "seats": 16000,
+      "avg_points": 12.611875,
+      "ci95": 0.27764724961150705,
+      "sd": 17.917293973235264,
+      "avg_place": 4.48325,
+      "place_share": {
+        "1": 0.1269375,
+        "2": 0.12475,
+        "3": 0.126125,
+        "4": 0.1221875,
+        "5": 0.125625,
+        "6": 0.128625,
+        "7": 0.1261875,
+        "8": 0.1195625
+      },
+      "top3_share": 0.3778125,
+      "decisions": 1764946,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.015,
+      "lat_p99_ms": 0.2138,
+      "lat_max_ms": 61.9242,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 52.353497029135944,
+      "survived_share": 0.1269375
+    },
+    {
+      "label": "nowar-keep-v2",
+      "tables": 2000,
+      "seats": 8000,
+      "avg_points": 12.40375,
+      "ci95": 0.38968593116647504,
+      "sd": 17.780579421466285,
+      "avg_place": 4.5035,
+      "place_share": {
+        "1": 0.122875,
+        "2": 0.12525,
+        "3": 0.125125,
+        "4": 0.126875,
+        "5": 0.126,
+        "6": 0.12275,
+        "7": 0.12825,
+        "8": 0.122875
+      },
+      "top3_share": 0.37325,
+      "decisions": 868626,
+      "failures": 1,
+      "timeouts": 1,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 1.1512434580590496e-06,
+      "lat_p50_ms": 0.0152,
+      "lat_p99_ms": 0.3039,
+      "lat_max_ms": 147.5085,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 51.646287587288015,
+      "survived_share": 0.122875
+    },
+    {
+      "label": "bot",
+      "tables": 2000,
+      "seats": 8000,
+      "avg_points": 12.3725,
+      "ci95": 0.3901243964221262,
+      "sd": 17.800585702622808,
+      "avg_place": 4.508875,
+      "place_share": {
+        "1": 0.12325,
+        "2": 0.12525,
+        "3": 0.122625,
+        "4": 0.128875,
+        "5": 0.123625,
+        "6": 0.124875,
+        "7": 0.127625,
+        "8": 0.123875
+      },
+      "top3_share": 0.371125,
+      "decisions": 882122,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0151,
+      "lat_p99_ms": 0.1966,
+      "lat_max_ms": 67.3999,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 52.555317935557454,
+      "survived_share": 0.12325
+    }
+  ],
+  "head_to_head": {
+    "bot": {
+      "v0-nowar": [
+        986,
+        0,
+        1014
+      ]
+    },
+    "v0-nowar": {
+      "bot": [
+        1014,
+        0,
+        986
+      ],
+      "nowar-keep-v2": [
+        1017,
+        0,
+        983
+      ]
+    },
+    "nowar-keep-v2": {
+      "v0-nowar": [
+        983,
+        0,
+        1017
+      ]
+    }
+  },
+  "bot_errors": [],
+  "ab": {
+    "n": 2000,
+    "mean_diff": 0.03125,
+    "se": 0.11905371103752248,
+    "ci95": 0.23348235447781285,
+    "t": 0.26248656784962254,
+    "p_value": 0.7929733868577845,
+    "b_better_tables": 405,
+    "a_better_tables": 393,
+    "tied_tables": 1202,
+    "hero": "bot",
+    "challenger": "nowar-keep-v2",
+    "hero_avg_points": 12.3725,
+    "challenger_avg_points": 12.40375,
+    "tables_for_1pt": 109
+  },
+  "elapsed_s": 79.8
+}

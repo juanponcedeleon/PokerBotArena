@@ -1,0 +1,721 @@
+{
+  "run": {
+    "name": "cfc-v7-steal-vs-v6",
+    "started": "2026-11-06T20:01:41",
+    "argv": [
+      "ab",
+      "bots/cap-floor-count-v6",
+      "bots/cfc-v7-steal",
+      "--field",
+      "keep-made-plus-draw-v2",
+      "v0-baseline",
+      "icm-pushfold",
+      "cap-floor-count-v5",
+      "min_raiser",
+      "check_or_fold",
+      "--tables",
+      "1600",
+      "--seed",
+      "cfc9",
+      "--agent",
+      "Claude(cap-floor-count-agent)",
+      "--log",
+      "--name",
+      "cfc-v7-steal-vs-v6",
+      "--question",
+      "memory exploits (05 S5.4): steal from tight folders + probe never-bettors vs v6"
+    ],
+    "mode": "fast",
+    "seed": "cfc9",
+    "scheme": "ab",
+    "hero": "cap-floor-count-v6",
+    "challenger": "cfc-v7-steal",
+    "tables_planned": 3206,
+    "rules": {
+      "variant": "flop_discard_reveal",
+      "players": 8,
+      "starting_stack": 2000,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hand_cap": 250,
+      "payouts": [
+        50,
+        30,
+        20
+      ],
+      "decision_ms": 1,
+      "time_bank_ms": 100,
+      "memory_bytes": 65536
+    },
+    "bots": {
+      "cap-floor-count-v6": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\cap-floor-count-v6",
+        "fingerprint": "ad2b69dc09c35f68"
+      },
+      "cfc-v7-steal": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\cfc-v7-steal",
+        "fingerprint": "76c5c26e8de158f2"
+      },
+      "keep-made-plus-draw-v2": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\keep-made-plus-draw-v2",
+        "fingerprint": "1e33159dc3c166e9"
+      },
+      "v0-baseline": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\v0-baseline",
+        "fingerprint": "a10ee1d03910be31"
+      },
+      "icm-pushfold": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\icm-pushfold",
+        "fingerprint": "f3b58a04582bfd4c"
+      },
+      "cap-floor-count-v5": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\cap-floor-count-v5",
+        "fingerprint": "831f3a7dc5c24a2d"
+      },
+      "min_raiser": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\starter-kit\\examples\\min_raiser",
+        "fingerprint": "573cab087d252756"
+      },
+      "check_or_fold": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\starter-kit\\examples\\check_or_fold",
+        "fingerprint": "11ac875de874fe93"
+      }
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10"
+  },
+  "run_dir": "arena/results/20261106-200141-cfc-v7-steal-vs-v6-b662",
+  "tables": 3206,
+  "hands": 316145,
+  "ranking": [
+    {
+      "label": "check_or_fold",
+      "tables": 2366,
+      "seats": 3664,
+      "avg_points": 19.70251091703057,
+      "ci95": 0.35445999998070055,
+      "sd": 10.943427065237685,
+      "avg_place": 2.8608078602620086,
+      "place_share": {
+        "2": 0.38018558951965065,
+        "3": 0.41512008733624456,
+        "4": 0.17330786026200873,
+        "5": 0.027019650655021835,
+        "6": 0.003820960698689956,
+        "7": 0.0005458515283842794
+      },
+      "top3_share": 0.7953056768558951,
+      "decisions": 406034,
+      "failures": 3,
+      "timeouts": 3,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 7.38854381652768e-06,
+      "lat_p50_ms": 0.0047,
+      "lat_p99_ms": 0.2652,
+      "lat_max_ms": 192.5268,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 92.28875545851528,
+      "survived_share": 0.0
+    },
+    {
+      "label": "cap-floor-count-v6",
+      "tables": 1175,
+      "seats": 1832,
+      "avg_points": 16.746724890829693,
+      "ci95": 0.8984996746754601,
+      "sd": 19.60854594101757,
+      "avg_place": 3.6905021834061134,
+      "place_share": {
+        "1": 0.18777292576419213,
+        "2": 0.16048034934497818,
+        "3": 0.12718340611353712,
+        "4": 0.15283842794759825,
+        "5": 0.15338427947598254,
+        "6": 0.1277292576419214,
+        "7": 0.06932314410480349,
+        "8": 0.0212882096069869
+      },
+      "top3_share": 0.47543668122270744,
+      "decisions": 194309,
+      "failures": 15,
+      "timeouts": 15,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 7.719663010977361e-05,
+      "lat_p50_ms": 0.0213,
+      "lat_p99_ms": 15.4319,
+      "lat_max_ms": 166.9685,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 52.60215053763441,
+      "survived_share": 0.18777292576419213
+    },
+    {
+      "label": "cfc-v7-steal",
+      "tables": 1175,
+      "seats": 1832,
+      "avg_points": 16.746724890829693,
+      "ci95": 0.8965832424513255,
+      "sd": 19.566722387410426,
+      "avg_place": 3.691593886462882,
+      "place_share": {
+        "1": 0.1861353711790393,
+        "2": 0.16320960698689957,
+        "3": 0.12718340611353712,
+        "4": 0.1517467248908297,
+        "5": 0.1517467248908297,
+        "6": 0.12936681222707425,
+        "7": 0.06932314410480349,
+        "8": 0.0212882096069869
+      },
+      "top3_share": 0.47652838427947597,
+      "decisions": 193695,
+      "failures": 49,
+      "timeouts": 49,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0002529750380753246,
+      "lat_p50_ms": 0.0605,
+      "lat_p99_ms": 17.6042,
+      "lat_max_ms": 253.2516,
+      "mem_max_bytes": 100,
+      "avg_bust_hand": 52.559356136820924,
+      "survived_share": 0.1861353711790393
+    },
+    {
+      "label": "cap-floor-count-v5",
+      "tables": 2338,
+      "seats": 3664,
+      "avg_points": 16.042576419213972,
+      "ci95": 0.6555434250422661,
+      "sd": 20.238931502670958,
+      "avg_place": 3.853984716157205,
+      "place_share": {
+        "1": 0.2052401746724891,
+        "2": 0.12718340611353712,
+        "3": 0.0982532751091703,
+        "4": 0.14819868995633187,
+        "5": 0.17385371179039302,
+        "6": 0.12663755458515283,
+        "7": 0.08733624454148471,
+        "8": 0.03329694323144105
+      },
+      "top3_share": 0.4306768558951965,
+      "decisions": 440104,
+      "failures": 40,
+      "timeouts": 40,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 9.0887608383473e-05,
+      "lat_p50_ms": 0.0217,
+      "lat_p99_ms": 15.1381,
+      "lat_max_ms": 199.7518,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 44.67273351648352,
+      "survived_share": 0.2052401746724891
+    },
+    {
+      "label": "keep-made-plus-draw-v2",
+      "tables": 2356,
+      "seats": 3664,
+      "avg_points": 11.989628820960698,
+      "ci95": 0.6323660698016311,
+      "sd": 19.5233650165941,
+      "avg_place": 4.65693231441048,
+      "place_share": {
+        "1": 0.1784934497816594,
+        "2": 0.05758733624454149,
+        "3": 0.06686681222707423,
+        "4": 0.10725982532751091,
+        "5": 0.15229257641921398,
+        "6": 0.1798580786026201,
+        "7": 0.16812227074235808,
+        "8": 0.08951965065502183
+      },
+      "top3_share": 0.3029475982532751,
+      "decisions": 307388,
+      "failures": 15,
+      "timeouts": 15,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 4.8798261480604316e-05,
+      "lat_p50_ms": 0.0207,
+      "lat_p99_ms": 13.9717,
+      "lat_max_ms": 438.8483,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 25.346843853820598,
+      "survived_share": 0.1784934497816594
+    },
+    {
+      "label": "v0-baseline",
+      "tables": 2390,
+      "seats": 3664,
+      "avg_points": 11.64028384279476,
+      "ci95": 0.6174814483614118,
+      "sd": 19.063824393862106,
+      "avg_place": 4.627729257641922,
+      "place_share": {
+        "1": 0.16430131004366813,
+        "2": 0.0652292576419214,
+        "3": 0.07341703056768559,
+        "4": 0.1277292576419214,
+        "5": 0.15229257641921398,
+        "6": 0.15747816593886463,
+        "7": 0.18094978165938866,
+        "8": 0.07860262008733625
+      },
+      "top3_share": 0.3029475982532751,
+      "decisions": 300209,
+      "failures": 16,
+      "timeouts": 16,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 5.329620364479413e-05,
+      "lat_p50_ms": 0.02,
+      "lat_p99_ms": 12.9746,
+      "lat_max_ms": 234.3346,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 25.434683213585892,
+      "survived_share": 0.16430131004366813
+    },
+    {
+      "label": "icm-pushfold",
+      "tables": 2358,
+      "seats": 3664,
+      "avg_points": 9.923580786026202,
+      "ci95": 0.5625645479855144,
+      "sd": 17.368346500883266,
+      "avg_place": 4.764737991266376,
+      "place_share": {
+        "1": 0.11899563318777293,
+        "2": 0.0769650655021834,
+        "3": 0.08324235807860263,
+        "4": 0.12936681222707425,
+        "5": 0.15911572052401746,
+        "6": 0.18040393013100436,
+        "7": 0.16866812227074235,
+        "8": 0.08324235807860263
+      },
+      "top3_share": 0.27920305676855894,
+      "decisions": 282938,
+      "failures": 72,
+      "timeouts": 72,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0002544727113360524,
+      "lat_p50_ms": 0.0337,
+      "lat_p99_ms": 17.2935,
+      "lat_max_ms": 446.9098,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 29.422242874845104,
+      "survived_share": 0.11899563318777293
+    },
+    {
+      "label": "min_raiser",
+      "tables": 2388,
+      "seats": 3664,
+      "avg_points": 1.4546943231441047,
+      "ci95": 0.2518998172099593,
+      "sd": 7.777033452389515,
+      "avg_place": 6.568777292576419,
+      "place_share": {
+        "1": 0.02101528384279476,
+        "2": 0.006550218340611353,
+        "3": 0.01037117903930131,
+        "4": 0.0412117903930131,
+        "5": 0.0927947598253275,
+        "6": 0.19978165938864628,
+        "7": 0.3501637554585153,
+        "8": 0.2781113537117904
+      },
+      "top3_share": 0.03793668122270742,
+      "decisions": 100200,
+      "failures": 2,
+      "timeouts": 2,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 1.9960079840319362e-05,
+      "lat_p50_ms": 0.0047,
+      "lat_p99_ms": 6.5646,
+      "lat_max_ms": 167.6051,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 4.5335935321996095,
+      "survived_share": 0.02101528384279476
+    }
+  ],
+  "head_to_head": {
+    "cap-floor-count-v5": {
+      "cap-floor-count-v6": [
+        417,
+        0,
+        407
+      ],
+      "check_or_fold": [
+        729,
+        0,
+        945
+      ],
+      "icm-pushfold": [
+        1023,
+        0,
+        633
+      ],
+      "keep-made-plus-draw-v2": [
+        1015,
+        2,
+        649
+      ],
+      "min_raiser": [
+        1581,
+        0,
+        103
+      ],
+      "cfc-v7-steal": [
+        419,
+        0,
+        405
+      ],
+      "v0-baseline": [
+        1000,
+        2,
+        686
+      ]
+    },
+    "cap-floor-count-v6": {
+      "cap-floor-count-v5": [
+        407,
+        0,
+        417
+      ],
+      "check_or_fold": [
+        392,
+        0,
+        444
+      ],
+      "icm-pushfold": [
+        549,
+        0,
+        287
+      ],
+      "keep-made-plus-draw-v2": [
+        479,
+        1,
+        344
+      ],
+      "min_raiser": [
+        821,
+        4,
+        33
+      ],
+      "v0-baseline": [
+        527,
+        1,
+        327
+      ]
+    },
+    "check_or_fold": {
+      "cap-floor-count-v5": [
+        945,
+        0,
+        729
+      ],
+      "cap-floor-count-v6": [
+        444,
+        0,
+        392
+      ],
+      "icm-pushfold": [
+        1203,
+        0,
+        467
+      ],
+      "keep-made-plus-draw-v2": [
+        1112,
+        0,
+        604
+      ],
+      "min_raiser": [
+        1644,
+        0,
+        64
+      ],
+      "cfc-v7-steal": [
+        444,
+        0,
+        392
+      ],
+      "v0-baseline": [
+        1151,
+        0,
+        565
+      ]
+    },
+    "icm-pushfold": {
+      "cap-floor-count-v5": [
+        633,
+        0,
+        1023
+      ],
+      "cap-floor-count-v6": [
+        287,
+        0,
+        549
+      ],
+      "check_or_fold": [
+        467,
+        0,
+        1203
+      ],
+      "keep-made-plus-draw-v2": [
+        767,
+        2,
+        929
+      ],
+      "min_raiser": [
+        1355,
+        22,
+        309
+      ],
+      "cfc-v7-steal": [
+        285,
+        0,
+        551
+      ],
+      "v0-baseline": [
+        821,
+        4,
+        897
+      ]
+    },
+    "keep-made-plus-draw-v2": {
+      "cap-floor-count-v5": [
+        649,
+        2,
+        1015
+      ],
+      "cap-floor-count-v6": [
+        344,
+        1,
+        479
+      ],
+      "check_or_fold": [
+        604,
+        0,
+        1112
+      ],
+      "icm-pushfold": [
+        929,
+        2,
+        767
+      ],
+      "min_raiser": [
+        1390,
+        32,
+        252
+      ],
+      "cfc-v7-steal": [
+        344,
+        1,
+        479
+      ],
+      "v0-baseline": [
+        819,
+        16,
+        843
+      ]
+    },
+    "min_raiser": {
+      "cap-floor-count-v5": [
+        103,
+        0,
+        1581
+      ],
+      "cap-floor-count-v6": [
+        33,
+        4,
+        821
+      ],
+      "check_or_fold": [
+        64,
+        0,
+        1644
+      ],
+      "icm-pushfold": [
+        309,
+        22,
+        1355
+      ],
+      "keep-made-plus-draw-v2": [
+        252,
+        32,
+        1390
+      ],
+      "cfc-v7-steal": [
+        32,
+        4,
+        822
+      ],
+      "v0-baseline": [
+        328,
+        26,
+        1402
+      ]
+    },
+    "cfc-v7-steal": {
+      "cap-floor-count-v5": [
+        405,
+        0,
+        419
+      ],
+      "check_or_fold": [
+        392,
+        0,
+        444
+      ],
+      "icm-pushfold": [
+        551,
+        0,
+        285
+      ],
+      "keep-made-plus-draw-v2": [
+        479,
+        1,
+        344
+      ],
+      "min_raiser": [
+        822,
+        4,
+        32
+      ],
+      "v0-baseline": [
+        527,
+        1,
+        327
+      ]
+    },
+    "v0-baseline": {
+      "cap-floor-count-v5": [
+        686,
+        2,
+        1000
+      ],
+      "cap-floor-count-v6": [
+        327,
+        1,
+        527
+      ],
+      "check_or_fold": [
+        565,
+        0,
+        1151
+      ],
+      "icm-pushfold": [
+        897,
+        4,
+        821
+      ],
+      "keep-made-plus-draw-v2": [
+        843,
+        16,
+        819
+      ],
+      "min_raiser": [
+        1402,
+        26,
+        328
+      ],
+      "cfc-v7-steal": [
+        327,
+        1,
+        527
+      ]
+    }
+  },
+  "bot_errors": [],
+  "ab": {
+    "n": 1175,
+    "mean_diff": -0.03191489361702127,
+    "se": 0.08807014508656372,
+    "ci95": 0.1727924540251885,
+    "t": -0.3623803910581988,
+    "p_value": 0.7171330129380982,
+    "b_better_tables": 21,
+    "a_better_tables": 25,
+    "tied_tables": 1129,
+    "hero": "cap-floor-count-v6",
+    "challenger": "cfc-v7-steal",
+    "hero_avg_points": 17.17645390070922,
+    "challenger_avg_points": 17.1445390070922,
+    "tables_for_1pt": 36
+  },
+  "elapsed_s": 154.8
+}

@@ -1,0 +1,175 @@
+{
+  "family": "cap-floor-count-v6",
+  "parent": "bots/cap-floor-count-v6",
+  "strategy": "cap / floor / count postflop (strategy/01 S1.1-S1.3, S1.5; 04 S4.1-S4.4) on the v0-nowar preflop without marginal limps; the submission since 2026-11-07",
+  "generated_by": "evolve/hoist.py",
+  "parameters": {
+    "PUSHFOLD_BB": {
+      "default": 12.0,
+      "min": 6.0,
+      "max": 20.0,
+      "note": "push/fold at or below this many BB"
+    },
+    "PUSH_MARGINAL_BB": {
+      "default": 6.0,
+      "min": 2.0,
+      "max": 12.0,
+      "note": "class-1 hands shove unopened at or below this"
+    },
+    "OPEN_PREMIUM_BB": {
+      "default": 3.0,
+      "min": 2.0,
+      "max": 5.0,
+      "note": "open size (BB) with class 3; also the 3-bet floor"
+    },
+    "OPEN_GOOD_BB": {
+      "default": 2.5,
+      "min": 2.0,
+      "max": 4.5,
+      "note": "open size (BB) with class 2"
+    },
+    "THREEBET_MULT": {
+      "default": 3.0,
+      "min": 2.2,
+      "max": 5.0,
+      "note": "3-bet to this multiple of the amount to call"
+    },
+    "CALL_GOOD_MAX_BB": {
+      "default": 6.0,
+      "min": 2.0,
+      "max": 14.0,
+      "note": "class 2 calls a single open up to this many BB"
+    },
+    "CALL_MID_PAIR_FRAC": {
+      "default": 0.3,
+      "min": 0.05,
+      "max": 0.7,
+      "note": "TT-JJ call a 3-bet up to this share of stack"
+    },
+    "CALL_LOW_PAIR_FRAC": {
+      "default": 0.12,
+      "min": 0.0,
+      "max": 0.4,
+      "note": "77-99 call a 3-bet up to this share of stack"
+    },
+    "EXPOSE_LOW_PROB": {
+      "default": 1.0,
+      "min": 0.0,
+      "max": 1.0,
+      "note": "P(expose the weaker kept card); strategy/03 S3.2"
+    },
+    "OUTS_MULT_FLOP": {
+      "default": 1.9,
+      "min": 0.8,
+      "max": 3.0
+    },
+    "OUTS_MULT_TURN": {
+      "default": 1.0,
+      "min": 0.4,
+      "max": 2.0
+    },
+    "VALUE_BET_EQ": {
+      "default": 0.6,
+      "min": 0.4,
+      "max": 0.85
+    },
+    "RAISE_EQ": {
+      "default": 0.78,
+      "min": 0.55,
+      "max": 0.97
+    },
+    "NUTS_BET_POT": {
+      "default": 0.8,
+      "min": 0.3,
+      "max": 1.5
+    },
+    "VALUE_BET_POT": {
+      "default": 0.6,
+      "min": 0.25,
+      "max": 1.2
+    },
+    "CALL_MARGIN": {
+      "default": 0.05,
+      "min": -0.05,
+      "max": 0.25
+    },
+    "AGGR_ALPHA": {
+      "default": 0.9,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "AGGR_ALPHA_EARLIER": {
+      "default": 0.5,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "BETA_MAX": {
+      "default": 0.8,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "AGGR_ALPHA_RAISE": {
+      "default": 1.0,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "ONE_PAIR_PBEST": {
+      "default": 0.75,
+      "min": 0.4,
+      "max": 0.98,
+      "note": "one pair is value-bet only when P(best) is at least this"
+    },
+    "NUTS_RAISE_MULT": {
+      "default": 2.5,
+      "min": 2.0,
+      "max": 4.0,
+      "note": "raise when we beat every cap"
+    },
+    "NUTS_RAISE_POT": {
+      "default": 0.6,
+      "min": 0.0,
+      "max": 1.5
+    },
+    "RAISE_MULT": {
+      "default": 2.5,
+      "min": 2.0,
+      "max": 4.0,
+      "note": "raise with eq >= RAISE_EQ"
+    },
+    "RAISE_POT_ADD": {
+      "default": 0.5,
+      "min": 0.0,
+      "max": 1.2
+    },
+    "CBET_POT": {
+      "default": 0.5,
+      "min": 0.25,
+      "max": 1.0
+    },
+    "CBET_MIN_RANK": {
+      "default": 9,
+      "min": 5,
+      "max": 13,
+      "int": true
+    },
+    "BETA_START": {
+      "default": 0.35,
+      "min": 0.1,
+      "max": 0.7,
+      "note": "bet (pot fraction) where the big-bet weight starts"
+    },
+    "BETA_SPAN": {
+      "default": 0.4,
+      "min": 0.1,
+      "max": 1.0,
+      "note": "pot fraction over which it reaches BETA_MAX"
+    }
+  },
+  "constraints": [
+    [
+      "RAISE_EQ",
+      ">=",
+      "VALUE_BET_EQ"
+    ]
+  ]
+}

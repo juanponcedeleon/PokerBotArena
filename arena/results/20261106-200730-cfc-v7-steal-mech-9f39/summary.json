@@ -1,0 +1,270 @@
+{
+  "run": {
+    "name": "cfc-v7-steal-mech",
+    "started": "2026-11-06T20:07:30",
+    "argv": [
+      "ab",
+      "bots/cap-floor-count-v6",
+      "bots/cfc-v7-steal",
+      "--field",
+      "check_or_fold",
+      "--tables",
+      "800",
+      "--seed",
+      "cfc10",
+      "--log",
+      "--agent",
+      "Claude(cap-floor-count-agent)",
+      "--name",
+      "cfc-v7-steal-mech",
+      "--question",
+      "mechanism test: steal/probe exploits vs v6 in a field of pure folders (check_or_fold only)"
+    ],
+    "mode": "fast",
+    "seed": "cfc10",
+    "scheme": "ab",
+    "hero": "cap-floor-count-v6",
+    "challenger": "cfc-v7-steal",
+    "tables_planned": 1600,
+    "rules": {
+      "variant": "flop_discard_reveal",
+      "players": 8,
+      "starting_stack": 2000,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hand_cap": 250,
+      "payouts": [
+        50,
+        30,
+        20
+      ],
+      "decision_ms": 1,
+      "time_bank_ms": 100,
+      "memory_bytes": 65536
+    },
+    "bots": {
+      "cap-floor-count-v6": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\cap-floor-count-v6",
+        "fingerprint": "ad2b69dc09c35f68"
+      },
+      "cfc-v7-steal": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\cfc-v7-steal",
+        "fingerprint": "76c5c26e8de158f2"
+      },
+      "check_or_fold": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\starter-kit\\examples\\check_or_fold",
+        "fingerprint": "11ac875de874fe93"
+      }
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10"
+  },
+  "run_dir": "arena/results/20261106-200730-cfc-v7-steal-mech-9f39",
+  "tables": 624,
+  "hands": 81736,
+  "ranking": [
+    {
+      "label": "cfc-v7-steal",
+      "tables": 312,
+      "seats": 1248,
+      "avg_points": 16.298076923076923,
+      "ci95": 1.2068381160596315,
+      "sd": 21.731339004661855,
+      "avg_place": 4.9631410256410255,
+      "place_share": {
+        "1": 0.25,
+        "2": 0.12179487179487179,
+        "3": 0.007211538461538462,
+        "4": 0.007211538461538462,
+        "5": 0.005608974358974359,
+        "6": 0.11618589743589744,
+        "7": 0.2419871794871795,
+        "8": 0.25
+      },
+      "top3_share": 0.37900641025641024,
+      "decisions": 138861,
+      "failures": 134,
+      "timeouts": 134,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0009649937707491665,
+      "lat_p50_ms": 0.0654,
+      "lat_p99_ms": 25.4223,
+      "lat_max_ms": 102.4599,
+      "mem_max_bytes": 100,
+      "avg_bust_hand": 61.995726495726494,
+      "survived_share": 0.25
+    },
+    {
+      "label": "cap-floor-count-v6",
+      "tables": 312,
+      "seats": 1248,
+      "avg_points": 15.544871794871796,
+      "ci95": 1.205948764833019,
+      "sd": 21.715324600789003,
+      "avg_place": 5.048878205128205,
+      "place_share": {
+        "1": 0.25,
+        "2": 0.08974358974358974,
+        "3": 0.017628205128205128,
+        "4": 0.010416666666666666,
+        "5": 0.010416666666666666,
+        "6": 0.12980769230769232,
+        "7": 0.2419871794871795,
+        "8": 0.25
+      },
+      "top3_share": 0.3573717948717949,
+      "decisions": 140631,
+      "failures": 12,
+      "timeouts": 12,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 8.532969259978241e-05,
+      "lat_p50_ms": 0.0224,
+      "lat_p99_ms": 23.0291,
+      "lat_max_ms": 66.5608,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 61.25961538461539,
+      "survived_share": 0.25
+    },
+    {
+      "label": "check_or_fold",
+      "tables": 624,
+      "seats": 2496,
+      "avg_points": 9.07852564102564,
+      "ci95": 0.4684666413192295,
+      "sd": 11.935541793548992,
+      "avg_place": 3.9931891025641026,
+      "place_share": {
+        "2": 0.14463141025641027,
+        "3": 0.23717948717948717,
+        "4": 0.24118589743589744,
+        "5": 0.2423878205128205,
+        "6": 0.1266025641025641,
+        "7": 0.008012820512820512
+      },
+      "top3_share": 0.3818108974358974,
+      "decisions": 274249,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0043,
+      "lat_p99_ms": 0.798,
+      "lat_max_ms": 42.2449,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 113.22315705128206,
+      "survived_share": 0.0
+    }
+  ],
+  "head_to_head": {
+    "cap-floor-count-v6": {
+      "check_or_fold": [
+        312,
+        0,
+        0
+      ]
+    },
+    "check_or_fold": {
+      "cap-floor-count-v6": [
+        0,
+        0,
+        312
+      ],
+      "cfc-v7-steal": [
+        0,
+        0,
+        312
+      ]
+    },
+    "cfc-v7-steal": {
+      "check_or_fold": [
+        312,
+        0,
+        0
+      ]
+    }
+  },
+  "bot_errors": [],
+  "ab": {
+    "n": 309,
+    "mean_diff": 0.7119741100323624,
+    "se": 0.2202873514498009,
+    "ci95": 0.4334585413153473,
+    "t": 3.2320244687067614,
+    "p_value": 0.0013623108303863244,
+    "b_better_tables": 67,
+    "a_better_tables": 28,
+    "tied_tables": 214,
+    "hero": "cap-floor-count-v6",
+    "challenger": "cfc-v7-steal",
+    "hero_avg_points": 15.550161812297734,
+    "challenger_avg_points": 16.262135922330096,
+    "tables_for_1pt": 58
+  }
+}

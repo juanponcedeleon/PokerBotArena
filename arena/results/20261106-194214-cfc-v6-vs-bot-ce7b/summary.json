@@ -1,0 +1,719 @@
+{
+  "run": {
+    "name": "cfc-v6-vs-bot",
+    "started": "2026-11-06T19:42:14",
+    "argv": [
+      "ab",
+      "bot",
+      "bots/cap-floor-count-v6",
+      "--field",
+      "keep-made-plus-draw",
+      "keep-made-plus-draw-v2",
+      "v0-baseline",
+      "icm-pushfold",
+      "min_raiser",
+      "check_or_fold",
+      "--tables",
+      "1600",
+      "--seed",
+      "cfc8",
+      "--agent",
+      "Claude(cap-floor-count-agent)",
+      "--question",
+      "total gain of v6 (cap/floor/count postflop + no class-1 limps) vs the current submission bot",
+      "--name",
+      "cfc-v6-vs-bot"
+    ],
+    "mode": "fast",
+    "seed": "cfc8",
+    "scheme": "ab",
+    "hero": "bot",
+    "challenger": "cap-floor-count-v6",
+    "tables_planned": 3206,
+    "rules": {
+      "variant": "flop_discard_reveal",
+      "players": 8,
+      "starting_stack": 2000,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hand_cap": 250,
+      "payouts": [
+        50,
+        30,
+        20
+      ],
+      "decision_ms": 1,
+      "time_bank_ms": 100,
+      "memory_bytes": 65536
+    },
+    "bots": {
+      "bot": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bot",
+        "fingerprint": "c0330914fea447c7"
+      },
+      "cap-floor-count-v6": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\cap-floor-count-v6",
+        "fingerprint": "ad2b69dc09c35f68"
+      },
+      "keep-made-plus-draw": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\keep-made-plus-draw",
+        "fingerprint": "cb8d23745666e220"
+      },
+      "keep-made-plus-draw-v2": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\keep-made-plus-draw-v2",
+        "fingerprint": "1e33159dc3c166e9"
+      },
+      "v0-baseline": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\v0-baseline",
+        "fingerprint": "a10ee1d03910be31"
+      },
+      "icm-pushfold": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\icm-pushfold",
+        "fingerprint": "46a934fe884cda57"
+      },
+      "min_raiser": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\starter-kit\\examples\\min_raiser",
+        "fingerprint": "573cab087d252756"
+      },
+      "check_or_fold": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\starter-kit\\examples\\check_or_fold",
+        "fingerprint": "11ac875de874fe93"
+      }
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10"
+  },
+  "run_dir": "arena/results/20261106-194214-cfc-v6-vs-bot-ce7b",
+  "tables": 3206,
+  "hands": 283657,
+  "ranking": [
+    {
+      "label": "check_or_fold",
+      "tables": 2372,
+      "seats": 3664,
+      "avg_points": 22.16157205240175,
+      "ci95": 0.3228971577293262,
+      "sd": 9.968971097940038,
+      "avg_place": 2.6675764192139737,
+      "place_share": {
+        "2": 0.49263100436681223,
+        "3": 0.3700873362445415,
+        "4": 0.11599344978165939,
+        "5": 0.019650655021834062,
+        "6": 0.0016375545851528383
+      },
+      "top3_share": 0.8627183406113537,
+      "decisions": 421317,
+      "failures": 2,
+      "timeouts": 2,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 4.747019465153317e-06,
+      "lat_p50_ms": 0.0041,
+      "lat_p99_ms": 0.0974,
+      "lat_max_ms": 157.9381,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 90.81686681222708,
+      "survived_share": 0.0
+    },
+    {
+      "label": "cap-floor-count-v6",
+      "tables": 1179,
+      "seats": 1832,
+      "avg_points": 17.49454148471616,
+      "ci95": 0.9121725160140312,
+      "sd": 19.906937298397253,
+      "avg_place": 3.5753275109170306,
+      "place_share": {
+        "1": 0.20141921397379914,
+        "2": 0.16703056768558952,
+        "3": 0.12063318777292577,
+        "4": 0.17085152838427947,
+        "5": 0.1490174672489083,
+        "6": 0.11026200873362445,
+        "7": 0.0584061135371179,
+        "8": 0.02237991266375546
+      },
+      "top3_share": 0.4890829694323144,
+      "decisions": 185455,
+      "failures": 10,
+      "timeouts": 10,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 5.3921436467067486e-05,
+      "lat_p50_ms": 0.0182,
+      "lat_p99_ms": 2.9055,
+      "lat_max_ms": 155.8232,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 49.32262474367737,
+      "survived_share": 0.20141921397379914
+    },
+    {
+      "label": "bot",
+      "tables": 1179,
+      "seats": 1832,
+      "avg_points": 14.691593886462883,
+      "ci95": 0.8781622191834726,
+      "sd": 19.16470835089036,
+      "avg_place": 3.8487991266375547,
+      "place_share": {
+        "1": 0.1697598253275109,
+        "2": 0.11517467248908297,
+        "3": 0.13755458515283842,
+        "4": 0.19978165938864628,
+        "5": 0.15829694323144106,
+        "6": 0.11899563318777293,
+        "7": 0.07205240174672489,
+        "8": 0.028384279475982533
+      },
+      "top3_share": 0.42248908296943233,
+      "decisions": 184354,
+      "failures": 8,
+      "timeouts": 8,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 4.3394773099580154e-05,
+      "lat_p50_ms": 0.018,
+      "lat_p99_ms": 0.9263,
+      "lat_max_ms": 162.7883,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 37.7034845496384,
+      "survived_share": 0.1697598253275109
+    },
+    {
+      "label": "v0-baseline",
+      "tables": 2332,
+      "seats": 3664,
+      "avg_points": 12.770196506550219,
+      "ci95": 0.6384931433424419,
+      "sd": 19.712529329692504,
+      "avg_place": 4.421670305676856,
+      "place_share": {
+        "1": 0.1861353711790393,
+        "2": 0.056495633187772926,
+        "3": 0.08842794759825327,
+        "4": 0.1345524017467249,
+        "5": 0.15993449781659388,
+        "6": 0.1662117903930131,
+        "7": 0.14383187772925765,
+        "8": 0.06441048034934498
+      },
+      "top3_share": 0.3310589519650655,
+      "decisions": 284748,
+      "failures": 5,
+      "timeouts": 5,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 1.7559385842920757e-05,
+      "lat_p50_ms": 0.0173,
+      "lat_p99_ms": 1.0631,
+      "lat_max_ms": 211.5155,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 22.786049631120054,
+      "survived_share": 0.1861353711790393
+    },
+    {
+      "label": "keep-made-plus-draw-v2",
+      "tables": 2362,
+      "seats": 3664,
+      "avg_points": 12.46042576419214,
+      "ci95": 0.6402540070769235,
+      "sd": 19.766893387276355,
+      "avg_place": 4.474344978165939,
+      "place_share": {
+        "1": 0.18777292576419213,
+        "2": 0.05021834061135371,
+        "3": 0.0783296943231441,
+        "4": 0.12909388646288208,
+        "5": 0.16812227074235808,
+        "6": 0.17194323144104803,
+        "7": 0.15365720524017468,
+        "8": 0.060862445414847165
+      },
+      "top3_share": 0.31632096069869,
+      "decisions": 279853,
+      "failures": 17,
+      "timeouts": 17,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 6.074617745745088e-05,
+      "lat_p50_ms": 0.0174,
+      "lat_p99_ms": 1.2116,
+      "lat_max_ms": 168.9342,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 21.920362903225808,
+      "survived_share": 0.18777292576419213
+    },
+    {
+      "label": "keep-made-plus-draw",
+      "tables": 2364,
+      "seats": 3664,
+      "avg_points": 11.910480349344978,
+      "ci95": 0.6244885003245951,
+      "sd": 19.280156736314293,
+      "avg_place": 4.5625,
+      "place_share": {
+        "1": 0.17330786026200873,
+        "2": 0.05103711790393013,
+        "3": 0.08569868995633188,
+        "4": 0.12827510917030568,
+        "5": 0.1615720524017467,
+        "6": 0.17412663755458516,
+        "7": 0.1435589519650655,
+        "8": 0.0824235807860262
+      },
+      "top3_share": 0.31004366812227074,
+      "decisions": 272374,
+      "failures": 16,
+      "timeouts": 16,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 5.8742758119350596e-05,
+      "lat_p50_ms": 0.0175,
+      "lat_p99_ms": 1.2145,
+      "lat_max_ms": 203.1913,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 21.94519643446682,
+      "survived_share": 0.17330786026200873
+    },
+    {
+      "label": "icm-pushfold",
+      "tables": 2376,
+      "seats": 3664,
+      "avg_points": 10.245633187772926,
+      "ci95": 0.5594503918432123,
+      "sd": 17.272201546262433,
+      "avg_place": 4.626091703056769,
+      "place_share": {
+        "1": 0.11626637554585152,
+        "2": 0.07969432314410481,
+        "3": 0.10207423580786026,
+        "4": 0.14301310043668122,
+        "5": 0.16512008733624453,
+        "6": 0.17712882096069868,
+        "7": 0.14983624454148473,
+        "8": 0.06686681222707423
+      },
+      "top3_share": 0.2980349344978166,
+      "decisions": 260860,
+      "failures": 26,
+      "timeouts": 26,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 9.967032124511233e-05,
+      "lat_p50_ms": 0.0287,
+      "lat_p99_ms": 5.556,
+      "lat_max_ms": 167.7163,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 26.22699197035207,
+      "survived_share": 0.11626637554585152
+    },
+    {
+      "label": "min_raiser",
+      "tables": 2340,
+      "seats": 3664,
+      "avg_points": 1.8586244541484715,
+      "ci95": 0.27913482206098406,
+      "sd": 8.617873855325845,
+      "avg_place": 6.384279475982533,
+      "place_share": {
+        "1": 0.025927947598253277,
+        "2": 0.0054585152838427945,
+        "3": 0.019923580786026202,
+        "4": 0.047216157205240174,
+        "5": 0.09961790393013101,
+        "6": 0.2404475982532751,
+        "7": 0.33324235807860264,
+        "8": 0.22816593886462883
+      },
+      "top3_share": 0.05131004366812227,
+      "decisions": 86368,
+      "failures": 1,
+      "timeouts": 1,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 1.1578362356428307e-05,
+      "lat_p50_ms": 0.0041,
+      "lat_p99_ms": 0.0988,
+      "lat_max_ms": 124.3363,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 3.483328663491174,
+      "survived_share": 0.025927947598253277
+    }
+  ],
+  "head_to_head": {
+    "bot": {
+      "check_or_fold": [
+        286,
+        0,
+        562
+      ],
+      "keep-made-plus-draw": [
+        514,
+        0,
+        327
+      ],
+      "min_raiser": [
+        766,
+        7,
+        60
+      ],
+      "v0-baseline": [
+        473,
+        0,
+        356
+      ],
+      "icm-pushfold": [
+        510,
+        0,
+        329
+      ],
+      "keep-made-plus-draw-v2": [
+        486,
+        1,
+        361
+      ]
+    },
+    "check_or_fold": {
+      "bot": [
+        562,
+        0,
+        286
+      ],
+      "keep-made-plus-draw": [
+        1173,
+        0,
+        503
+      ],
+      "min_raiser": [
+        1595,
+        0,
+        73
+      ],
+      "v0-baseline": [
+        1093,
+        0,
+        573
+      ],
+      "cap-floor-count-v6": [
+        437,
+        0,
+        411
+      ],
+      "icm-pushfold": [
+        1272,
+        0,
+        438
+      ],
+      "keep-made-plus-draw-v2": [
+        1129,
+        0,
+        589
+      ]
+    },
+    "keep-made-plus-draw": {
+      "bot": [
+        327,
+        0,
+        514
+      ],
+      "check_or_fold": [
+        503,
+        0,
+        1173
+      ],
+      "min_raiser": [
+        1395,
+        30,
+        253
+      ],
+      "v0-baseline": [
+        777,
+        8,
+        883
+      ],
+      "cap-floor-count-v6": [
+        311,
+        1,
+        529
+      ],
+      "icm-pushfold": [
+        887,
+        8,
+        815
+      ],
+      "keep-made-plus-draw-v2": [
+        827,
+        2,
+        859
+      ]
+    },
+    "min_raiser": {
+      "bot": [
+        60,
+        7,
+        766
+      ],
+      "check_or_fold": [
+        73,
+        0,
+        1595
+      ],
+      "keep-made-plus-draw": [
+        253,
+        30,
+        1395
+      ],
+      "v0-baseline": [
+        260,
+        32,
+        1380
+      ],
+      "cap-floor-count-v6": [
+        44,
+        8,
+        781
+      ],
+      "icm-pushfold": [
+        295,
+        28,
+        1357
+      ],
+      "keep-made-plus-draw-v2": [
+        258,
+        51,
+        1369
+      ]
+    },
+    "v0-baseline": {
+      "bot": [
+        356,
+        0,
+        473
+      ],
+      "check_or_fold": [
+        573,
+        0,
+        1093
+      ],
+      "keep-made-plus-draw": [
+        883,
+        8,
+        777
+      ],
+      "min_raiser": [
+        1380,
+        32,
+        260
+      ],
+      "cap-floor-count-v6": [
+        337,
+        0,
+        492
+      ],
+      "icm-pushfold": [
+        897,
+        2,
+        779
+      ],
+      "keep-made-plus-draw-v2": [
+        843,
+        20,
+        781
+      ]
+    },
+    "cap-floor-count-v6": {
+      "check_or_fold": [
+        411,
+        0,
+        437
+      ],
+      "keep-made-plus-draw": [
+        529,
+        1,
+        311
+      ],
+      "min_raiser": [
+        781,
+        8,
+        44
+      ],
+      "v0-baseline": [
+        492,
+        0,
+        337
+      ],
+      "icm-pushfold": [
+        573,
+        1,
+        265
+      ],
+      "keep-made-plus-draw-v2": [
+        521,
+        0,
+        327
+      ]
+    },
+    "icm-pushfold": {
+      "bot": [
+        329,
+        0,
+        510
+      ],
+      "keep-made-plus-draw": [
+        815,
+        8,
+        887
+      ],
+      "keep-made-plus-draw-v2": [
+        789,
+        4,
+        899
+      ],
+      "v0-baseline": [
+        779,
+        2,
+        897
+      ],
+      "cap-floor-count-v6": [
+        265,
+        1,
+        573
+      ],
+      "check_or_fold": [
+        438,
+        0,
+        1272
+      ],
+      "min_raiser": [
+        1357,
+        28,
+        295
+      ]
+    },
+    "keep-made-plus-draw-v2": {
+      "bot": [
+        361,
+        1,
+        486
+      ],
+      "icm-pushfold": [
+        899,
+        4,
+        789
+      ],
+      "keep-made-plus-draw": [
+        859,
+        2,
+        827
+      ],
+      "v0-baseline": [
+        781,
+        20,
+        843
+      ],
+      "cap-floor-count-v6": [
+        327,
+        0,
+        521
+      ],
+      "check_or_fold": [
+        589,
+        0,
+        1129
+      ],
+      "min_raiser": [
+        1369,
+        51,
+        258
+      ]
+    }
+  },
+  "bot_errors": [],
+  "ab": {
+    "n": 1179,
+    "mean_diff": 2.850720949957591,
+    "se": 0.556712137080441,
+    "ci95": 1.0922579855473604,
+    "t": 5.120637327771574,
+    "p_value": 3.554250031771497e-07,
+    "b_better_tables": 397,
+    "a_better_tables": 252,
+    "tied_tables": 530,
+    "hero": "bot",
+    "challenger": "cap-floor-count-v6",
+    "hero_avg_points": 15.057110545660162,
+    "challenger_avg_points": 17.907831495617753,
+    "tables_for_1pt": 1404
+  },
+  "elapsed_s": 60.4
+}

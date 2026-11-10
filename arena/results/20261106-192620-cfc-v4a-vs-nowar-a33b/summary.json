@@ -1,0 +1,722 @@
+{
+  "run": {
+    "name": "cfc-v4a-vs-nowar",
+    "started": "2026-11-06T19:26:20",
+    "argv": [
+      "ab",
+      "bots/v0-nowar",
+      "bots/cap-floor-count-v4a",
+      "--field",
+      "keep-made-plus-draw",
+      "keep-made-plus-draw-v2",
+      "v0-baseline",
+      "icm-pushfold",
+      "cap-floor-count",
+      "cap-floor-count-v2",
+      "--tables",
+      "1600",
+      "--seed",
+      "cfc4",
+      "--agent",
+      "Claude(cap-floor-count-agent)",
+      "--name",
+      "cfc-v4a-vs-nowar",
+      "--question",
+      "v4a (bet-size/persistence-aware count, margin 0.05) vs v0-nowar, same field+seed as cfc-v3-vs-nowar-big"
+    ],
+    "mode": "fast",
+    "seed": "cfc4",
+    "scheme": "ab",
+    "hero": "v0-nowar",
+    "challenger": "cap-floor-count-v4a",
+    "tables_planned": 3206,
+    "rules": {
+      "variant": "flop_discard_reveal",
+      "players": 8,
+      "starting_stack": 2000,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hand_cap": 250,
+      "payouts": [
+        50,
+        30,
+        20
+      ],
+      "decision_ms": 1,
+      "time_bank_ms": 100,
+      "memory_bytes": 65536
+    },
+    "bots": {
+      "v0-nowar": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\v0-nowar",
+        "fingerprint": "c0330914fea447c7"
+      },
+      "cap-floor-count-v4a": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\cap-floor-count-v4a",
+        "fingerprint": "a0dbf057e60de805"
+      },
+      "keep-made-plus-draw": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\keep-made-plus-draw",
+        "fingerprint": "cb8d23745666e220"
+      },
+      "keep-made-plus-draw-v2": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\keep-made-plus-draw-v2",
+        "fingerprint": "1e33159dc3c166e9"
+      },
+      "v0-baseline": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\v0-baseline",
+        "fingerprint": "a10ee1d03910be31"
+      },
+      "icm-pushfold": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\icm-pushfold",
+        "fingerprint": "46a934fe884cda57"
+      },
+      "cap-floor-count": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\cap-floor-count",
+        "fingerprint": "66d1162c073cbda2"
+      },
+      "cap-floor-count-v2": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\cap-floor-count-v2",
+        "fingerprint": "a8eca30568f3478d"
+      }
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10"
+  },
+  "run_dir": "arena/results/20261106-192620-cfc-v4a-vs-nowar-a33b",
+  "tables": 3206,
+  "hands": 209184,
+  "ranking": [
+    {
+      "label": "cap-floor-count-v4a",
+      "tables": 1154,
+      "seats": 1832,
+      "avg_points": 17.20524017467249,
+      "ci95": 0.832299212146444,
+      "sd": 18.16380995790695,
+      "avg_place": 3.6550218340611353,
+      "place_share": {
+        "1": 0.14683406113537117,
+        "2": 0.2046943231441048,
+        "3": 0.1861353711790393,
+        "4": 0.1435589519650655,
+        "5": 0.11244541484716157,
+        "6": 0.09388646288209607,
+        "7": 0.05895196506550218,
+        "8": 0.05349344978165939
+      },
+      "top3_share": 0.5376637554585153,
+      "decisions": 176597,
+      "failures": 5,
+      "timeouts": 5,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 2.831305175059599e-05,
+      "lat_p50_ms": 0.0186,
+      "lat_p99_ms": 11.1717,
+      "lat_max_ms": 70.4064,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 37.47920665387076,
+      "survived_share": 0.14683406113537117
+    },
+    {
+      "label": "v0-nowar",
+      "tables": 1154,
+      "seats": 1832,
+      "avg_points": 16.430131004366814,
+      "ci95": 0.8194992665356042,
+      "sd": 17.884468374791368,
+      "avg_place": 3.7292576419213974,
+      "place_share": {
+        "1": 0.13537117903930132,
+        "2": 0.19323144104803494,
+        "3": 0.19323144104803494,
+        "4": 0.15010917030567686,
+        "5": 0.1168122270742358,
+        "6": 0.08897379912663755,
+        "7": 0.06877729257641921,
+        "8": 0.05349344978165939
+      },
+      "top3_share": 0.5218340611353712,
+      "decisions": 161265,
+      "failures": 2,
+      "timeouts": 2,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 1.2401947105695594e-05,
+      "lat_p50_ms": 0.018,
+      "lat_p99_ms": 4.6457,
+      "lat_max_ms": 85.7227,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 34.890151515151516,
+      "survived_share": 0.13537117903930132
+    },
+    {
+      "label": "keep-made-plus-draw-v2",
+      "tables": 2320,
+      "seats": 3664,
+      "avg_points": 12.783842794759826,
+      "ci95": 0.5951768185764266,
+      "sd": 18.375202012542903,
+      "avg_place": 4.5100982532751095,
+      "place_share": {
+        "1": 0.14246724890829696,
+        "2": 0.10534934497816593,
+        "3": 0.125,
+        "4": 0.12718340611353712,
+        "5": 0.11763100436681223,
+        "6": 0.11981441048034934,
+        "7": 0.13427947598253276,
+        "8": 0.12827510917030568
+      },
+      "top3_share": 0.3728165938864629,
+      "decisions": 225796,
+      "failures": 1,
+      "timeouts": 1,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 4.428776417651331e-06,
+      "lat_p50_ms": 0.0174,
+      "lat_p99_ms": 9.7813,
+      "lat_max_ms": 80.2825,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 20.188733290897517,
+      "survived_share": 0.14246724890829696
+    },
+    {
+      "label": "v0-baseline",
+      "tables": 2342,
+      "seats": 3664,
+      "avg_points": 12.371724890829695,
+      "ci95": 0.5930761673434886,
+      "sd": 18.310347519628582,
+      "avg_place": 4.603711790393013,
+      "place_share": {
+        "1": 0.13864628820960698,
+        "2": 0.10944323144104803,
+        "3": 0.10780567685589519,
+        "4": 0.10889737991266375,
+        "5": 0.1222707423580786,
+        "6": 0.1381004366812227,
+        "7": 0.15147379912663755,
+        "8": 0.12336244541484716
+      },
+      "top3_share": 0.3558951965065502,
+      "decisions": 223737,
+      "failures": 1,
+      "timeouts": 1,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 4.469533425405722e-06,
+      "lat_p50_ms": 0.0173,
+      "lat_p99_ms": 1.959,
+      "lat_max_ms": 106.9899,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 19.878326996197718,
+      "survived_share": 0.13864628820960698
+    },
+    {
+      "label": "keep-made-plus-draw",
+      "tables": 2370,
+      "seats": 3664,
+      "avg_points": 12.325327510917031,
+      "ci95": 0.5901468698530117,
+      "sd": 18.219909801857433,
+      "avg_place": 4.530840611353712,
+      "place_share": {
+        "1": 0.13564410480349345,
+        "2": 0.11271834061135372,
+        "3": 0.10807860262008734,
+        "4": 0.13427947598253276,
+        "5": 0.12390829694323144,
+        "6": 0.12390829694323144,
+        "7": 0.1462882096069869,
+        "8": 0.11517467248908297
+      },
+      "top3_share": 0.3564410480349345,
+      "decisions": 222233,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0178,
+      "lat_p99_ms": 2.2504,
+      "lat_max_ms": 61.0957,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 20.01168298073887,
+      "survived_share": 0.13564410480349345
+    },
+    {
+      "label": "icm-pushfold",
+      "tables": 2350,
+      "seats": 3664,
+      "avg_points": 11.435589519650655,
+      "ci95": 0.5333112207692683,
+      "sd": 16.46519338678308,
+      "avg_place": 4.478711790393013,
+      "place_share": {
+        "1": 0.08460698689956332,
+        "2": 0.1539301310043668,
+        "3": 0.12936681222707425,
+        "4": 0.12963973799126638,
+        "5": 0.1394650655021834,
+        "6": 0.14519650655021835,
+        "7": 0.1312772925764192,
+        "8": 0.0865174672489083
+      },
+      "top3_share": 0.36790393013100436,
+      "decisions": 234287,
+      "failures": 17,
+      "timeouts": 17,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 7.256057741146543e-05,
+      "lat_p50_ms": 0.0288,
+      "lat_p99_ms": 12.2076,
+      "lat_max_ms": 103.5528,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 25.463923673226,
+      "survived_share": 0.08460698689956332
+    },
+    {
+      "label": "cap-floor-count-v2",
+      "tables": 2346,
+      "seats": 3664,
+      "avg_points": 11.17085152838428,
+      "ci95": 0.5697226325190305,
+      "sd": 17.589341750061184,
+      "avg_place": 4.740174672489083,
+      "place_share": {
+        "1": 0.12117903930131005,
+        "2": 0.09634279475982532,
+        "3": 0.11108078602620088,
+        "4": 0.10971615720524018,
+        "5": 0.13537117903930132,
+        "6": 0.14055676855895197,
+        "7": 0.15201965065502182,
+        "8": 0.13373362445414846
+      },
+      "top3_share": 0.32860262008733626,
+      "decisions": 203732,
+      "failures": 5,
+      "timeouts": 5,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 2.4542045432234506e-05,
+      "lat_p50_ms": 0.0169,
+      "lat_p99_ms": 9.3668,
+      "lat_max_ms": 46.9374,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 18.578260869565216,
+      "survived_share": 0.12117903930131005
+    },
+    {
+      "label": "cap-floor-count",
+      "tables": 2298,
+      "seats": 3664,
+      "avg_points": 10.594978165938864,
+      "ci95": 0.5574820618070498,
+      "sd": 17.211432274152088,
+      "avg_place": 4.783569868995633,
+      "place_share": {
+        "1": 0.11135371179039301,
+        "2": 0.0982532751091703,
+        "3": 0.10398471615720524,
+        "4": 0.12008733624454149,
+        "5": 0.12909388646288208,
+        "6": 0.14956331877729256,
+        "7": 0.1607532751091703,
+        "8": 0.126910480349345
+      },
+      "top3_share": 0.31359170305676853,
+      "decisions": 202963,
+      "failures": 7,
+      "timeouts": 7,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 3.4489044801269195e-05,
+      "lat_p50_ms": 0.0175,
+      "lat_p99_ms": 9.481,
+      "lat_max_ms": 145.353,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 18.085995085995087,
+      "survived_share": 0.11135371179039301
+    }
+  ],
+  "head_to_head": {
+    "cap-floor-count": {
+      "cap-floor-count-v2": [
+        783,
+        0,
+        835
+      ],
+      "icm-pushfold": [
+        770,
+        2,
+        858
+      ],
+      "keep-made-plus-draw": [
+        789,
+        0,
+        863
+      ],
+      "v0-baseline": [
+        770,
+        5,
+        845
+      ],
+      "keep-made-plus-draw-v2": [
+        763,
+        2,
+        847
+      ],
+      "v0-nowar": [
+        297,
+        0,
+        505
+      ],
+      "cap-floor-count-v4a": [
+        276,
+        0,
+        526
+      ]
+    },
+    "cap-floor-count-v2": {
+      "cap-floor-count": [
+        835,
+        0,
+        783
+      ],
+      "icm-pushfold": [
+        771,
+        6,
+        865
+      ],
+      "keep-made-plus-draw": [
+        812,
+        6,
+        894
+      ],
+      "v0-baseline": [
+        802,
+        8,
+        872
+      ],
+      "keep-made-plus-draw-v2": [
+        753,
+        4,
+        913
+      ],
+      "v0-nowar": [
+        312,
+        1,
+        500
+      ],
+      "cap-floor-count-v4a": [
+        296,
+        3,
+        514
+      ]
+    },
+    "icm-pushfold": {
+      "cap-floor-count": [
+        858,
+        2,
+        770
+      ],
+      "cap-floor-count-v2": [
+        865,
+        6,
+        771
+      ],
+      "keep-made-plus-draw": [
+        858,
+        2,
+        816
+      ],
+      "v0-baseline": [
+        831,
+        4,
+        817
+      ],
+      "keep-made-plus-draw-v2": [
+        795,
+        3,
+        874
+      ],
+      "v0-nowar": [
+        307,
+        1,
+        507
+      ],
+      "cap-floor-count-v4a": [
+        300,
+        1,
+        514
+      ]
+    },
+    "keep-made-plus-draw": {
+      "cap-floor-count": [
+        863,
+        0,
+        789
+      ],
+      "cap-floor-count-v2": [
+        894,
+        6,
+        812
+      ],
+      "icm-pushfold": [
+        816,
+        2,
+        858
+      ],
+      "v0-baseline": [
+        834,
+        4,
+        850
+      ],
+      "keep-made-plus-draw-v2": [
+        817,
+        12,
+        823
+      ],
+      "v0-nowar": [
+        327,
+        0,
+        498
+      ],
+      "cap-floor-count-v4a": [
+        331,
+        2,
+        492
+      ]
+    },
+    "v0-baseline": {
+      "cap-floor-count": [
+        845,
+        5,
+        770
+      ],
+      "cap-floor-count-v2": [
+        872,
+        8,
+        802
+      ],
+      "icm-pushfold": [
+        817,
+        4,
+        831
+      ],
+      "keep-made-plus-draw": [
+        850,
+        4,
+        834
+      ],
+      "keep-made-plus-draw-v2": [
+        806,
+        6,
+        828
+      ],
+      "v0-nowar": [
+        348,
+        0,
+        466
+      ],
+      "cap-floor-count-v4a": [
+        320,
+        0,
+        494
+      ]
+    },
+    "keep-made-plus-draw-v2": {
+      "cap-floor-count-v2": [
+        913,
+        4,
+        753
+      ],
+      "keep-made-plus-draw": [
+        823,
+        12,
+        817
+      ],
+      "v0-baseline": [
+        828,
+        6,
+        806
+      ],
+      "cap-floor-count": [
+        847,
+        2,
+        763
+      ],
+      "icm-pushfold": [
+        874,
+        3,
+        795
+      ],
+      "v0-nowar": [
+        330,
+        0,
+        463
+      ],
+      "cap-floor-count-v4a": [
+        307,
+        1,
+        485
+      ]
+    },
+    "v0-nowar": {
+      "cap-floor-count-v2": [
+        500,
+        1,
+        312
+      ],
+      "icm-pushfold": [
+        507,
+        1,
+        307
+      ],
+      "keep-made-plus-draw": [
+        498,
+        0,
+        327
+      ],
+      "keep-made-plus-draw-v2": [
+        463,
+        0,
+        330
+      ],
+      "v0-baseline": [
+        466,
+        0,
+        348
+      ],
+      "cap-floor-count": [
+        505,
+        0,
+        297
+      ]
+    },
+    "cap-floor-count-v4a": {
+      "cap-floor-count-v2": [
+        514,
+        3,
+        296
+      ],
+      "icm-pushfold": [
+        514,
+        1,
+        300
+      ],
+      "keep-made-plus-draw": [
+        492,
+        2,
+        331
+      ],
+      "keep-made-plus-draw-v2": [
+        485,
+        1,
+        307
+      ],
+      "v0-baseline": [
+        494,
+        0,
+        320
+      ],
+      "cap-floor-count": [
+        526,
+        0,
+        276
+      ]
+    }
+  },
+  "bot_errors": [],
+  "ab": {
+    "n": 1154,
+    "mean_diff": 1.2882726747544773,
+    "se": 0.4524614691051332,
+    "ci95": 0.8877400743881786,
+    "t": 2.8472538828607665,
+    "p_value": 0.0044880427236648306,
+    "b_better_tables": 365,
+    "a_better_tables": 295,
+    "tied_tables": 494,
+    "hero": "v0-nowar",
+    "challenger": "cap-floor-count-v4a",
+    "hero_avg_points": 16.406123627960717,
+    "challenger_avg_points": 17.69439630271519,
+    "tables_for_1pt": 908
+  },
+  "elapsed_s": 50.4
+}

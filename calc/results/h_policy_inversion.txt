@@ -1,0 +1,72 @@
+
+flop Qs 7d 2c   opponent exposes Qh
+  policy        High Car      Pair  Two Pair     Trips  Straight     Flush   combos
+  fallback          0.0%     83.3%     12.5%      4.2%      0.0%      0.0%   2256
+  show_high         0.0%     61.3%     28.1%     10.6%      0.0%      0.0%   887
+  show_low          0.0%     74.3%      0.0%     25.7%      0.0%      0.0%   366
+  show_blank        0.0%      0.0%     72.6%     27.4%      0.0%      0.0%   343
+  show_pair         0.0%     70.4%     21.5%      8.1%      0.0%      0.0%   1159
+
+flop Qs 7d 2c   opponent exposes Ah
+  policy        High Car      Pair  Two Pair     Trips  Straight     Flush   combos
+  fallback         75.0%     25.0%      0.0%      0.0%      0.0%      0.0%   2256
+  show_high        55.3%     44.7%      0.0%      0.0%      0.0%      0.0%   1041
+  show_low          0.0%    100.0%      0.0%      0.0%      0.0%      0.0%   141
+  show_blank       55.3%     44.7%      0.0%      0.0%      0.0%      0.0%   1041
+  show_pair        80.3%     19.7%      0.0%      0.0%      0.0%      0.0%   717
+
+flop Qs 7d 2c   opponent exposes 9h
+  policy        High Car      Pair  Two Pair     Trips  Straight     Flush   combos
+  fallback         75.0%     25.0%      0.0%      0.0%      0.0%      0.0%   2256
+  show_high        38.8%     61.2%      0.0%      0.0%      0.0%      0.0%   412
+  show_low         61.4%     38.6%      0.0%      0.0%      0.0%      0.0%   521
+  show_blank       33.3%     66.7%      0.0%      0.0%      0.0%      0.0%   481
+  show_pair        54.8%     45.2%      0.0%      0.0%      0.0%      0.0%   292
+
+flop Qs 7d 2c   opponent exposes 2h
+  policy        High Car      Pair  Two Pair     Trips  Straight     Flush   combos
+  fallback          0.0%     83.3%     12.5%      4.2%      0.0%      0.0%   2256
+  show_high         0.0%      0.0%      0.0%    100.0%      0.0%      0.0%   94
+  show_low          0.0%     68.3%     22.8%      8.9%      0.0%      0.0%   1054
+  show_blank        0.0%      0.0%      0.0%    100.0%      0.0%      0.0%   94
+  show_pair         0.0%     88.5%      0.0%     11.5%      0.0%      0.0%   814
+
+flop Js Ts 4d   opponent exposes Jh
+  policy        High Car      Pair  Two Pair     Trips  Straight     Flush   combos
+  fallback          0.0%     83.3%     12.5%      4.2%      0.0%      0.0%   2256
+  show_high         0.0%     55.0%     32.6%     12.3%      0.0%      0.0%   763
+  show_low          0.0%     80.3%      0.0%     19.7%      0.0%      0.0%   478
+  show_blank        0.0%      0.0%     72.6%     27.4%      0.0%      0.0%   343
+  show_pair         0.0%     70.1%     21.7%      8.2%      0.0%      0.0%   1147
+
+flop Js Ts 4d   opponent exposes Kh
+  policy        High Car      Pair  Two Pair     Trips  Straight     Flush   combos
+  fallback         75.0%     25.0%      0.0%      0.0%      0.0%      0.0%   2256
+  show_high        51.1%     48.9%      0.0%      0.0%      0.0%      0.0%   877
+  show_low         47.6%     52.4%      0.0%      0.0%      0.0%      0.0%   269
+  show_blank       51.1%     48.9%      0.0%      0.0%      0.0%      0.0%   877
+  show_pair        76.1%     23.9%      0.0%      0.0%      0.0%      0.0%   589
+
+flop Js Ts 4d   opponent exposes Qs
+  policy        High Car      Pair  Two Pair     Trips  Straight     Flush   combos
+  fallback         75.0%     25.0%      0.0%      0.0%      0.0%      0.0%   2256
+  show_high        46.1%     53.9%      0.0%      0.0%      0.0%      0.0%   729
+  show_low         61.4%     38.6%      0.0%      0.0%      0.0%      0.0%   365
+  show_blank       46.1%     53.9%      0.0%      0.0%      0.0%      0.0%   729
+  show_pair        70.4%     29.6%      0.0%      0.0%      0.0%      0.0%   477
+
+flop Kh 8d 8c   opponent exposes Kd
+  policy        High Car      Pair  Two Pair     Trips  Straight     Flush   combos
+  fallback          0.0%      0.0%     91.7%      0.0%      0.0%      0.0%   2256
+  show_high         0.0%      0.0%     82.2%      0.0%      0.0%      0.0%   1022
+  show_low          0.0%      0.0%     63.0%      0.0%      0.0%      0.0%   254
+  show_blank        0.0%      0.0%      0.0%      0.0%      0.0%      0.0%   182
+  show_pair         0.0%      0.0%     84.6%      0.0%      0.0%      0.0%   1182
+
+flop Kh 8d 8c   opponent exposes Ad
+  policy        High Car      Pair  Two Pair     Trips  Straight     Flush   combos
+  fallback          0.0%     83.3%     12.5%      4.2%      0.0%      0.0%   2256
+  show_high         0.0%     67.9%     24.0%      8.1%      0.0%      0.0%   1061
+  show_low          0.0%      0.0%    100.0%      0.0%      0.0%      0.0%   135
+  show_blank        0.0%     67.9%     24.0%      8.1%      0.0%      0.0%   1061
+  show_pair         0.0%     84.2%     15.8%      0.0%      0.0%      0.0%   855

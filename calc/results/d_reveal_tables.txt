@@ -1,0 +1,49 @@
+====================================================================================================
+Dry rainbow  Qs 7d 2c
+  show Qh: best possible = Trips          P(>=2pair)=16.7%   Trips:2  Two Pair:6  Pair:40
+  show 7h: best possible = Trips          P(>=2pair)=16.7%   Trips:2  Two Pair:6  Pair:40
+  show 2h: best possible = Trips          P(>=2pair)=16.7%   Trips:2  Two Pair:6  Pair:40
+  show Ah: best possible = Pair           P(>=2pair)= 0.0%   Pair:12  High Card:36
+  show Kh: best possible = Pair           P(>=2pair)= 0.0%   Pair:12  High Card:36
+  show 9h: best possible = Pair           P(>=2pair)= 0.0%   Pair:12  High Card:36
+  show 4h: best possible = Pair           P(>=2pair)= 0.0%   Pair:12  High Card:36
+====================================================================================================
+Two-tone connected  Js Ts 4d
+  show Jh: best possible = Trips          P(>=2pair)=16.7%   Trips:2  Two Pair:6  Pair:40
+  show Th: best possible = Trips          P(>=2pair)=16.7%   Trips:2  Two Pair:6  Pair:40
+  show 4h: best possible = Trips          P(>=2pair)=16.7%   Trips:2  Two Pair:6  Pair:40
+  show Ah: best possible = Pair           P(>=2pair)= 0.0%   Pair:12  High Card:36
+  show Kh: best possible = Pair           P(>=2pair)= 0.0%   Pair:12  High Card:36
+  show Qh: best possible = Pair           P(>=2pair)= 0.0%   Pair:12  High Card:36
+  show 9h: best possible = Pair           P(>=2pair)= 0.0%   Pair:12  High Card:36
+  show Qs: best possible = Pair           P(>=2pair)= 0.0%   Pair:12  High Card:36
+  show 9s: best possible = Pair           P(>=2pair)= 0.0%   Pair:12  High Card:36
+  show As: best possible = Pair           P(>=2pair)= 0.0%   Pair:12  High Card:36
+  show 7s: best possible = Pair           P(>=2pair)= 0.0%   Pair:12  High Card:36
+  show 2c: best possible = Pair           P(>=2pair)= 0.0%   Pair:12  High Card:36
+====================================================================================================
+Paired  Kh 8d 8c
+  show 8s: best possible = Quads          P(>=2pair)=100.0%   Quads:1  Full House:3  Trips:44
+  show Kd: best possible = Full House     P(>=2pair)=100.0%   Full House:4  Two Pair:44
+  show Ad: best possible = Trips          P(>=2pair)=16.7%   Trips:2  Two Pair:6  Pair:40
+  show Qd: best possible = Trips          P(>=2pair)=16.7%   Trips:2  Two Pair:6  Pair:40
+  show 4d: best possible = Trips          P(>=2pair)=16.7%   Trips:2  Two Pair:6  Pair:40
+====================================================================================================
+Monotone  9h 6h 2h
+  show 9d: best possible = Trips          P(>=2pair)=16.7%   Trips:2  Two Pair:6  Pair:40
+  show Ah: best possible = Flush          P(>=2pair)=18.8%   Flush:9  Pair:12  High Card:27
+  show Kh: best possible = Flush          P(>=2pair)=18.8%   Flush:9  Pair:12  High Card:27
+  show 4h: best possible = Flush          P(>=2pair)=18.8%   Flush:9  Pair:12  High Card:27
+  show Ad: best possible = Pair           P(>=2pair)= 0.0%   Pair:12  High Card:36
+  show Kd: best possible = Pair           P(>=2pair)= 0.0%   Pair:12  High Card:36
+  show 3d: best possible = Pair           P(>=2pair)= 0.0%   Pair:12  High Card:36
+  show 7d: best possible = Pair           P(>=2pair)= 0.0%   Pair:12  High Card:36
+====================================================================================================
+River Qs 7d 2c Th 4s (unpaired, no flush)
+  show Qh: best possible = Trips          P(>=2pair)=30.4%   Trips:2  Two Pair:12  Pair:32
+  show Ah: best possible = Pair           P(>=2pair)= 0.0%   Pair:18  High Card:28
+  show 9h: best possible = Pair           P(>=2pair)= 0.0%   Pair:18  High Card:28
+  show Jh: best possible = Pair           P(>=2pair)= 0.0%   Pair:18  High Card:28
+  show 3h: best possible = Pair           P(>=2pair)= 0.0%   Pair:18  High Card:28
+====================================================================================================
+Random 5-card boards: paired 49.1%, 3+ of a suit 37.2%  (when neither, an exposed card that misses the board caps the hand at one pair)

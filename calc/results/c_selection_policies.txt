@@ -1,0 +1,12 @@
+20000 deals, hero vs 3 made-hand opponents, 42s
+policy                                           equity
+oracle (river knowledge; upper bound)             31.8%
+MC equity, 200 runouts (too slow for 1 ms)        26.5%
+MC equity, 40 runouts                             26.2%
+made hand + draw bonus (cheap)                    26.1%
+made hand only (3 evals)                          25.1%
+keep two highest cards                            21.6%
+fallback: keep first two dealt                    18.3%
+
+made-hand choice == oracle choice: 69.0%
+MC-200 choice == oracle choice:   63.2%

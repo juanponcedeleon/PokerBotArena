@@ -1,0 +1,333 @@
+{
+  "run": {
+    "name": "submit-check-fp2",
+    "started": "2026-11-06T20:29:06",
+    "argv": [
+      "league",
+      "bot",
+      "cap-floor-count-v6",
+      "check_or_fold",
+      "arch-folder",
+      "--tables",
+      "200",
+      "--seed",
+      "submit-fp2-1",
+      "--name",
+      "submit-check-fp2",
+      "--agent",
+      "Claude (headmaster)",
+      "--question",
+      "pre-submission check: bot = fp-v2 copy, zero failures required",
+      "--quiet"
+    ],
+    "mode": "fast",
+    "seed": "submit-fp2-1",
+    "scheme": "league",
+    "hero": null,
+    "challenger": null,
+    "tables_planned": 200,
+    "rules": {
+      "variant": "flop_discard_reveal",
+      "players": 8,
+      "starting_stack": 2000,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hand_cap": 250,
+      "payouts": [
+        50,
+        30,
+        20
+      ],
+      "decision_ms": 1,
+      "time_bank_ms": 100,
+      "memory_bytes": 65536
+    },
+    "bots": {
+      "bot": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bot",
+        "fingerprint": "958dca315964ca83"
+      },
+      "cap-floor-count-v6": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\cap-floor-count-v6",
+        "fingerprint": "ad2b69dc09c35f68"
+      },
+      "check_or_fold": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\starter-kit\\examples\\check_or_fold",
+        "fingerprint": "11ac875de874fe93"
+      },
+      "arch-folder": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\arch-folder",
+        "fingerprint": "9ec6e2541dc8f4de"
+      }
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10"
+  },
+  "run_dir": "arena/results/20261106-202906-submit-check-fp2-d6a6",
+  "tables": 200,
+  "hands": 30193,
+  "ranking": [
+    {
+      "label": "bot",
+      "tables": 200,
+      "seats": 400,
+      "avg_points": 18.3,
+      "ci95": 2.1179859961189744,
+      "sd": 21.546941237487268,
+      "avg_place": 4.1725,
+      "place_share": {
+        "1": 0.265,
+        "2": 0.115,
+        "3": 0.08,
+        "4": 0.045,
+        "5": 0.085,
+        "6": 0.1425,
+        "7": 0.1625,
+        "8": 0.105
+      },
+      "top3_share": 0.46,
+      "decisions": 44408,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0267,
+      "lat_p99_ms": 0.6604,
+      "lat_max_ms": 6.159,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 78.65646258503402,
+      "survived_share": 0.265
+    },
+    {
+      "label": "arch-folder",
+      "tables": 200,
+      "seats": 400,
+      "avg_points": 12.7,
+      "ci95": 1.5412239263418843,
+      "sd": 15.679358331712288,
+      "avg_place": 4.4475,
+      "place_share": {
+        "1": 0.0475,
+        "2": 0.2725,
+        "3": 0.1075,
+        "4": 0.0575,
+        "5": 0.1,
+        "6": 0.1925,
+        "7": 0.1325,
+        "8": 0.09
+      },
+      "top3_share": 0.4275,
+      "decisions": 45853,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0114,
+      "lat_p99_ms": 0.1365,
+      "lat_max_ms": 2.514,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 100.96052631578948,
+      "survived_share": 0.05
+    },
+    {
+      "label": "cap-floor-count-v6",
+      "tables": 200,
+      "seats": 400,
+      "avg_points": 11.275,
+      "ci95": 1.9476721856970884,
+      "sd": 19.8142849914982,
+      "avg_place": 5.49,
+      "place_share": {
+        "1": 0.1875,
+        "2": 0.04,
+        "3": 0.035,
+        "4": 0.0175,
+        "5": 0.085,
+        "6": 0.125,
+        "7": 0.2075,
+        "8": 0.3025
+      },
+      "top3_share": 0.2625,
+      "decisions": 39123,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0182,
+      "lat_p99_ms": 0.4512,
+      "lat_max_ms": 10.4782,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 53.184615384615384,
+      "survived_share": 0.1875
+    },
+    {
+      "label": "check_or_fold",
+      "tables": 200,
+      "seats": 400,
+      "avg_points": 7.725,
+      "ci95": 1.0626311744977603,
+      "sd": 10.810482938027489,
+      "avg_place": 3.8875,
+      "place_share": {
+        "2": 0.0725,
+        "3": 0.2775,
+        "4": 0.38,
+        "5": 0.23,
+        "6": 0.04
+      },
+      "top3_share": 0.35,
+      "decisions": 43520,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0035,
+      "lat_p99_ms": 0.0697,
+      "lat_max_ms": 1.372,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 114.875,
+      "survived_share": 0.0
+    }
+  ],
+  "head_to_head": {
+    "arch-folder": {
+      "bot": [
+        62,
+        0,
+        138
+      ],
+      "cap-floor-count-v6": [
+        105,
+        0,
+        95
+      ],
+      "check_or_fold": [
+        138,
+        0,
+        62
+      ]
+    },
+    "bot": {
+      "arch-folder": [
+        138,
+        0,
+        62
+      ],
+      "cap-floor-count-v6": [
+        119,
+        0,
+        81
+      ],
+      "check_or_fold": [
+        151,
+        0,
+        49
+      ]
+    },
+    "cap-floor-count-v6": {
+      "arch-folder": [
+        95,
+        0,
+        105
+      ],
+      "bot": [
+        81,
+        0,
+        119
+      ],
+      "check_or_fold": [
+        99,
+        0,
+        101
+      ]
+    },
+    "check_or_fold": {
+      "arch-folder": [
+        62,
+        0,
+        138
+      ],
+      "bot": [
+        49,
+        0,
+        151
+      ],
+      "cap-floor-count-v6": [
+        101,
+        0,
+        99
+      ]
+    }
+  },
+  "bot_errors": [],
+  "elapsed_s": 5.5
+}

@@ -1,0 +1,271 @@
+{
+  "run": {
+    "name": "ab-keep-made-plus-draw-v2-vs-bot",
+    "started": "2026-11-06T19:17:45",
+    "argv": [
+      "ab",
+      "bot",
+      "keep-made-plus-draw-v2",
+      "--field",
+      "v0-baseline",
+      "--tables",
+      "2000",
+      "--seed",
+      "s31c",
+      "--agent",
+      "Claude (keep-rule agent)",
+      "--question",
+      "v2 vs bot v0, flop-heavy field v0-baseline, same seed as the v1 run (s31c)",
+      "--quiet"
+    ],
+    "mode": "fast",
+    "seed": "s31c",
+    "scheme": "ab",
+    "hero": "bot",
+    "challenger": "keep-made-plus-draw-v2",
+    "tables_planned": 4000,
+    "rules": {
+      "variant": "flop_discard_reveal",
+      "players": 8,
+      "starting_stack": 2000,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hand_cap": 250,
+      "payouts": [
+        50,
+        30,
+        20
+      ],
+      "decision_ms": 1,
+      "time_bank_ms": 100,
+      "memory_bytes": 65536
+    },
+    "bots": {
+      "bot": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bot",
+        "fingerprint": "3c5ca44057828838"
+      },
+      "keep-made-plus-draw-v2": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\keep-made-plus-draw-v2",
+        "fingerprint": "a78cec4cb0c56000"
+      },
+      "v0-baseline": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\v0-baseline",
+        "fingerprint": "a10ee1d03910be31"
+      }
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10"
+  },
+  "run_dir": "arena/results/20261106-191745-ab-keep-made-plus-draw-v2-vs-bot-802d",
+  "tables": 4000,
+  "hands": 214836,
+  "ranking": [
+    {
+      "label": "keep-made-plus-draw-v2",
+      "tables": 2000,
+      "seats": 8000,
+      "avg_points": 12.70125,
+      "ci95": 0.394331168676171,
+      "sd": 17.99253219642402,
+      "avg_place": 4.43975,
+      "place_share": {
+        "1": 0.129375,
+        "2": 0.123125,
+        "3": 0.127,
+        "4": 0.12625,
+        "5": 0.12525,
+        "6": 0.133375,
+        "7": 0.133375,
+        "8": 0.10225
+      },
+      "top3_share": 0.3795,
+      "decisions": 429228,
+      "failures": 5,
+      "timeouts": 5,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 1.1648820673395026e-05,
+      "lat_p50_ms": 0.0213,
+      "lat_p99_ms": 6.5006,
+      "lat_max_ms": 101.9799,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 18.209906676238333,
+      "survived_share": 0.129375
+    },
+    {
+      "label": "v0-baseline",
+      "tables": 4000,
+      "seats": 16000,
+      "avg_points": 12.443125,
+      "ci95": 0.2757119641399789,
+      "sd": 17.79240500435832,
+      "avg_place": 4.4878125,
+      "place_share": {
+        "1": 0.122625,
+        "2": 0.128625,
+        "3": 0.1226875,
+        "4": 0.123,
+        "5": 0.124875,
+        "6": 0.1295625,
+        "7": 0.142875,
+        "8": 0.10575
+      },
+      "top3_share": 0.3739375,
+      "decisions": 867156,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0212,
+      "lat_p99_ms": 2.7932,
+      "lat_max_ms": 98.4335,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 18.548155007835874,
+      "survived_share": 0.122625
+    },
+    {
+      "label": "bot",
+      "tables": 2000,
+      "seats": 8000,
+      "avg_points": 12.4125,
+      "ci95": 0.3909292520321245,
+      "sd": 17.837309633234185,
+      "avg_place": 4.46075,
+      "place_share": {
+        "1": 0.125375,
+        "2": 0.119625,
+        "3": 0.12775,
+        "4": 0.129375,
+        "5": 0.12925,
+        "6": 0.133875,
+        "7": 0.132125,
+        "8": 0.102625
+      },
+      "top3_share": 0.37275,
+      "decisions": 429867,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0211,
+      "lat_p99_ms": 2.5485,
+      "lat_max_ms": 82.693,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 18.4581963698728,
+      "survived_share": 0.125375
+    }
+  ],
+  "head_to_head": {
+    "bot": {
+      "v0-baseline": [
+        1003,
+        0,
+        997
+      ]
+    },
+    "v0-baseline": {
+      "bot": [
+        997,
+        0,
+        1003
+      ],
+      "keep-made-plus-draw-v2": [
+        965,
+        0,
+        1035
+      ]
+    },
+    "keep-made-plus-draw-v2": {
+      "v0-baseline": [
+        1035,
+        0,
+        965
+      ]
+    }
+  },
+  "bot_errors": [],
+  "ab": {
+    "n": 2000,
+    "mean_diff": 0.28875,
+    "se": 0.10023047087785329,
+    "ci95": 0.19656713030646608,
+    "t": 2.8808604556182082,
+    "p_value": 0.0040081801155711656,
+    "b_better_tables": 304,
+    "a_better_tables": 249,
+    "tied_tables": 1447,
+    "hero": "bot",
+    "challenger": "keep-made-plus-draw-v2",
+    "hero_avg_points": 12.4125,
+    "challenger_avg_points": 12.70125,
+    "tables_for_1pt": 78
+  },
+  "elapsed_s": 62.7
+}

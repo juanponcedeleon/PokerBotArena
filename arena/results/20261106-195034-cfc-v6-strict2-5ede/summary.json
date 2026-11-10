@@ -1,0 +1,327 @@
+{
+  "run": {
+    "name": "cfc-v6-strict2",
+    "started": "2026-11-06T19:50:34",
+    "argv": [
+      "league",
+      "bots/cap-floor-count-v6",
+      "bots/v0-nowar",
+      "min_raiser",
+      "check_or_fold",
+      "--mode",
+      "strict",
+      "--tables",
+      "32",
+      "--seed",
+      "strict2",
+      "--name",
+      "cfc-v6-strict2",
+      "--agent",
+      "Claude(cap-floor-count-agent)",
+      "--question",
+      "strict-mode timing of v6, rerun after a machine-wide stall contaminated cfc-v6-strict"
+    ],
+    "mode": "strict",
+    "seed": "strict2",
+    "scheme": "league",
+    "hero": null,
+    "challenger": null,
+    "tables_planned": 32,
+    "rules": {
+      "variant": "flop_discard_reveal",
+      "players": 8,
+      "starting_stack": 2000,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hand_cap": 250,
+      "payouts": [
+        50,
+        30,
+        20
+      ],
+      "decision_ms": 1,
+      "time_bank_ms": 100,
+      "memory_bytes": 65536
+    },
+    "bots": {
+      "cap-floor-count-v6": {
+        "path": "/mnt/c/Users/jmast/OneDrive/Desktop/Coding/PokerBot/bots/cap-floor-count-v6",
+        "fingerprint": "ad2b69dc09c35f68"
+      },
+      "v0-nowar": {
+        "path": "/mnt/c/Users/jmast/OneDrive/Desktop/Coding/PokerBot/bots/v0-nowar",
+        "fingerprint": "c0330914fea447c7"
+      },
+      "min_raiser": {
+        "path": "/mnt/c/Users/jmast/OneDrive/Desktop/Coding/PokerBot/starter-kit/examples/min_raiser",
+        "fingerprint": "573cab087d252756"
+      },
+      "check_or_fold": {
+        "path": "/mnt/c/Users/jmast/OneDrive/Desktop/Coding/PokerBot/starter-kit/examples/check_or_fold",
+        "fingerprint": "11ac875de874fe93"
+      }
+    },
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "python": "3.12.3"
+  },
+  "run_dir": "arena/results/20261106-195034-cfc-v6-strict2-5ede",
+  "tables": 32,
+  "hands": 3873,
+  "ranking": [
+    {
+      "label": "cap-floor-count-v6",
+      "tables": 32,
+      "seats": 64,
+      "avg_points": 19.53125,
+      "ci95": 5.637241031657351,
+      "sd": 22.567689186934828,
+      "avg_place": 3.578125,
+      "place_share": {
+        "1": 0.296875,
+        "2": 0.15625,
+        "4": 0.109375,
+        "5": 0.1875,
+        "6": 0.15625,
+        "7": 0.09375
+      },
+      "top3_share": 0.453125,
+      "decisions": 7531,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.6133,
+      "lat_p99_ms": 11.9549,
+      "lat_max_ms": 28.3561,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 60.111111111111114,
+      "survived_share": 0.296875
+    },
+    {
+      "label": "check_or_fold",
+      "tables": 32,
+      "seats": 64,
+      "avg_points": 15.78125,
+      "ci95": 2.843015737165263,
+      "sd": 11.3815065117141,
+      "avg_place": 3.125,
+      "place_share": {
+        "2": 0.203125,
+        "3": 0.484375,
+        "4": 0.296875,
+        "5": 0.015625
+      },
+      "top3_share": 0.6875,
+      "decisions": 6895,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.5574,
+      "lat_p99_ms": 15.7196,
+      "lat_max_ms": 20.5346,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 98.9375,
+      "survived_share": 0.0
+    },
+    {
+      "label": "v0-nowar",
+      "tables": 32,
+      "seats": 64,
+      "avg_points": 14.6875,
+      "ci95": 5.189718339004444,
+      "sd": 20.776111893153285,
+      "avg_place": 4.109375,
+      "place_share": {
+        "1": 0.203125,
+        "2": 0.140625,
+        "3": 0.015625,
+        "4": 0.078125,
+        "5": 0.265625,
+        "6": 0.140625,
+        "7": 0.15625
+      },
+      "top3_share": 0.359375,
+      "decisions": 8035,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.5844,
+      "lat_p99_ms": 15.0605,
+      "lat_max_ms": 29.4874,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 50.627450980392155,
+      "survived_share": 0.203125
+    },
+    {
+      "label": "min_raiser",
+      "tables": 32,
+      "seats": 64,
+      "avg_points": 0.0,
+      "ci95": 0.0,
+      "sd": 0.0,
+      "avg_place": 7.046875,
+      "place_share": {
+        "4": 0.015625,
+        "5": 0.03125,
+        "6": 0.203125,
+        "7": 0.390625,
+        "8": 0.359375
+      },
+      "top3_share": 0.0,
+      "decisions": 3101,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.5923,
+      "lat_p99_ms": 17.3599,
+      "lat_max_ms": 26.1512,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 7.015625,
+      "survived_share": 0.0
+    }
+  ],
+  "head_to_head": {
+    "cap-floor-count-v6": {
+      "check_or_fold": [
+        26,
+        0,
+        6
+      ],
+      "min_raiser": [
+        31,
+        0,
+        1
+      ],
+      "v0-nowar": [
+        19,
+        0,
+        13
+      ]
+    },
+    "check_or_fold": {
+      "cap-floor-count-v6": [
+        6,
+        0,
+        26
+      ],
+      "min_raiser": [
+        32,
+        0,
+        0
+      ],
+      "v0-nowar": [
+        11,
+        0,
+        21
+      ]
+    },
+    "min_raiser": {
+      "cap-floor-count-v6": [
+        1,
+        0,
+        31
+      ],
+      "check_or_fold": [
+        0,
+        0,
+        32
+      ],
+      "v0-nowar": [
+        0,
+        0,
+        32
+      ]
+    },
+    "v0-nowar": {
+      "cap-floor-count-v6": [
+        13,
+        0,
+        19
+      ],
+      "check_or_fold": [
+        21,
+        0,
+        11
+      ],
+      "min_raiser": [
+        32,
+        0,
+        0
+      ]
+    }
+  },
+  "bot_errors": [],
+  "elapsed_s": 26.9
+}

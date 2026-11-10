@@ -1,0 +1,257 @@
+{
+  "run": {
+    "name": "hist-smoke",
+    "started": "2026-11-06T19:04:33",
+    "argv": [
+      "league",
+      "bot",
+      "min_raiser",
+      "check_or_fold",
+      "--tables",
+      "6",
+      "--seed",
+      "h1",
+      "--history",
+      "bot",
+      "--name",
+      "hist-smoke",
+      "--no-experiment-log",
+      "--quiet"
+    ],
+    "mode": "fast",
+    "seed": "h1",
+    "scheme": "league",
+    "hero": null,
+    "challenger": null,
+    "tables_planned": 6,
+    "rules": {
+      "variant": "flop_discard_reveal",
+      "players": 8,
+      "starting_stack": 2000,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hand_cap": 250,
+      "payouts": [
+        50,
+        30,
+        20
+      ],
+      "decision_ms": 1,
+      "time_bank_ms": 100,
+      "memory_bytes": 65536
+    },
+    "bots": {
+      "bot": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bot",
+        "fingerprint": "3c5ca44057828838"
+      },
+      "min_raiser": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\starter-kit\\examples\\min_raiser",
+        "fingerprint": "573cab087d252756"
+      },
+      "check_or_fold": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\starter-kit\\examples\\check_or_fold",
+        "fingerprint": "11ac875de874fe93"
+      }
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10"
+  },
+  "run_dir": "arena/results/20261106-190433-hist-smoke-fd96",
+  "tables": 6,
+  "hands": 564,
+  "ranking": [
+    {
+      "label": "check_or_fold",
+      "tables": 6,
+      "seats": 16,
+      "avg_points": 17.5,
+      "ci95": 6.879223827695314,
+      "sd": 12.909944487358056,
+      "avg_place": 3.1875,
+      "place_share": {
+        "2": 0.375,
+        "3": 0.3125,
+        "4": 0.125,
+        "5": 0.125,
+        "6": 0.0625
+      },
+      "top3_share": 0.6875,
+      "decisions": 1836,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0033,
+      "lat_p99_ms": 0.0101,
+      "lat_max_ms": 0.0697,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 95.1875,
+      "survived_share": 0.0
+    },
+    {
+      "label": "bot",
+      "tables": 5,
+      "seats": 16,
+      "avg_points": 10.625,
+      "ci95": 10.74018475862295,
+      "sd": 20.155644370746373,
+      "avg_place": 4.4375,
+      "place_share": {
+        "1": 0.1875,
+        "3": 0.0625,
+        "4": 0.1875,
+        "5": 0.125,
+        "6": 0.375,
+        "7": 0.0625
+      },
+      "top3_share": 0.25,
+      "decisions": 881,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0174,
+      "lat_p99_ms": 0.0548,
+      "lat_max_ms": 0.104,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 5.461538461538462,
+      "survived_share": 0.1875
+    },
+    {
+      "label": "min_raiser",
+      "tables": 6,
+      "seats": 16,
+      "avg_points": 9.375,
+      "ci95": 10.74018475862295,
+      "sd": 20.155644370746373,
+      "avg_place": 5.25,
+      "place_share": {
+        "1": 0.1875,
+        "4": 0.0625,
+        "5": 0.125,
+        "6": 0.1875,
+        "7": 0.4375
+      },
+      "top3_share": 0.1875,
+      "decisions": 811,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0036,
+      "lat_p99_ms": 0.0123,
+      "lat_max_ms": 0.0249,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 1.8461538461538463,
+      "survived_share": 0.1875
+    }
+  ],
+  "head_to_head": {
+    "bot": {
+      "check_or_fold": [
+        3,
+        0,
+        2
+      ],
+      "min_raiser": [
+        3,
+        0,
+        2
+      ]
+    },
+    "check_or_fold": {
+      "bot": [
+        2,
+        0,
+        3
+      ],
+      "min_raiser": [
+        3,
+        0,
+        3
+      ]
+    },
+    "min_raiser": {
+      "bot": [
+        2,
+        0,
+        3
+      ],
+      "check_or_fold": [
+        3,
+        0,
+        3
+      ]
+    }
+  },
+  "bot_errors": [],
+  "elapsed_s": 1.4
+}

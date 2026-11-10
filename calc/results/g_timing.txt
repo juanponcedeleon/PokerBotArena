@@ -1,0 +1,5 @@
+eval7.evaluate 7 cards: 537 ns/call  -> ~1863 evals per ms
+eval7.evaluate 5 cards: 270 ns/call
+45-card hidden enumeration, one opponent, river: 20 us
+45 hidden x 100 runouts on the flop: 7125 us  (too slow for 1 ms)
+json memory round trip (2400 bytes): 71 us

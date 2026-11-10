@@ -1,0 +1,1756 @@
+label,structure,eq_vs1,eq_vs3,eq_vs7,trials
+AAA,trips,0.7080,0.3707,0.1405,1500
+AAKr,pair+kicker,0.7333,0.4257,0.2038,1500
+AAKs,pair+kicker suited,0.7390,0.4620,0.2345,1500
+AAQr,pair+kicker,0.7173,0.4399,0.2325,1500
+AAQs,pair+kicker suited,0.7427,0.4597,0.2532,1500
+AAJr,pair+kicker,0.7430,0.4667,0.2332,1500
+AAJs,pair+kicker suited,0.7573,0.4883,0.2671,1500
+AATr,pair+kicker,0.7293,0.4422,0.2227,1500
+AATs,pair+kicker suited,0.7560,0.4672,0.2299,1500
+AA9r,pair+kicker,0.7390,0.4380,0.2063,1500
+AA9s,pair+kicker suited,0.7417,0.4506,0.2442,1500
+AA8r,pair+kicker,0.7240,0.4422,0.2307,1500
+AA8s,pair+kicker suited,0.7477,0.4579,0.2394,1500
+AA7r,pair+kicker,0.7267,0.4269,0.2053,1500
+AA7s,pair+kicker suited,0.7223,0.4562,0.2682,1500
+AA6r,pair+kicker,0.7270,0.4481,0.2150,1500
+AA6s,pair+kicker suited,0.7560,0.4671,0.2379,1500
+AA5r,pair+kicker,0.7240,0.4276,0.1969,1500
+AA5s,pair+kicker suited,0.7477,0.4691,0.2339,1500
+AA4r,pair+kicker,0.7220,0.4289,0.2086,1500
+AA4s,pair+kicker suited,0.7620,0.4814,0.2533,1500
+AA3r,pair+kicker,0.7087,0.4276,0.2098,1500
+AA3s,pair+kicker suited,0.7460,0.4683,0.2445,1500
+AA2r,pair+kicker,0.7343,0.4427,0.2059,1500
+AA2s,pair+kicker suited,0.7373,0.4639,0.2559,1500
+AKQr,rainbow,0.5790,0.3289,0.1620,1500
+AKQ-AKs,two suited (top two),0.5957,0.3377,0.1804,1500
+AKQ-AQs,two suited (top+bottom),0.6177,0.3367,0.1954,1500
+AKQ-KQs,two suited (bottom two),0.6230,0.3718,0.2039,1500
+AKQsss,three suited,0.5780,0.3302,0.1874,1500
+AKJr,rainbow,0.5960,0.3358,0.1612,1500
+AKJ-AKs,two suited (top two),0.6047,0.3559,0.2004,1500
+AKJ-AJs,two suited (top+bottom),0.6003,0.3429,0.1814,1500
+AKJ-KJs,two suited (bottom two),0.5960,0.3436,0.1859,1500
+AKJsss,three suited,0.5980,0.3419,0.1791,1500
+AKTr,rainbow,0.5567,0.3046,0.1526,1500
+AKT-AKs,two suited (top two),0.5987,0.3413,0.1842,1500
+AKT-ATs,two suited (top+bottom),0.5890,0.3425,0.2018,1500
+AKT-KTs,two suited (bottom two),0.5833,0.3210,0.1715,1500
+AKTsss,three suited,0.5777,0.3139,0.1667,1500
+AK9r,rainbow,0.5443,0.2796,0.1133,1500
+AK9-AKs,two suited (top two),0.5800,0.3279,0.1655,1500
+AK9-A9s,two suited (top+bottom),0.5830,0.3221,0.1698,1500
+AK9-K9s,two suited (bottom two),0.5787,0.3293,0.1693,1500
+AK9sss,three suited,0.5880,0.3152,0.1689,1500
+AK8r,rainbow,0.5710,0.2922,0.1250,1500
+AK8-AKs,two suited (top two),0.5693,0.3130,0.1768,1500
+AK8-A8s,two suited (top+bottom),0.5783,0.3130,0.1654,1500
+AK8-K8s,two suited (bottom two),0.5737,0.2899,0.1502,1500
+AK8sss,three suited,0.5513,0.2766,0.1304,1500
+AK7r,rainbow,0.5447,0.2630,0.1217,1500
+AK7-AKs,two suited (top two),0.5933,0.3474,0.1783,1500
+AK7-A7s,two suited (top+bottom),0.5637,0.2908,0.1558,1500
+AK7-K7s,two suited (bottom two),0.5837,0.3197,0.1661,1500
+AK7sss,three suited,0.5690,0.3093,0.1560,1500
+AK6r,rainbow,0.5483,0.2742,0.1211,1500
+AK6-AKs,two suited (top two),0.5857,0.3237,0.1690,1500
+AK6-A6s,two suited (top+bottom),0.5760,0.3271,0.1692,1500
+AK6-K6s,two suited (bottom two),0.5663,0.3104,0.1529,1500
+AK6sss,three suited,0.5587,0.2900,0.1477,1500
+AK5r,rainbow,0.5493,0.2774,0.1215,1500
+AK5-AKs,two suited (top two),0.5697,0.3249,0.1718,1500
+AK5-A5s,two suited (top+bottom),0.5630,0.3195,0.1703,1500
+AK5-K5s,two suited (bottom two),0.5627,0.3077,0.1647,1500
+AK5sss,three suited,0.5523,0.3038,0.1391,1500
+AK4r,rainbow,0.5353,0.2534,0.1218,1500
+AK4-AKs,two suited (top two),0.5790,0.3321,0.1669,1500
+AK4-A4s,two suited (top+bottom),0.5713,0.3216,0.1580,1500
+AK4-K4s,two suited (bottom two),0.5430,0.2975,0.1629,1500
+AK4sss,three suited,0.5650,0.2930,0.1416,1500
+AK3r,rainbow,0.5257,0.2686,0.1368,1500
+AK3-AKs,two suited (top two),0.5717,0.3176,0.1835,1500
+AK3-A3s,two suited (top+bottom),0.5587,0.3123,0.1674,1500
+AK3-K3s,two suited (bottom two),0.5603,0.3129,0.1643,1500
+AK3sss,three suited,0.5537,0.2889,0.1392,1500
+AK2r,rainbow,0.5303,0.2549,0.1174,1500
+AK2-AKs,two suited (top two),0.5513,0.3003,0.1608,1500
+AK2-A2s,two suited (top+bottom),0.5580,0.2908,0.1556,1500
+AK2-K2s,two suited (bottom two),0.5677,0.3247,0.1633,1500
+AK2sss,three suited,0.5467,0.3047,0.1589,1500
+AQJr,rainbow,0.5997,0.3333,0.1735,1500
+AQJ-AQs,two suited (top two),0.6000,0.3644,0.1984,1500
+AQJ-AJs,two suited (top+bottom),0.5990,0.3284,0.1676,1500
+AQJ-QJs,two suited (bottom two),0.5927,0.3343,0.1825,1500
+AQJsss,three suited,0.5993,0.3367,0.1794,1500
+AQTr,rainbow,0.5967,0.3289,0.1687,1500
+AQT-AQs,two suited (top two),0.5913,0.3471,0.2024,1500
+AQT-ATs,two suited (top+bottom),0.6063,0.3618,0.2059,1500
+AQT-QTs,two suited (bottom two),0.5653,0.3303,0.1783,1500
+AQTsss,three suited,0.5703,0.3207,0.1692,1500
+AQ9r,rainbow,0.5690,0.2832,0.1214,1500
+AQ9-AQs,two suited (top two),0.5850,0.3166,0.1649,1500
+AQ9-A9s,two suited (top+bottom),0.5960,0.3275,0.1709,1500
+AQ9-Q9s,two suited (bottom two),0.5950,0.3376,0.1663,1500
+AQ9sss,three suited,0.5697,0.3129,0.1536,1500
+AQ8r,rainbow,0.5647,0.2961,0.1414,1500
+AQ8-AQs,two suited (top two),0.5563,0.3008,0.1516,1500
+AQ8-A8s,two suited (top+bottom),0.5840,0.3013,0.1638,1500
+AQ8-Q8s,two suited (bottom two),0.5737,0.3007,0.1454,1500
+AQ8sss,three suited,0.5687,0.2837,0.1485,1500
+AQ7r,rainbow,0.5713,0.2799,0.1214,1500
+AQ7-AQs,two suited (top two),0.5597,0.3041,0.1497,1500
+AQ7-A7s,two suited (top+bottom),0.5853,0.3051,0.1515,1500
+AQ7-Q7s,two suited (bottom two),0.5650,0.3003,0.1518,1500
+AQ7sss,three suited,0.5327,0.2609,0.1356,1500
+AQ6r,rainbow,0.5340,0.2651,0.1192,1500
+AQ6-AQs,two suited (top two),0.5453,0.2942,0.1490,1500
+AQ6-A6s,two suited (top+bottom),0.5570,0.3036,0.1686,1500
+AQ6-Q6s,two suited (bottom two),0.5693,0.3148,0.1635,1500
+AQ6sss,three suited,0.5540,0.2776,0.1429,1500
+AQ5r,rainbow,0.5613,0.2898,0.1179,1500
+AQ5-AQs,two suited (top two),0.5527,0.2927,0.1621,1500
+AQ5-A5s,two suited (top+bottom),0.5763,0.3191,0.1630,1500
+AQ5-Q5s,two suited (bottom two),0.5617,0.3088,0.1668,1500
+AQ5sss,three suited,0.5623,0.2868,0.1479,1500
+AQ4r,rainbow,0.5327,0.2775,0.1295,1500
+AQ4-AQs,two suited (top two),0.5767,0.2912,0.1551,1500
+AQ4-A4s,two suited (top+bottom),0.5600,0.3131,0.1759,1500
+AQ4-Q4s,two suited (bottom two),0.5627,0.2943,0.1501,1500
+AQ4sss,three suited,0.5683,0.2877,0.1411,1500
+AQ3r,rainbow,0.5150,0.2589,0.1103,1500
+AQ3-AQs,two suited (top two),0.5563,0.2981,0.1542,1500
+AQ3-A3s,two suited (top+bottom),0.5617,0.3119,0.1700,1500
+AQ3-Q3s,two suited (bottom two),0.5640,0.3174,0.1696,1500
+AQ3sss,three suited,0.5107,0.2629,0.1370,1500
+AQ2r,rainbow,0.5147,0.2602,0.1214,1500
+AQ2-AQs,two suited (top two),0.5290,0.2784,0.1474,1500
+AQ2-A2s,two suited (top+bottom),0.5470,0.2943,0.1510,1500
+AQ2-Q2s,two suited (bottom two),0.5370,0.2803,0.1428,1500
+AQ2sss,three suited,0.5473,0.2866,0.1554,1500
+AJTr,rainbow,0.6043,0.3301,0.1702,1500
+AJT-AJs,two suited (top two),0.6023,0.3339,0.1928,1500
+AJT-ATs,two suited (top+bottom),0.6117,0.3657,0.1965,1500
+AJT-JTs,two suited (bottom two),0.6010,0.3473,0.1785,1500
+AJTsss,three suited,0.5603,0.3099,0.1807,1500
+AJ9r,rainbow,0.5767,0.2953,0.1319,1500
+AJ9-AJs,two suited (top two),0.5877,0.2953,0.1536,1500
+AJ9-A9s,two suited (top+bottom),0.5647,0.3087,0.1465,1500
+AJ9-J9s,two suited (bottom two),0.5520,0.3067,0.1610,1500
+AJ9sss,three suited,0.5760,0.2887,0.1540,1500
+AJ8r,rainbow,0.5553,0.2819,0.1372,1500
+AJ8-AJs,two suited (top two),0.5810,0.3135,0.1660,1500
+AJ8-A8s,two suited (top+bottom),0.5783,0.3137,0.1614,1500
+AJ8-J8s,two suited (bottom two),0.5730,0.3004,0.1492,1500
+AJ8sss,three suited,0.5417,0.2846,0.1556,1500
+AJ7r,rainbow,0.5540,0.2769,0.1202,1500
+AJ7-AJs,two suited (top two),0.5913,0.3086,0.1581,1500
+AJ7-A7s,two suited (top+bottom),0.5723,0.2949,0.1498,1500
+AJ7-J7s,two suited (bottom two),0.5647,0.3017,0.1470,1500
+AJ7sss,three suited,0.5697,0.2883,0.1582,1500
+AJ6r,rainbow,0.5460,0.2718,0.1225,1500
+AJ6-AJs,two suited (top two),0.5490,0.2851,0.1542,1500
+AJ6-A6s,two suited (top+bottom),0.5370,0.2786,0.1425,1500
+AJ6-J6s,two suited (bottom two),0.5467,0.2974,0.1523,1500
+AJ6sss,three suited,0.5420,0.2803,0.1383,1500
+AJ5r,rainbow,0.5550,0.2613,0.1230,1500
+AJ5-AJs,two suited (top two),0.5707,0.2994,0.1604,1500
+AJ5-A5s,two suited (top+bottom),0.5453,0.2732,0.1316,1500
+AJ5-J5s,two suited (bottom two),0.5423,0.2877,0.1435,1500
+AJ5sss,three suited,0.5497,0.2833,0.1342,1500
+AJ4r,rainbow,0.5037,0.2503,0.1170,1500
+AJ4-AJs,two suited (top two),0.5620,0.2927,0.1495,1500
+AJ4-A4s,two suited (top+bottom),0.5497,0.3001,0.1619,1500
+AJ4-J4s,two suited (bottom two),0.5457,0.2903,0.1451,1500
+AJ4sss,three suited,0.5493,0.2878,0.1403,1500
+AJ3r,rainbow,0.5060,0.2389,0.1109,1500
+AJ3-AJs,two suited (top two),0.5657,0.2879,0.1492,1500
+AJ3-A3s,two suited (top+bottom),0.5573,0.3024,0.1485,1500
+AJ3-J3s,two suited (bottom two),0.5263,0.2883,0.1339,1500
+AJ3sss,three suited,0.5160,0.2743,0.1468,1500
+AJ2r,rainbow,0.5093,0.2403,0.1137,1500
+AJ2-AJs,two suited (top two),0.5617,0.2873,0.1404,1500
+AJ2-A2s,two suited (top+bottom),0.5177,0.2769,0.1480,1500
+AJ2-J2s,two suited (bottom two),0.5333,0.2657,0.1263,1500
+AJ2sss,three suited,0.5393,0.2751,0.1368,1500
+AT9r,rainbow,0.5757,0.2946,0.1292,1500
+AT9-ATs,two suited (top two),0.5937,0.3121,0.1646,1500
+AT9-A9s,two suited (top+bottom),0.5783,0.3203,0.1771,1500
+AT9-T9s,two suited (bottom two),0.5697,0.3211,0.1489,1500
+AT9sss,three suited,0.5723,0.3323,0.1836,1500
+AT8r,rainbow,0.5513,0.2939,0.1295,1500
+AT8-ATs,two suited (top two),0.5977,0.3355,0.1847,1500
+AT8-A8s,two suited (top+bottom),0.5977,0.3270,0.1752,1500
+AT8-T8s,two suited (bottom two),0.5880,0.3236,0.1654,1500
+AT8sss,three suited,0.5867,0.2922,0.1485,1500
+AT7r,rainbow,0.5563,0.2789,0.1244,1500
+AT7-ATs,two suited (top two),0.5690,0.3032,0.1624,1500
+AT7-A7s,two suited (top+bottom),0.5720,0.3063,0.1594,1500
+AT7-T7s,two suited (bottom two),0.5870,0.2914,0.1515,1500
+AT7sss,three suited,0.5420,0.2706,0.1448,1500
+AT6r,rainbow,0.5137,0.2364,0.1043,1500
+AT6-ATs,two suited (top two),0.5693,0.2864,0.1591,1500
+AT6-A6s,two suited (top+bottom),0.5410,0.2864,0.1472,1500
+AT6-T6s,two suited (bottom two),0.5513,0.2824,0.1451,1500
+AT6sss,three suited,0.5657,0.2712,0.1326,1500
+AT5r,rainbow,0.5160,0.2551,0.1161,1500
+AT5-ATs,two suited (top two),0.5483,0.2803,0.1480,1500
+AT5-A5s,two suited (top+bottom),0.5293,0.2566,0.1295,1500
+AT5-T5s,two suited (bottom two),0.5497,0.2911,0.1434,1500
+AT5sss,three suited,0.5273,0.2661,0.1300,1500
+AT4r,rainbow,0.5340,0.2427,0.1075,1500
+AT4-ATs,two suited (top two),0.5410,0.2730,0.1545,1500
+AT4-A4s,two suited (top+bottom),0.5403,0.2817,0.1479,1500
+AT4-T4s,two suited (bottom two),0.5513,0.2851,0.1518,1500
+AT4sss,three suited,0.5197,0.2786,0.1472,1500
+AT3r,rainbow,0.5140,0.2461,0.1135,1500
+AT3-ATs,two suited (top two),0.5250,0.2630,0.1376,1500
+AT3-A3s,two suited (top+bottom),0.5373,0.2899,0.1503,1500
+AT3-T3s,two suited (bottom two),0.5470,0.2880,0.1455,1500
+AT3sss,three suited,0.5307,0.2648,0.1325,1500
+AT2r,rainbow,0.5137,0.2433,0.1153,1500
+AT2-ATs,two suited (top two),0.5200,0.2779,0.1479,1500
+AT2-A2s,two suited (top+bottom),0.5313,0.2860,0.1459,1500
+AT2-T2s,two suited (bottom two),0.5343,0.2797,0.1402,1500
+AT2sss,three suited,0.5050,0.2406,0.1199,1500
+A98r,rainbow,0.5460,0.2901,0.1373,1500
+A98-A9s,two suited (top two),0.5657,0.3167,0.1690,1500
+A98-A8s,two suited (top+bottom),0.5790,0.2981,0.1619,1500
+A98-98s,two suited (bottom two),0.5590,0.2936,0.1429,1500
+A98sss,three suited,0.5720,0.3136,0.1594,1500
+A97r,rainbow,0.5337,0.2508,0.1051,1500
+A97-A9s,two suited (top two),0.5333,0.2628,0.1484,1500
+A97-A7s,two suited (top+bottom),0.5337,0.2778,0.1509,1500
+A97-97s,two suited (bottom two),0.5337,0.2869,0.1415,1500
+A97sss,three suited,0.5230,0.2604,0.1316,1500
+A96r,rainbow,0.4907,0.2096,0.0907,1500
+A96-A9s,two suited (top two),0.5280,0.2755,0.1440,1500
+A96-A6s,two suited (top+bottom),0.5317,0.2859,0.1345,1500
+A96-96s,two suited (bottom two),0.5357,0.2614,0.1284,1500
+A96sss,three suited,0.5420,0.2574,0.1159,1500
+A95r,rainbow,0.5300,0.2475,0.1041,1500
+A95-A9s,two suited (top two),0.5260,0.2739,0.1445,1500
+A95-A5s,two suited (top+bottom),0.5550,0.2672,0.1508,1500
+A95-95s,two suited (bottom two),0.5420,0.2657,0.1318,1500
+A95sss,three suited,0.5047,0.2439,0.1217,1500
+A94r,rainbow,0.4813,0.2147,0.0886,1500
+A94-A9s,two suited (top two),0.5233,0.2677,0.1402,1500
+A94-A4s,two suited (top+bottom),0.5237,0.2583,0.1294,1500
+A94-94s,two suited (bottom two),0.5177,0.2603,0.1200,1500
+A94sss,three suited,0.4827,0.2332,0.1061,1500
+A93r,rainbow,0.4860,0.2083,0.0896,1500
+A93-A9s,two suited (top two),0.5337,0.2636,0.1328,1500
+A93-A3s,two suited (top+bottom),0.5163,0.2633,0.1288,1500
+A93-93s,two suited (bottom two),0.5037,0.2284,0.1059,1500
+A93sss,three suited,0.4930,0.2510,0.1189,1500
+A92r,rainbow,0.4877,0.2087,0.0889,1500
+A92-A9s,two suited (top two),0.4950,0.2407,0.1223,1500
+A92-A2s,two suited (top+bottom),0.5177,0.2516,0.1315,1500
+A92-92s,two suited (bottom two),0.5087,0.2493,0.1153,1500
+A92sss,three suited,0.4897,0.2397,0.1218,1500
+A87r,rainbow,0.5327,0.2504,0.1099,1500
+A87-A8s,two suited (top two),0.5620,0.2767,0.1548,1500
+A87-A7s,two suited (top+bottom),0.5623,0.3126,0.1771,1500
+A87-87s,two suited (bottom two),0.5430,0.3043,0.1424,1500
+A87sss,three suited,0.5337,0.2617,0.1351,1500
+A86r,rainbow,0.5160,0.2394,0.1098,1500
+A86-A8s,two suited (top two),0.5410,0.2780,0.1645,1500
+A86-A6s,two suited (top+bottom),0.5520,0.2867,0.1625,1500
+A86-86s,two suited (bottom two),0.5270,0.2849,0.1498,1500
+A86sss,three suited,0.5257,0.2669,0.1318,1500
+A85r,rainbow,0.5337,0.2603,0.1158,1500
+A85-A8s,two suited (top two),0.5360,0.2799,0.1593,1500
+A85-A5s,two suited (top+bottom),0.5340,0.2588,0.1318,1500
+A85-85s,two suited (bottom two),0.5057,0.2389,0.1054,1500
+A85sss,three suited,0.5320,0.2754,0.1420,1500
+A84r,rainbow,0.4923,0.2265,0.1066,1500
+A84-A8s,two suited (top two),0.5187,0.2518,0.1324,1500
+A84-A4s,two suited (top+bottom),0.5353,0.2661,0.1350,1500
+A84-84s,two suited (bottom two),0.5230,0.2490,0.1193,1500
+A84sss,three suited,0.5143,0.2398,0.1240,1500
+A83r,rainbow,0.4783,0.2024,0.0889,1500
+A83-A8s,two suited (top two),0.5260,0.2497,0.1347,1500
+A83-A3s,two suited (top+bottom),0.5297,0.2553,0.1191,1500
+A83-83s,two suited (bottom two),0.5087,0.2428,0.1129,1500
+A83sss,three suited,0.4993,0.2342,0.1177,1500
+A82r,rainbow,0.4917,0.2046,0.0924,1500
+A82-A8s,two suited (top two),0.4950,0.2499,0.1292,1500
+A82-A2s,two suited (top+bottom),0.5063,0.2586,0.1358,1500
+A82-82s,two suited (bottom two),0.4923,0.2397,0.0985,1500
+A82sss,three suited,0.4897,0.2333,0.1252,1500
+A76r,rainbow,0.5307,0.2656,0.1243,1500
+A76-A7s,two suited (top two),0.5263,0.2823,0.1590,1500
+A76-A6s,two suited (top+bottom),0.5567,0.2881,0.1505,1500
+A76-76s,two suited (bottom two),0.5390,0.2633,0.1423,1500
+A76sss,three suited,0.5160,0.2628,0.1480,1500
+A75r,rainbow,0.5230,0.2398,0.1229,1500
+A75-A7s,two suited (top two),0.5437,0.2791,0.1535,1500
+A75-A5s,two suited (top+bottom),0.5480,0.2747,0.1428,1500
+A75-75s,two suited (bottom two),0.5380,0.2786,0.1396,1500
+A75sss,three suited,0.5393,0.2657,0.1407,1500
+A74r,rainbow,0.4733,0.2149,0.0946,1500
+A74-A7s,two suited (top two),0.5013,0.2569,0.1315,1500
+A74-A4s,two suited (top+bottom),0.5203,0.2866,0.1540,1500
+A74-74s,two suited (bottom two),0.5220,0.2563,0.1355,1500
+A74sss,three suited,0.5143,0.2547,0.1326,1500
+A73r,rainbow,0.4850,0.2269,0.0933,1500
+A73-A7s,two suited (top two),0.5177,0.2623,0.1406,1500
+A73-A3s,two suited (top+bottom),0.4903,0.2387,0.1331,1500
+A73-73s,two suited (bottom two),0.5150,0.2457,0.1201,1500
+A73sss,three suited,0.4917,0.2399,0.1226,1500
+A72r,rainbow,0.4573,0.2041,0.0841,1500
+A72-A7s,two suited (top two),0.5160,0.2458,0.1231,1500
+A72-A2s,two suited (top+bottom),0.4797,0.2336,0.1223,1500
+A72-72s,two suited (bottom two),0.4923,0.2526,0.1139,1500
+A72sss,three suited,0.4853,0.2246,0.1128,1500
+A65r,rainbow,0.5013,0.2463,0.1086,1500
+A65-A6s,two suited (top two),0.5377,0.2751,0.1592,1500
+A65-A5s,two suited (top+bottom),0.5400,0.2711,0.1474,1500
+A65-65s,two suited (bottom two),0.5310,0.2722,0.1347,1500
+A65sss,three suited,0.5293,0.2565,0.1393,1500
+A64r,rainbow,0.5070,0.2323,0.1104,1500
+A64-A6s,two suited (top two),0.5440,0.2575,0.1349,1500
+A64-A4s,two suited (top+bottom),0.5117,0.2613,0.1430,1500
+A64-64s,two suited (bottom two),0.5180,0.2536,0.1196,1500
+A64sss,three suited,0.5187,0.2506,0.1260,1500
+A63r,rainbow,0.4813,0.2308,0.0921,1500
+A63-A6s,two suited (top two),0.4983,0.2378,0.1229,1500
+A63-A3s,two suited (top+bottom),0.4893,0.2413,0.1273,1500
+A63-63s,two suited (bottom two),0.4967,0.2468,0.1172,1500
+A63sss,three suited,0.5113,0.2383,0.1259,1500
+A62r,rainbow,0.4803,0.2160,0.0909,1500
+A62-A6s,two suited (top two),0.4923,0.2543,0.1278,1500
+A62-A2s,two suited (top+bottom),0.4747,0.2364,0.1206,1500
+A62-62s,two suited (bottom two),0.4680,0.2236,0.1063,1500
+A62sss,three suited,0.4663,0.2127,0.0959,1500
+A54r,rainbow,0.4600,0.2231,0.1055,1500
+A54-A5s,two suited (top two),0.5330,0.2856,0.1616,1500
+A54-A4s,two suited (top+bottom),0.5247,0.2818,0.1741,1500
+A54-54s,two suited (bottom two),0.5110,0.2730,0.1515,1500
+A54sss,three suited,0.5067,0.2479,0.1408,1500
+A53r,rainbow,0.4547,0.2003,0.0819,1500
+A53-A5s,two suited (top two),0.5040,0.2628,0.1403,1500
+A53-A3s,two suited (top+bottom),0.5093,0.2674,0.1524,1500
+A53-53s,two suited (bottom two),0.4820,0.2399,0.1097,1500
+A53sss,three suited,0.4807,0.2426,0.1283,1500
+A52r,rainbow,0.4890,0.2226,0.1035,1500
+A52-A5s,two suited (top two),0.4970,0.2692,0.1493,1500
+A52-A2s,two suited (top+bottom),0.4980,0.2394,0.1354,1500
+A52-52s,two suited (bottom two),0.4607,0.2231,0.1109,1500
+A52sss,three suited,0.4667,0.2388,0.1219,1500
+A43r,rainbow,0.4613,0.2160,0.0930,1500
+A43-A4s,two suited (top two),0.5050,0.2604,0.1495,1500
+A43-A3s,two suited (top+bottom),0.4973,0.2576,0.1463,1500
+A43-43s,two suited (bottom two),0.4913,0.2458,0.1201,1500
+A43sss,three suited,0.4890,0.2379,0.1312,1500
+A42r,rainbow,0.4607,0.2100,0.1014,1500
+A42-A4s,two suited (top two),0.4827,0.2508,0.1417,1500
+A42-A2s,two suited (top+bottom),0.4903,0.2471,0.1282,1500
+A42-42s,two suited (bottom two),0.4853,0.2384,0.1220,1500
+A42sss,three suited,0.4650,0.2312,0.1204,1500
+A32r,rainbow,0.4500,0.2063,0.0992,1500
+A32-A3s,two suited (top two),0.4700,0.2391,0.1335,1500
+A32-A2s,two suited (top+bottom),0.4657,0.2503,0.1329,1500
+A32-32s,two suited (bottom two),0.4633,0.2234,0.1192,1500
+A32sss,three suited,0.4860,0.2466,0.1291,1500
+KKK,trips,0.6643,0.3185,0.1291,1500
+KKAr,pair+kicker,0.7250,0.4408,0.2168,1500
+KKAs,pair+kicker suited,0.7193,0.4229,0.2269,1500
+KKQr,pair+kicker,0.7107,0.4054,0.2000,1500
+KKQs,pair+kicker suited,0.7143,0.4468,0.2387,1500
+KKJr,pair+kicker,0.7143,0.4123,0.2134,1500
+KKJs,pair+kicker suited,0.7233,0.4358,0.2229,1500
+KKTr,pair+kicker,0.7310,0.4320,0.2296,1500
+KKTs,pair+kicker suited,0.7217,0.4421,0.2341,1500
+KK9r,pair+kicker,0.7123,0.3905,0.1759,1500
+KK9s,pair+kicker suited,0.7103,0.4147,0.2034,1500
+KK8r,pair+kicker,0.6713,0.3881,0.1839,1500
+KK8s,pair+kicker suited,0.7110,0.4193,0.2159,1500
+KK7r,pair+kicker,0.6737,0.3666,0.1670,1500
+KK7s,pair+kicker suited,0.7093,0.4296,0.1991,1500
+KK6r,pair+kicker,0.7030,0.3754,0.1638,1500
+KK6s,pair+kicker suited,0.7070,0.4139,0.2079,1500
+KK5r,pair+kicker,0.6927,0.3782,0.1834,1500
+KK5s,pair+kicker suited,0.7023,0.4348,0.2218,1500
+KK4r,pair+kicker,0.6937,0.3758,0.1676,1500
+KK4s,pair+kicker suited,0.7123,0.4210,0.2116,1500
+KK3r,pair+kicker,0.6770,0.3669,0.1788,1500
+KK3s,pair+kicker suited,0.7287,0.4327,0.2266,1500
+KK2r,pair+kicker,0.6893,0.3962,0.1757,1500
+KK2s,pair+kicker suited,0.7210,0.4177,0.1963,1500
+KQJr,rainbow,0.5580,0.3259,0.1692,1500
+KQJ-KQs,two suited (top two),0.5893,0.3272,0.1859,1500
+KQJ-KJs,two suited (top+bottom),0.5853,0.3525,0.1988,1500
+KQJ-QJs,two suited (bottom two),0.6003,0.3675,0.2081,1500
+KQJsss,three suited,0.5967,0.3381,0.1882,1500
+KQTr,rainbow,0.5593,0.3051,0.1694,1500
+KQT-KQs,two suited (top two),0.5820,0.3334,0.1979,1500
+KQT-KTs,two suited (top+bottom),0.5777,0.3429,0.1856,1500
+KQT-QTs,two suited (bottom two),0.5640,0.3211,0.1868,1500
+KQTsss,three suited,0.5773,0.3398,0.1846,1500
+KQ9r,rainbow,0.5627,0.2991,0.1400,1500
+KQ9-KQs,two suited (top two),0.5653,0.3105,0.1679,1500
+KQ9-K9s,two suited (top+bottom),0.5467,0.3092,0.1569,1500
+KQ9-Q9s,two suited (bottom two),0.5697,0.3252,0.1708,1500
+KQ9sss,three suited,0.5540,0.3019,0.1562,1500
+KQ8r,rainbow,0.4983,0.2593,0.1276,1500
+KQ8-KQs,two suited (top two),0.5697,0.3011,0.1594,1500
+KQ8-K8s,two suited (top+bottom),0.5777,0.3135,0.1608,1500
+KQ8-Q8s,two suited (bottom two),0.5240,0.2826,0.1444,1500
+KQ8sss,three suited,0.5453,0.2775,0.1427,1500
+KQ7r,rainbow,0.5203,0.2565,0.1120,1500
+KQ7-KQs,two suited (top two),0.5663,0.2887,0.1537,1500
+KQ7-K7s,two suited (top+bottom),0.5707,0.2991,0.1604,1500
+KQ7-Q7s,two suited (bottom two),0.5260,0.2859,0.1475,1500
+KQ7sss,three suited,0.5333,0.2651,0.1258,1500
+KQ6r,rainbow,0.5387,0.2706,0.1166,1500
+KQ6-KQs,two suited (top two),0.5447,0.2941,0.1504,1500
+KQ6-K6s,two suited (top+bottom),0.5593,0.3057,0.1597,1500
+KQ6-Q6s,two suited (bottom two),0.5647,0.2940,0.1534,1500
+KQ6sss,three suited,0.5530,0.2899,0.1483,1500
+KQ5r,rainbow,0.5217,0.2597,0.1215,1500
+KQ5-KQs,two suited (top two),0.5147,0.2813,0.1388,1500
+KQ5-K5s,two suited (top+bottom),0.5500,0.2972,0.1534,1500
+KQ5-Q5s,two suited (bottom two),0.5530,0.2937,0.1502,1500
+KQ5sss,three suited,0.5433,0.2768,0.1343,1500
+KQ4r,rainbow,0.5080,0.2571,0.1192,1500
+KQ4-KQs,two suited (top two),0.5513,0.2928,0.1417,1500
+KQ4-K4s,two suited (top+bottom),0.5407,0.3023,0.1539,1500
+KQ4-Q4s,two suited (bottom two),0.5293,0.2893,0.1454,1500
+KQ4sss,three suited,0.5117,0.2496,0.1277,1500
+KQ3r,rainbow,0.5243,0.2519,0.1004,1500
+KQ3-KQs,two suited (top two),0.5333,0.2856,0.1447,1500
+KQ3-K3s,two suited (top+bottom),0.5163,0.2723,0.1499,1500
+KQ3-Q3s,two suited (bottom two),0.5317,0.2698,0.1412,1500
+KQ3sss,three suited,0.5183,0.2710,0.1398,1500
+KQ2r,rainbow,0.5207,0.2633,0.1062,1500
+KQ2-KQs,two suited (top two),0.5180,0.2707,0.1402,1500
+KQ2-K2s,two suited (top+bottom),0.5153,0.2771,0.1501,1500
+KQ2-Q2s,two suited (bottom two),0.5310,0.3048,0.1642,1500
+KQ2sss,three suited,0.5007,0.2873,0.1568,1500
+KJTr,rainbow,0.5937,0.3335,0.1710,1500
+KJT-KJs,two suited (top two),0.5827,0.3372,0.1840,1500
+KJT-KTs,two suited (top+bottom),0.5780,0.3403,0.1950,1500
+KJT-JTs,two suited (bottom two),0.5757,0.3532,0.1955,1500
+KJTsss,three suited,0.5690,0.3187,0.1778,1500
+KJ9r,rainbow,0.5387,0.2751,0.1424,1500
+KJ9-KJs,two suited (top two),0.5700,0.3226,0.1628,1500
+KJ9-K9s,two suited (top+bottom),0.5683,0.3318,0.1836,1500
+KJ9-J9s,two suited (bottom two),0.5597,0.3170,0.1681,1500
+KJ9sss,three suited,0.5577,0.2954,0.1613,1500
+KJ8r,rainbow,0.5427,0.2701,0.1148,1500
+KJ8-KJs,two suited (top two),0.5893,0.3207,0.1769,1500
+KJ8-K8s,two suited (top+bottom),0.5507,0.2948,0.1671,1500
+KJ8-J8s,two suited (bottom two),0.5460,0.2878,0.1459,1500
+KJ8sss,three suited,0.5477,0.2823,0.1444,1500
+KJ7r,rainbow,0.5417,0.2775,0.1250,1500
+KJ7-KJs,two suited (top two),0.5470,0.2977,0.1609,1500
+KJ7-K7s,two suited (top+bottom),0.5647,0.3093,0.1587,1500
+KJ7-J7s,two suited (bottom two),0.5430,0.2683,0.1291,1500
+KJ7sss,three suited,0.5423,0.2792,0.1519,1500
+KJ6r,rainbow,0.5180,0.2589,0.1191,1500
+KJ6-KJs,two suited (top two),0.5350,0.3121,0.1602,1500
+KJ6-K6s,two suited (top+bottom),0.5490,0.2902,0.1408,1500
+KJ6-J6s,two suited (bottom two),0.5253,0.2669,0.1320,1500
+KJ6sss,three suited,0.5040,0.2674,0.1409,1500
+KJ5r,rainbow,0.5010,0.2376,0.1091,1500
+KJ5-KJs,two suited (top two),0.5440,0.2781,0.1318,1500
+KJ5-K5s,two suited (top+bottom),0.5263,0.2724,0.1439,1500
+KJ5-J5s,two suited (bottom two),0.5133,0.2544,0.1308,1500
+KJ5sss,three suited,0.5070,0.2543,0.1319,1500
+KJ4r,rainbow,0.4937,0.2264,0.1024,1500
+KJ4-KJs,two suited (top two),0.5323,0.2773,0.1443,1500
+KJ4-K4s,two suited (top+bottom),0.5367,0.2894,0.1480,1500
+KJ4-J4s,two suited (bottom two),0.5180,0.2627,0.1333,1500
+KJ4sss,three suited,0.5303,0.2751,0.1327,1500
+KJ3r,rainbow,0.4813,0.2374,0.1097,1500
+KJ3-KJs,two suited (top two),0.5137,0.2832,0.1437,1500
+KJ3-K3s,two suited (top+bottom),0.5163,0.2806,0.1599,1500
+KJ3-J3s,two suited (bottom two),0.5467,0.2783,0.1427,1500
+KJ3sss,three suited,0.5237,0.2564,0.1257,1500
+KJ2r,rainbow,0.5007,0.2386,0.1197,1500
+KJ2-KJs,two suited (top two),0.5063,0.2788,0.1449,1500
+KJ2-K2s,two suited (top+bottom),0.5237,0.2728,0.1442,1500
+KJ2-J2s,two suited (bottom two),0.5203,0.2815,0.1461,1500
+KJ2sss,three suited,0.5023,0.2488,0.1309,1500
+KT9r,rainbow,0.5570,0.2898,0.1532,1500
+KT9-KTs,two suited (top two),0.5507,0.3237,0.1792,1500
+KT9-K9s,two suited (top+bottom),0.5720,0.3156,0.1799,1500
+KT9-T9s,two suited (bottom two),0.5967,0.3472,0.1989,1500
+KT9sss,three suited,0.5657,0.2937,0.1581,1500
+KT8r,rainbow,0.5410,0.2683,0.1206,1500
+KT8-KTs,two suited (top two),0.5497,0.3016,0.1722,1500
+KT8-K8s,two suited (top+bottom),0.5553,0.3028,0.1806,1500
+KT8-T8s,two suited (bottom two),0.5770,0.3076,0.1531,1500
+KT8sss,three suited,0.5407,0.2788,0.1521,1500
+KT7r,rainbow,0.5280,0.2549,0.1156,1500
+KT7-KTs,two suited (top two),0.5503,0.3006,0.1695,1500
+KT7-K7s,two suited (top+bottom),0.5670,0.2975,0.1564,1500
+KT7-T7s,two suited (bottom two),0.5517,0.2915,0.1494,1500
+KT7sss,three suited,0.5360,0.2900,0.1549,1500
+KT6r,rainbow,0.5093,0.2452,0.1071,1500
+KT6-KTs,two suited (top two),0.5390,0.2753,0.1536,1500
+KT6-K6s,two suited (top+bottom),0.5333,0.2969,0.1446,1500
+KT6-T6s,two suited (bottom two),0.5293,0.2627,0.1391,1500
+KT6sss,three suited,0.5280,0.2689,0.1330,1500
+KT5r,rainbow,0.5393,0.2419,0.1038,1500
+KT5-KTs,two suited (top two),0.5377,0.2780,0.1433,1500
+KT5-K5s,two suited (top+bottom),0.5293,0.2813,0.1451,1500
+KT5-T5s,two suited (bottom two),0.5280,0.2812,0.1418,1500
+KT5sss,three suited,0.5163,0.2471,0.1254,1500
+KT4r,rainbow,0.4877,0.2317,0.1004,1500
+KT4-KTs,two suited (top two),0.5230,0.2705,0.1412,1500
+KT4-K4s,two suited (top+bottom),0.5150,0.2633,0.1411,1500
+KT4-T4s,two suited (bottom two),0.5310,0.2717,0.1378,1500
+KT4sss,three suited,0.5243,0.2609,0.1306,1500
+KT3r,rainbow,0.4750,0.2242,0.0866,1500
+KT3-KTs,two suited (top two),0.5193,0.2556,0.1310,1500
+KT3-K3s,two suited (top+bottom),0.5300,0.2663,0.1362,1500
+KT3-T3s,two suited (bottom two),0.4983,0.2443,0.1131,1500
+KT3sss,three suited,0.5080,0.2458,0.1175,1500
+KT2r,rainbow,0.4980,0.2264,0.0981,1500
+KT2-KTs,two suited (top two),0.5160,0.2542,0.1351,1500
+KT2-K2s,two suited (top+bottom),0.4860,0.2579,0.1362,1500
+KT2-T2s,two suited (bottom two),0.5080,0.2608,0.1303,1500
+KT2sss,three suited,0.5070,0.2473,0.1176,1500
+K98r,rainbow,0.5237,0.2459,0.1127,1500
+K98-K9s,two suited (top two),0.5523,0.2735,0.1537,1500
+K98-K8s,two suited (top+bottom),0.5417,0.2726,0.1446,1500
+K98-98s,two suited (bottom two),0.5627,0.2802,0.1413,1500
+K98sss,three suited,0.5420,0.2793,0.1400,1500
+K97r,rainbow,0.5220,0.2548,0.1253,1500
+K97-K9s,two suited (top two),0.5597,0.2897,0.1411,1500
+K97-K7s,two suited (top+bottom),0.5433,0.2857,0.1373,1500
+K97-97s,two suited (bottom two),0.5473,0.2911,0.1444,1500
+K97sss,three suited,0.5077,0.2628,0.1356,1500
+K96r,rainbow,0.4983,0.2236,0.0951,1500
+K96-K9s,two suited (top two),0.5350,0.2948,0.1524,1500
+K96-K6s,two suited (top+bottom),0.5183,0.2603,0.1324,1500
+K96-96s,two suited (bottom two),0.5220,0.2559,0.1374,1500
+K96sss,three suited,0.4993,0.2376,0.1199,1500
+K95r,rainbow,0.4800,0.2203,0.0917,1500
+K95-K9s,two suited (top two),0.5133,0.2548,0.1219,1500
+K95-K5s,two suited (top+bottom),0.5173,0.2601,0.1379,1500
+K95-95s,two suited (bottom two),0.5173,0.2433,0.1149,1500
+K95sss,three suited,0.4763,0.2293,0.1200,1500
+K94r,rainbow,0.4527,0.1908,0.0759,1500
+K94-K9s,two suited (top two),0.4957,0.2413,0.1161,1500
+K94-K4s,two suited (top+bottom),0.4840,0.2460,0.1270,1500
+K94-94s,two suited (bottom two),0.4817,0.2306,0.0986,1500
+K94sss,three suited,0.4817,0.2302,0.1036,1500
+K93r,rainbow,0.4570,0.1952,0.0781,1500
+K93-K9s,two suited (top two),0.4927,0.2411,0.1140,1500
+K93-K3s,two suited (top+bottom),0.5150,0.2491,0.1326,1500
+K93-93s,two suited (bottom two),0.4850,0.2285,0.1078,1500
+K93sss,three suited,0.4533,0.2228,0.0954,1500
+K92r,rainbow,0.4607,0.1983,0.0793,1500
+K92-K9s,two suited (top two),0.4887,0.2452,0.1340,1500
+K92-K2s,two suited (top+bottom),0.5093,0.2687,0.1430,1500
+K92-92s,two suited (bottom two),0.4720,0.2135,0.1009,1500
+K92sss,three suited,0.4510,0.2057,0.0979,1500
+K87r,rainbow,0.5160,0.2415,0.1071,1500
+K87-K8s,two suited (top two),0.5250,0.2732,0.1518,1500
+K87-K7s,two suited (top+bottom),0.5313,0.2832,0.1516,1500
+K87-87s,two suited (bottom two),0.5540,0.2821,0.1535,1500
+K87sss,three suited,0.5243,0.2586,0.1266,1500
+K86r,rainbow,0.4933,0.2392,0.1137,1500
+K86-K8s,two suited (top two),0.5140,0.2613,0.1513,1500
+K86-K6s,two suited (top+bottom),0.5190,0.2523,0.1361,1500
+K86-86s,two suited (bottom two),0.5093,0.2499,0.1130,1500
+K86sss,three suited,0.5147,0.2437,0.1288,1500
+K85r,rainbow,0.4743,0.2148,0.0956,1500
+K85-K8s,two suited (top two),0.5053,0.2428,0.1331,1500
+K85-K5s,two suited (top+bottom),0.5260,0.2673,0.1331,1500
+K85-85s,two suited (bottom two),0.5013,0.2378,0.1206,1500
+K85sss,three suited,0.5040,0.2467,0.1276,1500
+K84r,rainbow,0.4727,0.1956,0.0859,1500
+K84-K8s,two suited (top two),0.4820,0.2364,0.1156,1500
+K84-K4s,two suited (top+bottom),0.4710,0.2318,0.1198,1500
+K84-84s,two suited (bottom two),0.4993,0.2426,0.1146,1500
+K84sss,three suited,0.4693,0.2269,0.1113,1500
+K83r,rainbow,0.4380,0.1778,0.0664,1500
+K83-K8s,two suited (top two),0.4810,0.2338,0.1102,1500
+K83-K3s,two suited (top+bottom),0.4747,0.2357,0.1228,1500
+K83-83s,two suited (bottom two),0.4690,0.2181,0.1102,1500
+K83sss,three suited,0.4487,0.2036,0.1065,1500
+K82r,rainbow,0.4267,0.1838,0.0746,1500
+K82-K8s,two suited (top two),0.4933,0.2306,0.1123,1500
+K82-K2s,two suited (top+bottom),0.4613,0.2273,0.1186,1500
+K82-82s,two suited (bottom two),0.4667,0.2262,0.1098,1500
+K82sss,three suited,0.4507,0.2061,0.0958,1500
+K76r,rainbow,0.4913,0.2354,0.1067,1500
+K76-K7s,two suited (top two),0.5217,0.2589,0.1297,1500
+K76-K6s,two suited (top+bottom),0.5320,0.2674,0.1314,1500
+K76-76s,two suited (bottom two),0.5180,0.2746,0.1374,1500
+K76sss,three suited,0.5193,0.2626,0.1434,1500
+K75r,rainbow,0.4863,0.2184,0.0900,1500
+K75-K7s,two suited (top two),0.4817,0.2524,0.1361,1500
+K75-K5s,two suited (top+bottom),0.5103,0.2479,0.1403,1500
+K75-75s,two suited (bottom two),0.5210,0.2584,0.1298,1500
+K75sss,three suited,0.5053,0.2387,0.1325,1500
+K74r,rainbow,0.4683,0.2197,0.0972,1500
+K74-K7s,two suited (top two),0.4897,0.2516,0.1412,1500
+K74-K4s,two suited (top+bottom),0.5030,0.2333,0.1221,1500
+K74-74s,two suited (bottom two),0.4867,0.2527,0.1216,1500
+K74sss,three suited,0.4990,0.2263,0.1131,1500
+K73r,rainbow,0.4347,0.1978,0.0867,1500
+K73-K7s,two suited (top two),0.4550,0.2188,0.1080,1500
+K73-K3s,two suited (top+bottom),0.4903,0.2392,0.1134,1500
+K73-73s,two suited (bottom two),0.4800,0.2228,0.0994,1500
+K73sss,three suited,0.4577,0.1973,0.1036,1500
+K72r,rainbow,0.4257,0.1693,0.0620,1500
+K72-K7s,two suited (top two),0.4883,0.2418,0.1290,1500
+K72-K2s,two suited (top+bottom),0.4573,0.2186,0.1237,1500
+K72-72s,two suited (bottom two),0.4663,0.2083,0.0871,1500
+K72sss,three suited,0.4597,0.2073,0.0875,1500
+K65r,rainbow,0.4667,0.2008,0.0921,1500
+K65-K6s,two suited (top two),0.4957,0.2558,0.1259,1500
+K65-K5s,two suited (top+bottom),0.5217,0.2688,0.1445,1500
+K65-65s,two suited (bottom two),0.5023,0.2337,0.1131,1500
+K65sss,three suited,0.5127,0.2515,0.1404,1500
+K64r,rainbow,0.4700,0.2172,0.0982,1500
+K64-K6s,two suited (top two),0.4920,0.2451,0.1372,1500
+K64-K4s,two suited (top+bottom),0.5137,0.2504,0.1361,1500
+K64-64s,two suited (bottom two),0.4970,0.2404,0.1210,1500
+K64sss,three suited,0.4680,0.2384,0.1334,1500
+K63r,rainbow,0.4360,0.1935,0.0827,1500
+K63-K6s,two suited (top two),0.4750,0.2189,0.1149,1500
+K63-K3s,two suited (top+bottom),0.4997,0.2498,0.1149,1500
+K63-63s,two suited (bottom two),0.4877,0.2298,0.1058,1500
+K63sss,three suited,0.4557,0.2284,0.1281,1500
+K62r,rainbow,0.4380,0.1839,0.0738,1500
+K62-K6s,two suited (top two),0.4713,0.2406,0.1293,1500
+K62-K2s,two suited (top+bottom),0.4557,0.2191,0.1127,1500
+K62-62s,two suited (bottom two),0.4457,0.2047,0.0993,1500
+K62sss,three suited,0.4653,0.2096,0.0920,1500
+K54r,rainbow,0.4403,0.1956,0.0922,1500
+K54-K5s,two suited (top two),0.4800,0.2455,0.1372,1500
+K54-K4s,two suited (top+bottom),0.4970,0.2527,0.1402,1500
+K54-54s,two suited (bottom two),0.5287,0.2703,0.1347,1500
+K54sss,three suited,0.4830,0.2318,0.1263,1500
+K53r,rainbow,0.4380,0.1954,0.0997,1500
+K53-K5s,two suited (top two),0.4890,0.2544,0.1384,1500
+K53-K3s,two suited (top+bottom),0.4933,0.2527,0.1224,1500
+K53-53s,two suited (bottom two),0.4843,0.2417,0.1190,1500
+K53sss,three suited,0.4730,0.2516,0.1301,1500
+K52r,rainbow,0.4430,0.1960,0.0920,1500
+K52-K5s,two suited (top two),0.4833,0.2459,0.1362,1500
+K52-K2s,two suited (top+bottom),0.4587,0.2139,0.1037,1500
+K52-52s,two suited (bottom two),0.4567,0.2206,0.1034,1500
+K52sss,three suited,0.4730,0.2189,0.0928,1500
+K43r,rainbow,0.4477,0.1752,0.0717,1500
+K43-K4s,two suited (top two),0.4623,0.2161,0.1171,1500
+K43-K3s,two suited (top+bottom),0.4897,0.2513,0.1244,1500
+K43-43s,two suited (bottom two),0.4893,0.2451,0.1237,1500
+K43sss,three suited,0.4580,0.2277,0.1209,1500
+K42r,rainbow,0.4133,0.1774,0.0686,1500
+K42-K4s,two suited (top two),0.4747,0.2361,0.1272,1500
+K42-K2s,two suited (top+bottom),0.4720,0.2289,0.1215,1500
+K42-42s,two suited (bottom two),0.4593,0.2268,0.1082,1500
+K42sss,three suited,0.4123,0.1962,0.1047,1500
+K32r,rainbow,0.4080,0.1636,0.0686,1500
+K32-K3s,two suited (top two),0.4543,0.2286,0.1226,1500
+K32-K2s,two suited (top+bottom),0.4427,0.2063,0.1000,1500
+K32-32s,two suited (bottom two),0.4497,0.2117,0.0925,1500
+K32sss,three suited,0.4337,0.2046,0.0944,1500
+QQQ,trips,0.6263,0.2953,0.1013,1500
+QQAr,pair+kicker,0.7103,0.3979,0.1799,1500
+QQAs,pair+kicker suited,0.7377,0.4518,0.2484,1500
+QQKr,pair+kicker,0.6700,0.3857,0.1844,1500
+QQKs,pair+kicker suited,0.7103,0.4108,0.2343,1500
+QQJr,pair+kicker,0.6767,0.3564,0.1744,1500
+QQJs,pair+kicker suited,0.7050,0.3945,0.2023,1500
+QQTr,pair+kicker,0.6717,0.3535,0.1768,1500
+QQTs,pair+kicker suited,0.7063,0.4187,0.2376,1500
+QQ9r,pair+kicker,0.6903,0.3685,0.1623,1500
+QQ9s,pair+kicker suited,0.7080,0.3853,0.2066,1500
+QQ8r,pair+kicker,0.6823,0.3658,0.1614,1500
+QQ8s,pair+kicker suited,0.6927,0.3974,0.2046,1500
+QQ7r,pair+kicker,0.6560,0.3432,0.1482,1500
+QQ7s,pair+kicker suited,0.6897,0.3625,0.1639,1500
+QQ6r,pair+kicker,0.6693,0.3439,0.1611,1500
+QQ6s,pair+kicker suited,0.6827,0.3866,0.1928,1500
+QQ5r,pair+kicker,0.6590,0.3414,0.1457,1500
+QQ5s,pair+kicker suited,0.6863,0.3689,0.1962,1500
+QQ4r,pair+kicker,0.6723,0.3362,0.1441,1500
+QQ4s,pair+kicker suited,0.6743,0.3694,0.1919,1500
+QQ3r,pair+kicker,0.6553,0.3327,0.1498,1500
+QQ3s,pair+kicker suited,0.6737,0.3645,0.1843,1500
+QQ2r,pair+kicker,0.6550,0.3396,0.1455,1500
+QQ2s,pair+kicker suited,0.6810,0.3765,0.1848,1500
+QJTr,rainbow,0.5433,0.2988,0.1770,1500
+QJT-QJs,two suited (top two),0.5407,0.3249,0.1782,1500
+QJT-QTs,two suited (top+bottom),0.5493,0.3239,0.1965,1500
+QJT-JTs,two suited (bottom two),0.5643,0.3526,0.2001,1500
+QJTsss,three suited,0.5640,0.3324,0.1929,1500
+QJ9r,rainbow,0.5523,0.2959,0.1535,1500
+QJ9-QJs,two suited (top two),0.5310,0.2922,0.1564,1500
+QJ9-Q9s,two suited (top+bottom),0.5500,0.3236,0.1754,1500
+QJ9-J9s,two suited (bottom two),0.5410,0.3244,0.1657,1500
+QJ9sss,three suited,0.5390,0.2953,0.1644,1500
+QJ8r,rainbow,0.5407,0.2805,0.1349,1500
+QJ8-QJs,two suited (top two),0.5347,0.2723,0.1476,1500
+QJ8-Q8s,two suited (top+bottom),0.5607,0.2883,0.1491,1500
+QJ8-J8s,two suited (bottom two),0.5543,0.3259,0.1764,1500
+QJ8sss,three suited,0.5277,0.2923,0.1574,1500
+QJ7r,rainbow,0.4993,0.2350,0.1175,1500
+QJ7-QJs,two suited (top two),0.5370,0.2684,0.1334,1500
+QJ7-Q7s,two suited (top+bottom),0.5350,0.2941,0.1543,1500
+QJ7-J7s,two suited (bottom two),0.5420,0.2779,0.1412,1500
+QJ7sss,three suited,0.5213,0.2748,0.1383,1500
+QJ6r,rainbow,0.5083,0.2273,0.0925,1500
+QJ6-QJs,two suited (top two),0.5470,0.2973,0.1629,1500
+QJ6-Q6s,two suited (top+bottom),0.5450,0.2886,0.1563,1500
+QJ6-J6s,two suited (bottom two),0.5100,0.2641,0.1221,1500
+QJ6sss,three suited,0.5190,0.2723,0.1445,1500
+QJ5r,rainbow,0.5183,0.2403,0.1071,1500
+QJ5-QJs,two suited (top two),0.5173,0.2873,0.1394,1500
+QJ5-Q5s,two suited (top+bottom),0.5353,0.2882,0.1516,1500
+QJ5-J5s,two suited (bottom two),0.5430,0.2842,0.1408,1500
+QJ5sss,three suited,0.5140,0.2763,0.1286,1500
+QJ4r,rainbow,0.5137,0.2398,0.1110,1500
+QJ4-QJs,two suited (top two),0.5387,0.2616,0.1279,1500
+QJ4-Q4s,two suited (top+bottom),0.5223,0.2794,0.1375,1500
+QJ4-J4s,two suited (bottom two),0.5243,0.2546,0.1261,1500
+QJ4sss,three suited,0.5170,0.2559,0.1348,1500
+QJ3r,rainbow,0.4753,0.2372,0.1179,1500
+QJ3-QJs,two suited (top two),0.5037,0.2582,0.1362,1500
+QJ3-Q3s,two suited (top+bottom),0.5257,0.2729,0.1549,1500
+QJ3-J3s,two suited (bottom two),0.5200,0.2867,0.1460,1500
+QJ3sss,three suited,0.4840,0.2478,0.1210,1500
+QJ2r,rainbow,0.4593,0.2156,0.0989,1500
+QJ2-QJs,two suited (top two),0.4997,0.2715,0.1362,1500
+QJ2-Q2s,two suited (top+bottom),0.5017,0.2599,0.1398,1500
+QJ2-J2s,two suited (bottom two),0.4993,0.2708,0.1382,1500
+QJ2sss,three suited,0.4973,0.2332,0.1173,1500
+QT9r,rainbow,0.5353,0.2944,0.1374,1500
+QT9-QTs,two suited (top two),0.5437,0.3013,0.1598,1500
+QT9-Q9s,two suited (top+bottom),0.5637,0.3248,0.1788,1500
+QT9-T9s,two suited (bottom two),0.5673,0.3326,0.1806,1500
+QT9sss,three suited,0.5430,0.2999,0.1660,1500
+QT8r,rainbow,0.5217,0.2569,0.1314,1500
+QT8-QTs,two suited (top two),0.5477,0.2970,0.1456,1500
+QT8-Q8s,two suited (top+bottom),0.5677,0.3178,0.1701,1500
+QT8-T8s,two suited (bottom two),0.5530,0.3093,0.1694,1500
+QT8sss,three suited,0.5453,0.2926,0.1545,1500
+QT7r,rainbow,0.5200,0.2442,0.1182,1500
+QT7-QTs,two suited (top two),0.5277,0.2911,0.1496,1500
+QT7-Q7s,two suited (top+bottom),0.5367,0.2922,0.1480,1500
+QT7-T7s,two suited (bottom two),0.5353,0.2644,0.1300,1500
+QT7sss,three suited,0.5100,0.2574,0.1432,1500
+QT6r,rainbow,0.4953,0.2246,0.1144,1500
+QT6-QTs,two suited (top two),0.5250,0.2923,0.1479,1500
+QT6-Q6s,two suited (top+bottom),0.5223,0.2846,0.1368,1500
+QT6-T6s,two suited (bottom two),0.5347,0.2869,0.1504,1500
+QT6sss,three suited,0.5330,0.2678,0.1385,1500
+QT5r,rainbow,0.4987,0.2542,0.1136,1500
+QT5-QTs,two suited (top two),0.5257,0.2964,0.1466,1500
+QT5-Q5s,two suited (top+bottom),0.5187,0.2640,0.1342,1500
+QT5-T5s,two suited (bottom two),0.5317,0.2758,0.1452,1500
+QT5sss,three suited,0.4910,0.2473,0.1287,1500
+QT4r,rainbow,0.5170,0.2377,0.1098,1500
+QT4-QTs,two suited (top two),0.5170,0.2682,0.1434,1500
+QT4-Q4s,two suited (top+bottom),0.5033,0.2578,0.1378,1500
+QT4-T4s,two suited (bottom two),0.5043,0.2541,0.1407,1500
+QT4sss,three suited,0.4730,0.2349,0.1184,1500
+QT3r,rainbow,0.4787,0.2166,0.0914,1500
+QT3-QTs,two suited (top two),0.4930,0.2448,0.1228,1500
+QT3-Q3s,two suited (top+bottom),0.5033,0.2557,0.1388,1500
+QT3-T3s,two suited (bottom two),0.5143,0.2685,0.1362,1500
+QT3sss,three suited,0.4980,0.2415,0.1246,1500
+QT2r,rainbow,0.4613,0.2204,0.1034,1500
+QT2-QTs,two suited (top two),0.4687,0.2464,0.1326,1500
+QT2-Q2s,two suited (top+bottom),0.5140,0.2731,0.1419,1500
+QT2-T2s,two suited (bottom two),0.5127,0.2470,0.1325,1500
+QT2sss,three suited,0.4963,0.2635,0.1401,1500
+Q98r,rainbow,0.5303,0.2556,0.1243,1500
+Q98-Q9s,two suited (top two),0.5243,0.2807,0.1505,1500
+Q98-Q8s,two suited (top+bottom),0.5477,0.2879,0.1467,1500
+Q98-98s,two suited (bottom two),0.5330,0.2868,0.1463,1500
+Q98sss,three suited,0.5390,0.3110,0.1545,1500
+Q97r,rainbow,0.4803,0.2244,0.1019,1500
+Q97-Q9s,two suited (top two),0.5250,0.2583,0.1308,1500
+Q97-Q7s,two suited (top+bottom),0.5240,0.2532,0.1329,1500
+Q97-97s,two suited (bottom two),0.4990,0.2560,0.1328,1500
+Q97sss,three suited,0.5137,0.2598,0.1286,1500
+Q96r,rainbow,0.4880,0.2225,0.1082,1500
+Q96-Q9s,two suited (top two),0.5157,0.2605,0.1235,1500
+Q96-Q6s,two suited (top+bottom),0.5530,0.2743,0.1452,1500
+Q96-96s,two suited (bottom two),0.5057,0.2643,0.1394,1500
+Q96sss,three suited,0.4987,0.2564,0.1276,1500
+Q95r,rainbow,0.4710,0.2014,0.0951,1500
+Q95-Q9s,two suited (top two),0.5060,0.2413,0.1169,1500
+Q95-Q5s,two suited (top+bottom),0.4980,0.2544,0.1161,1500
+Q95-95s,two suited (bottom two),0.5343,0.2639,0.1184,1500
+Q95sss,three suited,0.4983,0.2407,0.1252,1500
+Q94r,rainbow,0.4530,0.2055,0.0874,1500
+Q94-Q9s,two suited (top two),0.5047,0.2476,0.1239,1500
+Q94-Q4s,two suited (top+bottom),0.5047,0.2423,0.1198,1500
+Q94-94s,two suited (bottom two),0.4977,0.2342,0.1204,1500
+Q94sss,three suited,0.4460,0.2295,0.1151,1500
+Q93r,rainbow,0.4330,0.2052,0.0894,1500
+Q93-Q9s,two suited (top two),0.4757,0.2543,0.1275,1500
+Q93-Q3s,two suited (top+bottom),0.4560,0.2249,0.1062,1500
+Q93-93s,two suited (bottom two),0.5117,0.2457,0.1309,1500
+Q93sss,three suited,0.4857,0.2410,0.1173,1500
+Q92r,rainbow,0.4480,0.1988,0.0869,1500
+Q92-Q9s,two suited (top two),0.4870,0.2447,0.1318,1500
+Q92-Q2s,two suited (top+bottom),0.4790,0.2218,0.1108,1500
+Q92-92s,two suited (bottom two),0.4730,0.2417,0.1102,1500
+Q92sss,three suited,0.4770,0.2274,0.1161,1500
+Q87r,rainbow,0.4837,0.2204,0.1059,1500
+Q87-Q8s,two suited (top two),0.4970,0.2543,0.1344,1500
+Q87-Q7s,two suited (top+bottom),0.5163,0.2796,0.1456,1500
+Q87-87s,two suited (bottom two),0.4980,0.2408,0.1193,1500
+Q87sss,three suited,0.5157,0.2663,0.1433,1500
+Q86r,rainbow,0.4737,0.2115,0.0939,1500
+Q86-Q8s,two suited (top two),0.4967,0.2353,0.1266,1500
+Q86-Q6s,two suited (top+bottom),0.4767,0.2281,0.1293,1500
+Q86-86s,two suited (bottom two),0.5097,0.2542,0.1175,1500
+Q86sss,three suited,0.4730,0.2246,0.1098,1500
+Q85r,rainbow,0.4823,0.2247,0.1022,1500
+Q85-Q8s,two suited (top two),0.4997,0.2384,0.1238,1500
+Q85-Q5s,two suited (top+bottom),0.4650,0.2229,0.1166,1500
+Q85-85s,two suited (bottom two),0.5070,0.2583,0.1320,1500
+Q85sss,three suited,0.4850,0.2256,0.1212,1500
+Q84r,rainbow,0.4513,0.2127,0.0877,1500
+Q84-Q8s,two suited (top two),0.4893,0.2356,0.1198,1500
+Q84-Q4s,two suited (top+bottom),0.4833,0.2318,0.1210,1500
+Q84-84s,two suited (bottom two),0.4823,0.2321,0.1144,1500
+Q84sss,three suited,0.4653,0.2095,0.1021,1500
+Q83r,rainbow,0.4577,0.1883,0.0796,1500
+Q83-Q8s,two suited (top two),0.4413,0.2186,0.1109,1500
+Q83-Q3s,two suited (top+bottom),0.4480,0.2239,0.1025,1500
+Q83-83s,two suited (bottom two),0.4527,0.2083,0.1037,1500
+Q83sss,three suited,0.4483,0.2034,0.1040,1500
+Q82r,rainbow,0.4287,0.1752,0.0780,1500
+Q82-Q8s,two suited (top two),0.4727,0.2162,0.1196,1500
+Q82-Q2s,two suited (top+bottom),0.4397,0.2061,0.0979,1500
+Q82-82s,two suited (bottom two),0.4710,0.2064,0.0913,1500
+Q82sss,three suited,0.4193,0.1952,0.0904,1500
+Q76r,rainbow,0.4773,0.2180,0.1018,1500
+Q76-Q7s,two suited (top two),0.4967,0.2545,0.1328,1500
+Q76-Q6s,two suited (top+bottom),0.4890,0.2501,0.1301,1500
+Q76-76s,two suited (bottom two),0.5180,0.2557,0.1312,1500
+Q76sss,three suited,0.5113,0.2612,0.1287,1500
+Q75r,rainbow,0.4503,0.2245,0.1055,1500
+Q75-Q7s,two suited (top two),0.4763,0.2398,0.1242,1500
+Q75-Q5s,two suited (top+bottom),0.4720,0.2356,0.1211,1500
+Q75-75s,two suited (bottom two),0.4830,0.2321,0.1105,1500
+Q75sss,three suited,0.4583,0.2166,0.1153,1500
+Q74r,rainbow,0.4377,0.1894,0.0799,1500
+Q74-Q7s,two suited (top two),0.4803,0.2336,0.1166,1500
+Q74-Q4s,two suited (top+bottom),0.4623,0.2183,0.1131,1500
+Q74-74s,two suited (bottom two),0.4870,0.2360,0.1124,1500
+Q74sss,three suited,0.4490,0.2257,0.1102,1500
+Q73r,rainbow,0.4070,0.1698,0.0703,1500
+Q73-Q7s,two suited (top two),0.4550,0.2171,0.1104,1500
+Q73-Q3s,two suited (top+bottom),0.4463,0.2187,0.1033,1500
+Q73-73s,two suited (bottom two),0.4443,0.2076,0.1054,1500
+Q73sss,three suited,0.4317,0.1983,0.0999,1500
+Q72r,rainbow,0.4097,0.1496,0.0660,1500
+Q72-Q7s,two suited (top two),0.4297,0.2117,0.1111,1500
+Q72-Q2s,two suited (top+bottom),0.4433,0.1984,0.0970,1500
+Q72-72s,two suited (bottom two),0.4553,0.2051,0.0982,1500
+Q72sss,three suited,0.4300,0.1936,0.0897,1500
+Q65r,rainbow,0.4643,0.2177,0.0989,1500
+Q65-Q6s,two suited (top two),0.5143,0.2647,0.1396,1500
+Q65-Q5s,two suited (top+bottom),0.5077,0.2544,0.1373,1500
+Q65-65s,two suited (bottom two),0.5027,0.2467,0.1307,1500
+Q65sss,three suited,0.4930,0.2487,0.1321,1500
+Q64r,rainbow,0.4627,0.1987,0.0811,1500
+Q64-Q6s,two suited (top two),0.4713,0.2380,0.1238,1500
+Q64-Q4s,two suited (top+bottom),0.4553,0.2136,0.1114,1500
+Q64-64s,two suited (bottom two),0.5013,0.2435,0.1133,1500
+Q64sss,three suited,0.4717,0.2198,0.1096,1500
+Q63r,rainbow,0.4610,0.1944,0.0921,1500
+Q63-Q6s,two suited (top two),0.4597,0.2135,0.1107,1500
+Q63-Q3s,two suited (top+bottom),0.4730,0.2300,0.1171,1500
+Q63-63s,two suited (bottom two),0.4803,0.2437,0.1077,1500
+Q63sss,three suited,0.4510,0.2171,0.1155,1500
+Q62r,rainbow,0.4317,0.1763,0.0741,1500
+Q62-Q6s,two suited (top two),0.4407,0.2032,0.0974,1500
+Q62-Q2s,two suited (top+bottom),0.4593,0.2207,0.1092,1500
+Q62-62s,two suited (bottom two),0.4473,0.1964,0.0964,1500
+Q62sss,three suited,0.4383,0.2034,0.0937,1500
+Q54r,rainbow,0.4527,0.2050,0.1043,1500
+Q54-Q5s,two suited (top two),0.4830,0.2395,0.1309,1500
+Q54-Q4s,two suited (top+bottom),0.4693,0.2365,0.1255,1500
+Q54-54s,two suited (bottom two),0.4740,0.2238,0.1116,1500
+Q54sss,three suited,0.4643,0.2307,0.1210,1500
+Q53r,rainbow,0.4640,0.1937,0.0898,1500
+Q53-Q5s,two suited (top two),0.4720,0.2256,0.1080,1500
+Q53-Q3s,two suited (top+bottom),0.4633,0.2224,0.1088,1500
+Q53-53s,two suited (bottom two),0.4497,0.2241,0.1070,1500
+Q53sss,three suited,0.4320,0.2034,0.0986,1500
+Q52r,rainbow,0.4207,0.1763,0.0773,1500
+Q52-Q5s,two suited (top two),0.4537,0.2141,0.1147,1500
+Q52-Q2s,two suited (top+bottom),0.4470,0.2151,0.1133,1500
+Q52-52s,two suited (bottom two),0.4190,0.2016,0.0883,1500
+Q52sss,three suited,0.4347,0.2057,0.1030,1500
+Q43r,rainbow,0.4297,0.1886,0.0993,1500
+Q43-Q4s,two suited (top two),0.4560,0.2127,0.1173,1500
+Q43-Q3s,two suited (top+bottom),0.4573,0.2287,0.1093,1500
+Q43-43s,two suited (bottom two),0.4467,0.2191,0.1113,1500
+Q43sss,three suited,0.4407,0.1953,0.0907,1500
+Q42r,rainbow,0.4060,0.1759,0.0757,1500
+Q42-Q4s,two suited (top two),0.4340,0.2121,0.1094,1500
+Q42-Q2s,two suited (top+bottom),0.4450,0.2286,0.1316,1500
+Q42-42s,two suited (bottom two),0.4437,0.2120,0.1039,1500
+Q42sss,three suited,0.4370,0.1999,0.0989,1500
+Q32r,rainbow,0.3940,0.1771,0.0704,1500
+Q32-Q3s,two suited (top two),0.4310,0.2146,0.1258,1500
+Q32-Q2s,two suited (top+bottom),0.4367,0.2108,0.1050,1500
+Q32-32s,two suited (bottom two),0.4260,0.2054,0.0945,1500
+Q32sss,three suited,0.4120,0.1890,0.1003,1500
+JJJ,trips,0.5830,0.2583,0.0873,1500
+JJAr,pair+kicker,0.6760,0.3481,0.1704,1500
+JJAs,pair+kicker suited,0.6793,0.4056,0.2120,1500
+JJKr,pair+kicker,0.7007,0.3745,0.1768,1500
+JJKs,pair+kicker suited,0.6873,0.3898,0.2185,1500
+JJQr,pair+kicker,0.6610,0.3583,0.1849,1500
+JJQs,pair+kicker suited,0.6803,0.3840,0.2035,1500
+JJTr,pair+kicker,0.6600,0.3652,0.1943,1500
+JJTs,pair+kicker suited,0.6893,0.3809,0.2200,1500
+JJ9r,pair+kicker,0.6650,0.3368,0.1573,1500
+JJ9s,pair+kicker suited,0.6603,0.3649,0.1888,1500
+JJ8r,pair+kicker,0.6147,0.3067,0.1614,1500
+JJ8s,pair+kicker suited,0.6557,0.3504,0.1763,1500
+JJ7r,pair+kicker,0.6483,0.3283,0.1417,1500
+JJ7s,pair+kicker suited,0.6677,0.3477,0.1793,1500
+JJ6r,pair+kicker,0.6753,0.3223,0.1323,1500
+JJ6s,pair+kicker suited,0.6460,0.3350,0.1705,1500
+JJ5r,pair+kicker,0.6343,0.3230,0.1451,1500
+JJ5s,pair+kicker suited,0.6520,0.3338,0.1553,1500
+JJ4r,pair+kicker,0.6343,0.2977,0.1340,1500
+JJ4s,pair+kicker suited,0.6550,0.3637,0.1783,1500
+JJ3r,pair+kicker,0.6450,0.3142,0.1498,1500
+JJ3s,pair+kicker suited,0.6753,0.3402,0.1715,1500
+JJ2r,pair+kicker,0.6227,0.2976,0.1366,1500
+JJ2s,pair+kicker suited,0.6497,0.3323,0.1646,1500
+JT9r,rainbow,0.5137,0.2759,0.1628,1500
+JT9-JTs,two suited (top two),0.5300,0.3086,0.1679,1500
+JT9-J9s,two suited (top+bottom),0.5603,0.3326,0.1936,1500
+JT9-T9s,two suited (bottom two),0.5250,0.3186,0.1850,1500
+JT9sss,three suited,0.5380,0.2963,0.1706,1500
+JT8r,rainbow,0.5283,0.2697,0.1294,1500
+JT8-JTs,two suited (top two),0.5410,0.2932,0.1636,1500
+JT8-J8s,two suited (top+bottom),0.5270,0.3013,0.1584,1500
+JT8-T8s,two suited (bottom two),0.5420,0.3078,0.1704,1500
+JT8sss,three suited,0.5247,0.2851,0.1567,1500
+JT7r,rainbow,0.4833,0.2542,0.1175,1500
+JT7-JTs,two suited (top two),0.5173,0.2790,0.1644,1500
+JT7-J7s,two suited (top+bottom),0.5487,0.2939,0.1594,1500
+JT7-T7s,two suited (bottom two),0.5153,0.2777,0.1444,1500
+JT7sss,three suited,0.5130,0.2722,0.1477,1500
+JT6r,rainbow,0.4903,0.2237,0.1052,1500
+JT6-JTs,two suited (top two),0.5083,0.2629,0.1383,1500
+JT6-J6s,two suited (top+bottom),0.5227,0.2718,0.1464,1500
+JT6-T6s,two suited (bottom two),0.5297,0.2873,0.1388,1500
+JT6sss,three suited,0.5173,0.2713,0.1418,1500
+JT5r,rainbow,0.4973,0.2363,0.1059,1500
+JT5-JTs,two suited (top two),0.4980,0.2608,0.1320,1500
+JT5-J5s,two suited (top+bottom),0.5057,0.2808,0.1555,1500
+JT5-T5s,two suited (bottom two),0.5063,0.2671,0.1389,1500
+JT5sss,three suited,0.4773,0.2442,0.1225,1500
+JT4r,rainbow,0.4717,0.2208,0.1023,1500
+JT4-JTs,two suited (top two),0.5303,0.2784,0.1415,1500
+JT4-J4s,two suited (top+bottom),0.5093,0.2584,0.1371,1500
+JT4-T4s,two suited (bottom two),0.5223,0.2753,0.1387,1500
+JT4sss,three suited,0.4780,0.2437,0.1230,1500
+JT3r,rainbow,0.4723,0.2179,0.0979,1500
+JT3-JTs,two suited (top two),0.4690,0.2343,0.1231,1500
+JT3-J3s,two suited (top+bottom),0.4930,0.2481,0.1356,1500
+JT3-T3s,two suited (bottom two),0.5087,0.2654,0.1317,1500
+JT3sss,three suited,0.4953,0.2303,0.1237,1500
+JT2r,rainbow,0.4737,0.2509,0.1164,1500
+JT2-JTs,two suited (top two),0.5063,0.2626,0.1396,1500
+JT2-J2s,two suited (top+bottom),0.4773,0.2424,0.1314,1500
+JT2-T2s,two suited (bottom two),0.4723,0.2492,0.1207,1500
+JT2sss,three suited,0.4717,0.2430,0.1246,1500
+J98r,rainbow,0.4960,0.2470,0.1318,1500
+J98-J9s,two suited (top two),0.5293,0.2881,0.1505,1500
+J98-J8s,two suited (top+bottom),0.5147,0.2796,0.1514,1500
+J98-98s,two suited (bottom two),0.5163,0.2824,0.1565,1500
+J98sss,three suited,0.5083,0.2741,0.1479,1500
+J97r,rainbow,0.5007,0.2637,0.1217,1500
+J97-J9s,two suited (top two),0.5127,0.2746,0.1359,1500
+J97-J7s,two suited (top+bottom),0.5407,0.2964,0.1487,1500
+J97-97s,two suited (bottom two),0.5353,0.2798,0.1518,1500
+J97sss,three suited,0.4827,0.2458,0.1241,1500
+J96r,rainbow,0.4717,0.2130,0.1038,1500
+J96-J9s,two suited (top two),0.5157,0.2458,0.1333,1500
+J96-J6s,two suited (top+bottom),0.4877,0.2393,0.1254,1500
+J96-96s,two suited (bottom two),0.4850,0.2497,0.1276,1500
+J96sss,three suited,0.4790,0.2476,0.1174,1500
+J95r,rainbow,0.4800,0.2340,0.1008,1500
+J95-J9s,two suited (top two),0.4940,0.2401,0.1130,1500
+J95-J5s,two suited (top+bottom),0.4987,0.2569,0.1236,1500
+J95-95s,two suited (bottom two),0.5000,0.2648,0.1261,1500
+J95sss,three suited,0.4850,0.2225,0.1084,1500
+J94r,rainbow,0.4470,0.2015,0.0937,1500
+J94-J9s,two suited (top two),0.5123,0.2418,0.1235,1500
+J94-J4s,two suited (top+bottom),0.4717,0.2409,0.1247,1500
+J94-94s,two suited (bottom two),0.4867,0.2256,0.1071,1500
+J94sss,three suited,0.4840,0.2396,0.1302,1500
+J93r,rainbow,0.4497,0.2130,0.1062,1500
+J93-J9s,two suited (top two),0.4980,0.2489,0.1355,1500
+J93-J3s,two suited (top+bottom),0.4747,0.2435,0.1136,1500
+J93-93s,two suited (bottom two),0.5030,0.2493,0.1247,1500
+J93sss,three suited,0.4733,0.2404,0.1278,1500
+J92r,rainbow,0.4493,0.2141,0.0954,1500
+J92-J9s,two suited (top two),0.4493,0.2285,0.1166,1500
+J92-J2s,two suited (top+bottom),0.4637,0.2332,0.1178,1500
+J92-92s,two suited (bottom two),0.4650,0.2239,0.1129,1500
+J92sss,three suited,0.4593,0.2153,0.1036,1500
+J87r,rainbow,0.4843,0.2324,0.1148,1500
+J87-J8s,two suited (top two),0.5277,0.2767,0.1300,1500
+J87-J7s,two suited (top+bottom),0.5143,0.2569,0.1366,1500
+J87-87s,two suited (bottom two),0.4840,0.2621,0.1270,1500
+J87sss,three suited,0.4997,0.2559,0.1357,1500
+J86r,rainbow,0.4707,0.2129,0.1053,1500
+J86-J8s,two suited (top two),0.4900,0.2477,0.1340,1500
+J86-J6s,two suited (top+bottom),0.4990,0.2409,0.1262,1500
+J86-86s,two suited (bottom two),0.4867,0.2603,0.1206,1500
+J86sss,three suited,0.4817,0.2426,0.1293,1500
+J85r,rainbow,0.4703,0.2126,0.0992,1500
+J85-J8s,two suited (top two),0.4827,0.2308,0.1242,1500
+J85-J5s,two suited (top+bottom),0.4917,0.2388,0.1267,1500
+J85-85s,two suited (bottom two),0.4893,0.2473,0.1221,1500
+J85sss,three suited,0.4843,0.2292,0.1146,1500
+J84r,rainbow,0.4550,0.2046,0.0938,1500
+J84-J8s,two suited (top two),0.4863,0.2344,0.1248,1500
+J84-J4s,two suited (top+bottom),0.4927,0.2599,0.1276,1500
+J84-84s,two suited (bottom two),0.4697,0.2284,0.1122,1500
+J84sss,three suited,0.4770,0.2419,0.1224,1500
+J83r,rainbow,0.4350,0.1760,0.0813,1500
+J83-J8s,two suited (top two),0.4673,0.2292,0.1209,1500
+J83-J3s,two suited (top+bottom),0.4400,0.2148,0.1076,1500
+J83-83s,two suited (bottom two),0.4423,0.2186,0.1006,1500
+J83sss,three suited,0.4440,0.2133,0.0983,1500
+J82r,rainbow,0.4463,0.1798,0.0881,1500
+J82-J8s,two suited (top two),0.4603,0.2105,0.1137,1500
+J82-J2s,two suited (top+bottom),0.4463,0.2196,0.1055,1500
+J82-82s,two suited (bottom two),0.4580,0.2217,0.0994,1500
+J82sss,three suited,0.4293,0.1983,0.0999,1500
+J76r,rainbow,0.4843,0.2304,0.1099,1500
+J76-J7s,two suited (top two),0.4693,0.2426,0.1265,1500
+J76-J6s,two suited (top+bottom),0.4790,0.2242,0.1158,1500
+J76-76s,two suited (bottom two),0.4873,0.2372,0.1061,1500
+J76sss,three suited,0.4743,0.2297,0.1227,1500
+J75r,rainbow,0.4763,0.2025,0.0834,1500
+J75-J7s,two suited (top two),0.4787,0.2386,0.1235,1500
+J75-J5s,two suited (top+bottom),0.5040,0.2305,0.1252,1500
+J75-75s,two suited (bottom two),0.4710,0.2469,0.1231,1500
+J75sss,three suited,0.4727,0.2418,0.1211,1500
+J74r,rainbow,0.4210,0.1829,0.0714,1500
+J74-J7s,two suited (top two),0.4620,0.2159,0.1148,1500
+J74-J4s,two suited (top+bottom),0.4757,0.2352,0.1162,1500
+J74-74s,two suited (bottom two),0.4837,0.2411,0.1195,1500
+J74sss,three suited,0.4687,0.2196,0.1096,1500
+J73r,rainbow,0.4373,0.1882,0.0761,1500
+J73-J7s,two suited (top two),0.4623,0.2264,0.1210,1500
+J73-J3s,two suited (top+bottom),0.4610,0.2217,0.1034,1500
+J73-73s,two suited (bottom two),0.4363,0.2163,0.0934,1500
+J73sss,three suited,0.4597,0.2026,0.0996,1500
+J72r,rainbow,0.4370,0.1824,0.0772,1500
+J72-J7s,two suited (top two),0.4380,0.2091,0.1035,1500
+J72-J2s,two suited (top+bottom),0.4250,0.2041,0.1049,1500
+J72-72s,two suited (bottom two),0.4457,0.1966,0.0808,1500
+J72sss,three suited,0.4363,0.1948,0.0816,1500
+J65r,rainbow,0.4500,0.2068,0.0960,1500
+J65-J6s,two suited (top two),0.4690,0.2394,0.1226,1500
+J65-J5s,two suited (top+bottom),0.4777,0.2408,0.1265,1500
+J65-65s,two suited (bottom two),0.5003,0.2417,0.1156,1500
+J65sss,three suited,0.4647,0.2212,0.1232,1500
+J64r,rainbow,0.4547,0.1986,0.0935,1500
+J64-J6s,two suited (top two),0.4510,0.2139,0.1096,1500
+J64-J4s,two suited (top+bottom),0.4643,0.2236,0.1222,1500
+J64-64s,two suited (bottom two),0.4457,0.2151,0.1029,1500
+J64sss,three suited,0.4657,0.2073,0.1015,1500
+J63r,rainbow,0.4123,0.1800,0.0691,1500
+J63-J6s,two suited (top two),0.4270,0.2021,0.1040,1500
+J63-J3s,two suited (top+bottom),0.4307,0.2111,0.0994,1500
+J63-63s,two suited (bottom two),0.4133,0.1949,0.0974,1500
+J63sss,three suited,0.4323,0.2086,0.1069,1500
+J62r,rainbow,0.4217,0.1697,0.0727,1500
+J62-J6s,two suited (top two),0.4383,0.2068,0.0972,1500
+J62-J2s,two suited (top+bottom),0.4157,0.1852,0.0928,1500
+J62-62s,two suited (bottom two),0.4243,0.2018,0.0978,1500
+J62sss,three suited,0.4283,0.1949,0.0982,1500
+J54r,rainbow,0.4293,0.1999,0.0831,1500
+J54-J5s,two suited (top two),0.4620,0.2443,0.1221,1500
+J54-J4s,two suited (top+bottom),0.4677,0.2176,0.1089,1500
+J54-54s,two suited (bottom two),0.4693,0.2273,0.1110,1500
+J54sss,three suited,0.4583,0.2151,0.1067,1500
+J53r,rainbow,0.3990,0.1689,0.0865,1500
+J53-J5s,two suited (top two),0.4593,0.2144,0.1077,1500
+J53-J3s,two suited (top+bottom),0.4257,0.2080,0.0978,1500
+J53-53s,two suited (bottom two),0.4490,0.2057,0.1058,1500
+J53sss,three suited,0.4503,0.2165,0.1066,1500
+J52r,rainbow,0.4023,0.1702,0.0654,1500
+J52-J5s,two suited (top two),0.4257,0.2149,0.1092,1500
+J52-J2s,two suited (top+bottom),0.4573,0.2233,0.1190,1500
+J52-52s,two suited (bottom two),0.4153,0.2123,0.0859,1500
+J52sss,three suited,0.4113,0.1839,0.0880,1500
+J43r,rainbow,0.4173,0.1834,0.0873,1500
+J43-J4s,two suited (top two),0.4393,0.2071,0.1117,1500
+J43-J3s,two suited (top+bottom),0.4590,0.2232,0.1254,1500
+J43-43s,two suited (bottom two),0.4643,0.2258,0.1051,1500
+J43sss,three suited,0.4320,0.2146,0.0992,1500
+J42r,rainbow,0.3990,0.1634,0.0712,1500
+J42-J4s,two suited (top two),0.4373,0.2205,0.1125,1500
+J42-J2s,two suited (top+bottom),0.4233,0.2116,0.1022,1500
+J42-42s,two suited (bottom two),0.4263,0.2021,0.0956,1500
+J42sss,three suited,0.4220,0.2034,0.0961,1500
+J32r,rainbow,0.3920,0.1604,0.0642,1500
+J32-J3s,two suited (top two),0.4213,0.1893,0.1079,1500
+J32-J2s,two suited (top+bottom),0.4063,0.1905,0.1065,1500
+J32-32s,two suited (bottom two),0.4180,0.1954,0.0894,1500
+J32sss,three suited,0.4033,0.1747,0.0856,1500
+TTT,trips,0.5800,0.2300,0.0717,1500
+TTAr,pair+kicker,0.6707,0.3517,0.1696,1500
+TTAs,pair+kicker suited,0.6700,0.3488,0.1871,1500
+TTKr,pair+kicker,0.6380,0.3231,0.1583,1500
+TTKs,pair+kicker suited,0.6887,0.3628,0.1934,1500
+TTQr,pair+kicker,0.6420,0.3349,0.1689,1500
+TTQs,pair+kicker suited,0.6810,0.3792,0.2060,1500
+TTJr,pair+kicker,0.6577,0.3518,0.1899,1500
+TTJs,pair+kicker suited,0.6610,0.3688,0.2025,1500
+TT9r,pair+kicker,0.6183,0.3207,0.1584,1500
+TT9s,pair+kicker suited,0.6653,0.3726,0.1991,1500
+TT8r,pair+kicker,0.6320,0.3143,0.1539,1500
+TT8s,pair+kicker suited,0.6480,0.3635,0.1847,1500
+TT7r,pair+kicker,0.6017,0.2903,0.1466,1500
+TT7s,pair+kicker suited,0.6177,0.3133,0.1606,1500
+TT6r,pair+kicker,0.6160,0.2969,0.1318,1500
+TT6s,pair+kicker suited,0.6377,0.3181,0.1546,1500
+TT5r,pair+kicker,0.6267,0.3056,0.1316,1500
+TT5s,pair+kicker suited,0.6377,0.3121,0.1440,1500
+TT4r,pair+kicker,0.6067,0.2767,0.1354,1500
+TT4s,pair+kicker suited,0.6397,0.3064,0.1532,1500
+TT3r,pair+kicker,0.5987,0.2517,0.1118,1500
+TT3s,pair+kicker suited,0.6380,0.3081,0.1508,1500
+TT2r,pair+kicker,0.6130,0.2701,0.1312,1500
+TT2s,pair+kicker suited,0.6233,0.3207,0.1376,1500
+T98r,rainbow,0.4917,0.2577,0.1245,1500
+T98-T9s,two suited (top two),0.5067,0.2838,0.1657,1500
+T98-T8s,two suited (top+bottom),0.5197,0.2966,0.1667,1500
+T98-98s,two suited (bottom two),0.5027,0.2917,0.1640,1500
+T98sss,three suited,0.4980,0.2888,0.1651,1500
+T97r,rainbow,0.4967,0.2546,0.1193,1500
+T97-T9s,two suited (top two),0.4837,0.2654,0.1531,1500
+T97-T7s,two suited (top+bottom),0.5003,0.2643,0.1399,1500
+T97-97s,two suited (bottom two),0.4987,0.2865,0.1441,1500
+T97sss,three suited,0.4823,0.2609,0.1339,1500
+T96r,rainbow,0.4880,0.2514,0.1214,1500
+T96-T9s,two suited (top two),0.5047,0.2666,0.1424,1500
+T96-T6s,two suited (top+bottom),0.5023,0.2694,0.1447,1500
+T96-96s,two suited (bottom two),0.4830,0.2619,0.1292,1500
+T96sss,three suited,0.4733,0.2396,0.1163,1500
+T95r,rainbow,0.4453,0.1944,0.0838,1500
+T95-T9s,two suited (top two),0.4877,0.2579,0.1353,1500
+T95-T5s,two suited (top+bottom),0.4867,0.2419,0.1194,1500
+T95-95s,two suited (bottom two),0.4943,0.2576,0.1367,1500
+T95sss,three suited,0.4793,0.2290,0.1119,1500
+T94r,rainbow,0.4330,0.2016,0.0899,1500
+T94-T9s,two suited (top two),0.4613,0.2307,0.1320,1500
+T94-T4s,two suited (top+bottom),0.4867,0.2350,0.1145,1500
+T94-94s,two suited (bottom two),0.4803,0.2422,0.1214,1500
+T94sss,three suited,0.4700,0.2276,0.1197,1500
+T93r,rainbow,0.4370,0.2036,0.0834,1500
+T93-T9s,two suited (top two),0.4590,0.2278,0.1221,1500
+T93-T3s,two suited (top+bottom),0.4680,0.2268,0.1108,1500
+T93-93s,two suited (bottom two),0.4757,0.2578,0.1214,1500
+T93sss,three suited,0.4453,0.2375,0.1246,1500
+T92r,rainbow,0.4437,0.2035,0.0940,1500
+T92-T9s,two suited (top two),0.4613,0.2466,0.1177,1500
+T92-T2s,two suited (top+bottom),0.4987,0.2600,0.1337,1500
+T92-92s,two suited (bottom two),0.4580,0.2202,0.1039,1500
+T92sss,three suited,0.4327,0.2271,0.1128,1500
+T87r,rainbow,0.4727,0.2548,0.1348,1500
+T87-T8s,two suited (top two),0.5003,0.2787,0.1496,1500
+T87-T7s,two suited (top+bottom),0.4797,0.2695,0.1443,1500
+T87-87s,two suited (bottom two),0.5193,0.2909,0.1537,1500
+T87sss,three suited,0.4877,0.2684,0.1393,1500
+T86r,rainbow,0.4717,0.2208,0.1156,1500
+T86-T8s,two suited (top two),0.4993,0.2816,0.1458,1500
+T86-T6s,two suited (top+bottom),0.4993,0.2624,0.1454,1500
+T86-86s,two suited (bottom two),0.4883,0.2523,0.1321,1500
+T86sss,three suited,0.4843,0.2462,0.1314,1500
+T85r,rainbow,0.4323,0.1962,0.1003,1500
+T85-T8s,two suited (top two),0.4807,0.2428,0.1234,1500
+T85-T5s,two suited (top+bottom),0.4637,0.2252,0.1090,1500
+T85-85s,two suited (bottom two),0.4603,0.2359,0.1211,1500
+T85sss,three suited,0.4703,0.2317,0.1134,1500
+T84r,rainbow,0.4573,0.2113,0.0974,1500
+T84-T8s,two suited (top two),0.4533,0.2256,0.1129,1500
+T84-T4s,two suited (top+bottom),0.4540,0.2274,0.1126,1500
+T84-84s,two suited (bottom two),0.4637,0.2403,0.1118,1500
+T84sss,three suited,0.4537,0.2311,0.1262,1500
+T83r,rainbow,0.4073,0.1836,0.0847,1500
+T83-T8s,two suited (top two),0.4337,0.2144,0.1203,1500
+T83-T3s,two suited (top+bottom),0.4627,0.2235,0.1136,1500
+T83-83s,two suited (bottom two),0.4497,0.2193,0.1103,1500
+T83sss,three suited,0.4513,0.2183,0.1087,1500
+T82r,rainbow,0.4213,0.1996,0.0849,1500
+T82-T8s,two suited (top two),0.4593,0.2364,0.1210,1500
+T82-T2s,two suited (top+bottom),0.4687,0.2381,0.1213,1500
+T82-82s,two suited (bottom two),0.4533,0.2294,0.1144,1500
+T82sss,three suited,0.4227,0.2105,0.1021,1500
+T76r,rainbow,0.4563,0.2176,0.0900,1500
+T76-T7s,two suited (top two),0.5070,0.2621,0.1369,1500
+T76-T6s,two suited (top+bottom),0.5003,0.2603,0.1252,1500
+T76-76s,two suited (bottom two),0.4837,0.2378,0.1229,1500
+T76sss,three suited,0.4787,0.2415,0.1287,1500
+T75r,rainbow,0.4483,0.1930,0.0867,1500
+T75-T7s,two suited (top two),0.4693,0.2289,0.1227,1500
+T75-T5s,two suited (top+bottom),0.4600,0.2340,0.1223,1500
+T75-75s,two suited (bottom two),0.4357,0.2129,0.1036,1500
+T75sss,three suited,0.4403,0.2105,0.1079,1500
+T74r,rainbow,0.4280,0.1903,0.0881,1500
+T74-T7s,two suited (top two),0.4730,0.2264,0.1207,1500
+T74-T4s,two suited (top+bottom),0.4653,0.2297,0.1199,1500
+T74-74s,two suited (bottom two),0.4550,0.2221,0.1139,1500
+T74sss,three suited,0.4380,0.2109,0.1115,1500
+T73r,rainbow,0.3740,0.1692,0.0673,1500
+T73-T7s,two suited (top two),0.4680,0.2326,0.1281,1500
+T73-T3s,two suited (top+bottom),0.4477,0.2286,0.1191,1500
+T73-73s,two suited (bottom two),0.4470,0.2194,0.1102,1500
+T73sss,three suited,0.4250,0.2141,0.1086,1500
+T72r,rainbow,0.4160,0.1577,0.0777,1500
+T72-T7s,two suited (top two),0.4180,0.1957,0.1020,1500
+T72-T2s,two suited (top+bottom),0.4250,0.1977,0.0985,1500
+T72-72s,two suited (bottom two),0.4197,0.1999,0.0947,1500
+T72sss,three suited,0.3993,0.1981,0.0956,1500
+T65r,rainbow,0.4610,0.2162,0.1060,1500
+T65-T6s,two suited (top two),0.4700,0.2058,0.1059,1500
+T65-T5s,two suited (top+bottom),0.4587,0.2423,0.1237,1500
+T65-65s,two suited (bottom two),0.4533,0.2228,0.1038,1500
+T65sss,three suited,0.4383,0.1968,0.0982,1500
+T64r,rainbow,0.4443,0.1891,0.0884,1500
+T64-T6s,two suited (top two),0.4483,0.2307,0.1231,1500
+T64-T4s,two suited (top+bottom),0.4437,0.2321,0.1329,1500
+T64-64s,two suited (bottom two),0.4353,0.2141,0.1138,1500
+T64sss,three suited,0.4407,0.2089,0.1097,1500
+T63r,rainbow,0.4150,0.1866,0.0840,1500
+T63-T6s,two suited (top two),0.4297,0.2053,0.1023,1500
+T63-T3s,two suited (top+bottom),0.4333,0.2131,0.1089,1500
+T63-63s,two suited (bottom two),0.4447,0.2101,0.1041,1500
+T63sss,three suited,0.4180,0.2154,0.1146,1500
+T62r,rainbow,0.4057,0.1719,0.0704,1500
+T62-T6s,two suited (top two),0.4383,0.1979,0.0966,1500
+T62-T2s,two suited (top+bottom),0.4107,0.1921,0.0994,1500
+T62-62s,two suited (bottom two),0.4267,0.2028,0.0962,1500
+T62sss,three suited,0.4170,0.1951,0.1017,1500
+T54r,rainbow,0.4110,0.1847,0.0884,1500
+T54-T5s,two suited (top two),0.4680,0.2306,0.1259,1500
+T54-T4s,two suited (top+bottom),0.4383,0.2028,0.0958,1500
+T54-54s,two suited (bottom two),0.4357,0.2083,0.1079,1500
+T54sss,three suited,0.4210,0.1927,0.1028,1500
+T53r,rainbow,0.4257,0.1948,0.0841,1500
+T53-T5s,two suited (top two),0.4077,0.2078,0.1071,1500
+T53-T3s,two suited (top+bottom),0.4327,0.2111,0.1089,1500
+T53-53s,two suited (bottom two),0.4383,0.2195,0.0989,1500
+T53sss,three suited,0.4187,0.2069,0.1145,1500
+T52r,rainbow,0.4017,0.1652,0.0722,1500
+T52-T5s,two suited (top two),0.4173,0.1942,0.0952,1500
+T52-T2s,two suited (top+bottom),0.4140,0.1912,0.0965,1500
+T52-52s,two suited (bottom two),0.4233,0.1934,0.0911,1500
+T52sss,three suited,0.3940,0.1667,0.0833,1500
+T43r,rainbow,0.4140,0.1644,0.0701,1500
+T43-T4s,two suited (top two),0.4313,0.1909,0.1004,1500
+T43-T3s,two suited (top+bottom),0.4343,0.1970,0.1013,1500
+T43-43s,two suited (bottom two),0.4277,0.2138,0.0922,1500
+T43sss,three suited,0.4357,0.2061,0.1058,1500
+T42r,rainbow,0.3580,0.1576,0.0667,1500
+T42-T4s,two suited (top two),0.4030,0.2000,0.1000,1500
+T42-T2s,two suited (top+bottom),0.4097,0.1908,0.0940,1500
+T42-42s,two suited (bottom two),0.3933,0.1756,0.0901,1500
+T42sss,three suited,0.4127,0.1973,0.0973,1500
+T32r,rainbow,0.3643,0.1312,0.0612,1500
+T32-T3s,two suited (top two),0.4093,0.2050,0.0981,1500
+T32-T2s,two suited (top+bottom),0.4027,0.2023,0.1001,1500
+T32-32s,two suited (bottom two),0.4127,0.1961,0.0910,1500
+T32sss,three suited,0.4187,0.1896,0.0901,1500
+999,trips,0.5257,0.2038,0.0774,1500
+99Ar,pair+kicker,0.6140,0.2970,0.1298,1500
+99As,pair+kicker suited,0.6490,0.3195,0.1671,1500
+99Kr,pair+kicker,0.6153,0.2942,0.1386,1500
+99Ks,pair+kicker suited,0.6470,0.3296,0.1727,1500
+99Qr,pair+kicker,0.6393,0.3166,0.1564,1500
+99Qs,pair+kicker suited,0.6470,0.3386,0.1832,1500
+99Jr,pair+kicker,0.6333,0.3106,0.1488,1500
+99Js,pair+kicker suited,0.6610,0.3447,0.1793,1500
+99Tr,pair+kicker,0.6293,0.3307,0.1676,1500
+99Ts,pair+kicker suited,0.6243,0.3136,0.1822,1500
+998r,pair+kicker,0.5873,0.2838,0.1384,1500
+998s,pair+kicker suited,0.6320,0.3177,0.1680,1500
+997r,pair+kicker,0.6033,0.2868,0.1424,1500
+997s,pair+kicker suited,0.6080,0.3206,0.1663,1500
+996r,pair+kicker,0.6073,0.2904,0.1369,1500
+996s,pair+kicker suited,0.6040,0.3119,0.1709,1500
+995r,pair+kicker,0.5837,0.2656,0.1200,1500
+995s,pair+kicker suited,0.5870,0.2973,0.1574,1500
+994r,pair+kicker,0.5817,0.2646,0.1162,1500
+994s,pair+kicker suited,0.6210,0.2986,0.1461,1500
+993r,pair+kicker,0.5693,0.2498,0.1200,1500
+993s,pair+kicker suited,0.5873,0.2843,0.1374,1500
+992r,pair+kicker,0.5803,0.2527,0.1254,1500
+992s,pair+kicker suited,0.6003,0.3013,0.1447,1500
+987r,rainbow,0.4730,0.2441,0.1168,1500
+987-98s,two suited (top two),0.4943,0.2728,0.1483,1500
+987-97s,two suited (top+bottom),0.4727,0.2643,0.1488,1500
+987-87s,two suited (bottom two),0.4620,0.2492,0.1257,1500
+987sss,three suited,0.4850,0.2446,0.1437,1500
+986r,rainbow,0.4540,0.2233,0.1089,1500
+986-98s,two suited (top two),0.4707,0.2554,0.1368,1500
+986-96s,two suited (top+bottom),0.4683,0.2348,0.1182,1500
+986-86s,two suited (bottom two),0.4567,0.2602,0.1397,1500
+986sss,three suited,0.4497,0.2243,0.1219,1500
+985r,rainbow,0.4383,0.2266,0.1062,1500
+985-98s,two suited (top two),0.4717,0.2397,0.1330,1500
+985-95s,two suited (top+bottom),0.4773,0.2484,0.1394,1500
+985-85s,two suited (bottom two),0.4707,0.2310,0.1167,1500
+985sss,three suited,0.4660,0.2472,0.1261,1500
+984r,rainbow,0.4383,0.2135,0.0921,1500
+984-98s,two suited (top two),0.4427,0.2217,0.1061,1500
+984-94s,two suited (top+bottom),0.4960,0.2505,0.1342,1500
+984-84s,two suited (bottom two),0.4180,0.2187,0.1033,1500
+984sss,three suited,0.4370,0.1993,0.1076,1500
+983r,rainbow,0.4053,0.1734,0.0715,1500
+983-98s,two suited (top two),0.4490,0.2089,0.0999,1500
+983-93s,two suited (top+bottom),0.4353,0.2123,0.1067,1500
+983-83s,two suited (bottom two),0.4507,0.2298,0.1044,1500
+983sss,three suited,0.4430,0.2086,0.1004,1500
+982r,rainbow,0.4180,0.1909,0.0778,1500
+982-98s,two suited (top two),0.4347,0.2172,0.1193,1500
+982-92s,two suited (top+bottom),0.4447,0.2171,0.1085,1500
+982-82s,two suited (bottom two),0.4510,0.2159,0.0998,1500
+982sss,three suited,0.4343,0.2204,0.1034,1500
+976r,rainbow,0.4737,0.2423,0.1183,1500
+976-97s,two suited (top two),0.4927,0.2519,0.1402,1500
+976-96s,two suited (top+bottom),0.4593,0.2464,0.1331,1500
+976-76s,two suited (bottom two),0.4850,0.2660,0.1432,1500
+976sss,three suited,0.4737,0.2513,0.1391,1500
+975r,rainbow,0.4503,0.2193,0.0973,1500
+975-97s,two suited (top two),0.4737,0.2374,0.1246,1500
+975-95s,two suited (top+bottom),0.4813,0.2554,0.1378,1500
+975-75s,two suited (bottom two),0.4613,0.2247,0.1142,1500
+975sss,three suited,0.4463,0.2249,0.1143,1500
+974r,rainbow,0.4093,0.1832,0.0878,1500
+974-97s,two suited (top two),0.4627,0.2190,0.1104,1500
+974-94s,two suited (top+bottom),0.4543,0.2334,0.1281,1500
+974-74s,two suited (bottom two),0.4717,0.2298,0.1106,1500
+974sss,three suited,0.4500,0.2187,0.1043,1500
+973r,rainbow,0.4263,0.1971,0.0856,1500
+973-97s,two suited (top two),0.4313,0.2158,0.1124,1500
+973-93s,two suited (top+bottom),0.4403,0.2188,0.1073,1500
+973-73s,two suited (bottom two),0.4397,0.2059,0.1082,1500
+973sss,three suited,0.4310,0.2174,0.1057,1500
+972r,rainbow,0.3967,0.1766,0.0822,1500
+972-97s,two suited (top two),0.4373,0.2011,0.1026,1500
+972-92s,two suited (top+bottom),0.4060,0.1843,0.0912,1500
+972-72s,two suited (bottom two),0.4410,0.1982,0.1007,1500
+972sss,three suited,0.4053,0.1883,0.0983,1500
+965r,rainbow,0.4323,0.2200,0.1058,1500
+965-96s,two suited (top two),0.5130,0.2721,0.1434,1500
+965-95s,two suited (top+bottom),0.4350,0.2223,0.1234,1500
+965-65s,two suited (bottom two),0.4840,0.2587,0.1411,1500
+965sss,three suited,0.4320,0.2183,0.1225,1500
+964r,rainbow,0.4207,0.1972,0.0918,1500
+964-96s,two suited (top two),0.4407,0.2062,0.1076,1500
+964-94s,two suited (top+bottom),0.4163,0.2006,0.0964,1500
+964-64s,two suited (bottom two),0.4273,0.2033,0.1116,1500
+964sss,three suited,0.4257,0.2001,0.1007,1500
+963r,rainbow,0.4127,0.1743,0.0812,1500
+963-96s,two suited (top two),0.4573,0.2191,0.1139,1500
+963-93s,two suited (top+bottom),0.4327,0.2178,0.1128,1500
+963-63s,two suited (bottom two),0.4393,0.1972,0.0951,1500
+963sss,three suited,0.4323,0.2073,0.0999,1500
+962r,rainbow,0.4120,0.1761,0.0760,1500
+962-96s,two suited (top two),0.4137,0.1896,0.0956,1500
+962-92s,two suited (top+bottom),0.4223,0.2009,0.0985,1500
+962-62s,two suited (bottom two),0.4283,0.1891,0.0932,1500
+962sss,three suited,0.3953,0.1829,0.0974,1500
+954r,rainbow,0.4120,0.1718,0.0788,1500
+954-95s,two suited (top two),0.4477,0.2331,0.1134,1500
+954-94s,two suited (top+bottom),0.4370,0.2160,0.1088,1500
+954-54s,two suited (bottom two),0.4147,0.2136,0.1157,1500
+954sss,three suited,0.4227,0.2058,0.1197,1500
+953r,rainbow,0.3903,0.1768,0.0787,1500
+953-95s,two suited (top two),0.4267,0.2033,0.1023,1500
+953-93s,two suited (top+bottom),0.4447,0.2182,0.1232,1500
+953-53s,two suited (bottom two),0.4613,0.2177,0.1096,1500
+953sss,three suited,0.4253,0.2123,0.1052,1500
+952r,rainbow,0.3583,0.1541,0.0671,1500
+952-95s,two suited (top two),0.4143,0.2072,0.1035,1500
+952-92s,two suited (top+bottom),0.4087,0.1894,0.0919,1500
+952-52s,two suited (bottom two),0.3617,0.1793,0.0823,1500
+952sss,three suited,0.4137,0.1821,0.0923,1500
+943r,rainbow,0.3817,0.1726,0.0717,1500
+943-94s,two suited (top two),0.4127,0.1893,0.1031,1500
+943-93s,two suited (top+bottom),0.4357,0.2182,0.1094,1500
+943-43s,two suited (bottom two),0.4093,0.1869,0.0953,1500
+943sss,three suited,0.3990,0.1781,0.0900,1500
+942r,rainbow,0.3610,0.1499,0.0712,1500
+942-94s,two suited (top two),0.3807,0.1693,0.0886,1500
+942-92s,two suited (top+bottom),0.3997,0.1908,0.0768,1500
+942-42s,two suited (bottom two),0.4027,0.1966,0.0937,1500
+942sss,three suited,0.3893,0.1722,0.0785,1500
+932r,rainbow,0.3677,0.1640,0.0725,1500
+932-93s,two suited (top two),0.3853,0.1867,0.0892,1500
+932-92s,two suited (top+bottom),0.3747,0.1681,0.0811,1500
+932-32s,two suited (bottom two),0.3940,0.1949,0.0813,1500
+932sss,three suited,0.3737,0.1691,0.0772,1500
+888,trips,0.5000,0.1662,0.0620,1500
+88Ar,pair+kicker,0.6167,0.2863,0.1207,1500
+88As,pair+kicker suited,0.6120,0.3182,0.1676,1500
+88Kr,pair+kicker,0.6150,0.2744,0.1146,1500
+88Ks,pair+kicker suited,0.6097,0.3003,0.1452,1500
+88Qr,pair+kicker,0.5963,0.2723,0.1209,1500
+88Qs,pair+kicker suited,0.6233,0.3268,0.1717,1500
+88Jr,pair+kicker,0.5970,0.2642,0.1275,1500
+88Js,pair+kicker suited,0.6100,0.3044,0.1536,1500
+88Tr,pair+kicker,0.5913,0.2574,0.1173,1500
+88Ts,pair+kicker suited,0.6133,0.3075,0.1691,1500
+889r,pair+kicker,0.6047,0.2976,0.1590,1500
+889s,pair+kicker suited,0.5947,0.3198,0.1763,1500
+887r,pair+kicker,0.5777,0.2825,0.1541,1500
+887s,pair+kicker suited,0.5763,0.2944,0.1600,1500
+886r,pair+kicker,0.5357,0.2508,0.1246,1500
+886s,pair+kicker suited,0.6097,0.3004,0.1590,1500
+885r,pair+kicker,0.5507,0.2658,0.1271,1500
+885s,pair+kicker suited,0.5517,0.2748,0.1496,1500
+884r,pair+kicker,0.5290,0.2252,0.1144,1500
+884s,pair+kicker suited,0.5593,0.2617,0.1382,1500
+883r,pair+kicker,0.5533,0.2279,0.1064,1500
+883s,pair+kicker suited,0.5460,0.2561,0.1323,1500
+882r,pair+kicker,0.5197,0.2108,0.1017,1500
+882s,pair+kicker suited,0.5583,0.2593,0.1297,1500
+876r,rainbow,0.4380,0.2354,0.1134,1500
+876-87s,two suited (top two),0.4700,0.2571,0.1380,1500
+876-86s,two suited (top+bottom),0.4793,0.2604,0.1382,1500
+876-76s,two suited (bottom two),0.4520,0.2364,0.1248,1500
+876sss,three suited,0.4613,0.2563,0.1373,1500
+875r,rainbow,0.4433,0.2057,0.0999,1500
+875-87s,two suited (top two),0.4603,0.2424,0.1332,1500
+875-85s,two suited (top+bottom),0.4643,0.2402,0.1280,1500
+875-75s,two suited (bottom two),0.4593,0.2374,0.1395,1500
+875sss,three suited,0.4347,0.2413,0.1353,1500
+874r,rainbow,0.4220,0.1981,0.0897,1500
+874-87s,two suited (top two),0.4307,0.2109,0.1039,1500
+874-84s,two suited (top+bottom),0.4587,0.2404,0.1232,1500
+874-74s,two suited (bottom two),0.4473,0.2137,0.1087,1500
+874sss,three suited,0.4383,0.2203,0.1110,1500
+873r,rainbow,0.3990,0.1803,0.0843,1500
+873-87s,two suited (top two),0.4223,0.2116,0.1095,1500
+873-83s,two suited (top+bottom),0.4463,0.2192,0.1032,1500
+873-73s,two suited (bottom two),0.4390,0.2157,0.1147,1500
+873sss,three suited,0.4217,0.2166,0.0977,1500
+872r,rainbow,0.3903,0.1819,0.0858,1500
+872-87s,two suited (top two),0.4217,0.2017,0.1020,1500
+872-82s,two suited (top+bottom),0.4337,0.2208,0.1236,1500
+872-72s,two suited (bottom two),0.4387,0.2097,0.1031,1500
+872sss,three suited,0.4067,0.1933,0.0975,1500
+865r,rainbow,0.4343,0.2123,0.1028,1500
+865-86s,two suited (top two),0.4573,0.2404,0.1276,1500
+865-85s,two suited (top+bottom),0.4450,0.2446,0.1447,1500
+865-65s,two suited (bottom two),0.4613,0.2526,0.1379,1500
+865sss,three suited,0.4537,0.2472,0.1299,1500
+864r,rainbow,0.4247,0.1963,0.1008,1500
+864-86s,two suited (top two),0.4300,0.2099,0.1073,1500
+864-84s,two suited (top+bottom),0.4337,0.2124,0.1047,1500
+864-64s,two suited (bottom two),0.4250,0.2201,0.1154,1500
+864sss,three suited,0.4243,0.2244,0.1296,1500
+863r,rainbow,0.3993,0.1663,0.0766,1500
+863-86s,two suited (top two),0.4040,0.2051,0.1065,1500
+863-83s,two suited (top+bottom),0.4380,0.2250,0.1111,1500
+863-63s,two suited (bottom two),0.4417,0.2193,0.1188,1500
+863sss,three suited,0.4430,0.2308,0.1170,1500
+862r,rainbow,0.3783,0.1715,0.0750,1500
+862-86s,two suited (top two),0.4340,0.2038,0.1041,1500
+862-82s,two suited (top+bottom),0.4237,0.2084,0.1051,1500
+862-62s,two suited (bottom two),0.4193,0.1878,0.1017,1500
+862sss,three suited,0.4280,0.2086,0.1092,1500
+854r,rainbow,0.3837,0.1803,0.0964,1500
+854-85s,two suited (top two),0.4333,0.2151,0.1164,1500
+854-84s,two suited (top+bottom),0.4367,0.2162,0.1180,1500
+854-54s,two suited (bottom two),0.4547,0.2384,0.1325,1500
+854sss,three suited,0.4077,0.2074,0.1124,1500
+853r,rainbow,0.3890,0.1866,0.0844,1500
+853-85s,two suited (top two),0.4247,0.2152,0.1002,1500
+853-83s,two suited (top+bottom),0.4233,0.2083,0.0976,1500
+853-53s,two suited (bottom two),0.4293,0.2091,0.1041,1500
+853sss,three suited,0.4083,0.1786,0.0870,1500
+852r,rainbow,0.3783,0.1716,0.0819,1500
+852-85s,two suited (top two),0.4130,0.2027,0.1054,1500
+852-82s,two suited (top+bottom),0.4120,0.2074,0.1023,1500
+852-52s,two suited (bottom two),0.4263,0.1991,0.0995,1500
+852sss,three suited,0.3970,0.1938,0.0962,1500
+843r,rainbow,0.3773,0.1612,0.0771,1500
+843-84s,two suited (top two),0.3900,0.1946,0.0978,1500
+843-83s,two suited (top+bottom),0.4120,0.1908,0.0985,1500
+843-43s,two suited (bottom two),0.3807,0.1922,0.0883,1500
+843sss,three suited,0.3720,0.1905,0.1025,1500
+842r,rainbow,0.3793,0.1656,0.0704,1500
+842-84s,two suited (top two),0.3963,0.2001,0.1030,1500
+842-82s,two suited (top+bottom),0.4030,0.1934,0.1055,1500
+842-42s,two suited (bottom two),0.4100,0.1933,0.0958,1500
+842sss,three suited,0.3653,0.1729,0.0904,1500
+832r,rainbow,0.3397,0.1399,0.0562,1500
+832-83s,two suited (top two),0.3863,0.1737,0.0819,1500
+832-82s,two suited (top+bottom),0.3727,0.1711,0.0744,1500
+832-32s,two suited (bottom two),0.4103,0.1842,0.0703,1500
+832sss,three suited,0.3593,0.1707,0.0830,1500
+777,trips,0.4763,0.1530,0.0593,1500
+77Ar,pair+kicker,0.5670,0.2596,0.1279,1500
+77As,pair+kicker suited,0.6190,0.3146,0.1782,1500
+77Kr,pair+kicker,0.5717,0.2356,0.1138,1500
+77Ks,pair+kicker suited,0.6010,0.2738,0.1423,1500
+77Qr,pair+kicker,0.5490,0.2352,0.1033,1500
+77Qs,pair+kicker suited,0.5903,0.2729,0.1528,1500
+77Jr,pair+kicker,0.5523,0.2497,0.1136,1500
+77Js,pair+kicker suited,0.5770,0.2927,0.1475,1500
+77Tr,pair+kicker,0.5667,0.2486,0.1251,1500
+77Ts,pair+kicker suited,0.5733,0.2893,0.1432,1500
+779r,pair+kicker,0.5533,0.2435,0.1149,1500
+779s,pair+kicker suited,0.6047,0.3017,0.1601,1500
+778r,pair+kicker,0.5457,0.2726,0.1403,1500
+778s,pair+kicker suited,0.5457,0.2879,0.1568,1500
+776r,pair+kicker,0.5407,0.2447,0.1389,1500
+776s,pair+kicker suited,0.5437,0.2756,0.1429,1500
+775r,pair+kicker,0.5407,0.2525,0.1408,1500
+775s,pair+kicker suited,0.5320,0.2610,0.1462,1500
+774r,pair+kicker,0.5257,0.2405,0.1190,1500
+774s,pair+kicker suited,0.5507,0.2816,0.1570,1500
+773r,pair+kicker,0.5090,0.2184,0.1104,1500
+773s,pair+kicker suited,0.5337,0.2591,0.1435,1500
+772r,pair+kicker,0.5047,0.2113,0.1029,1500
+772s,pair+kicker suited,0.5153,0.2432,0.1261,1500
+765r,rainbow,0.4210,0.2220,0.1022,1500
+765-76s,two suited (top two),0.4420,0.2444,0.1227,1500
+765-75s,two suited (top+bottom),0.4707,0.2758,0.1407,1500
+765-65s,two suited (bottom two),0.4463,0.2544,0.1402,1500
+765sss,three suited,0.4320,0.2289,0.1243,1500
+764r,rainbow,0.3853,0.1912,0.0997,1500
+764-76s,two suited (top two),0.4597,0.2493,0.1361,1500
+764-74s,two suited (top+bottom),0.4630,0.2519,0.1364,1500
+764-64s,two suited (bottom two),0.4427,0.2325,0.1272,1500
+764sss,three suited,0.4330,0.2368,0.1297,1500
+763r,rainbow,0.3930,0.1842,0.0895,1500
+763-76s,two suited (top two),0.4333,0.2220,0.1201,1500
+763-73s,two suited (top+bottom),0.4137,0.2119,0.1151,1500
+763-63s,two suited (bottom two),0.4187,0.2194,0.1138,1500
+763sss,three suited,0.3873,0.1912,0.0958,1500
+762r,rainbow,0.3940,0.1790,0.0910,1500
+762-76s,two suited (top two),0.4093,0.1979,0.1089,1500
+762-72s,two suited (top+bottom),0.4207,0.1947,0.0963,1500
+762-62s,two suited (bottom two),0.4150,0.2044,0.1037,1500
+762sss,three suited,0.3797,0.1919,0.0966,1500
+754r,rainbow,0.4113,0.2038,0.0961,1500
+754-75s,two suited (top two),0.4157,0.2143,0.1164,1500
+754-74s,two suited (top+bottom),0.4243,0.2261,0.1199,1500
+754-54s,two suited (bottom two),0.4330,0.2350,0.1175,1500
+754sss,three suited,0.4323,0.2307,0.1233,1500
+753r,rainbow,0.3897,0.1759,0.0894,1500
+753-75s,two suited (top two),0.4300,0.2239,0.1245,1500
+753-73s,two suited (top+bottom),0.4030,0.2143,0.1076,1500
+753-53s,two suited (bottom two),0.4263,0.2153,0.1147,1500
+753sss,three suited,0.4147,0.2129,0.1117,1500
+752r,rainbow,0.3767,0.1563,0.0716,1500
+752-75s,two suited (top two),0.3977,0.2013,0.1049,1500
+752-72s,two suited (top+bottom),0.3970,0.1931,0.0988,1500
+752-52s,two suited (bottom two),0.3907,0.1842,0.0918,1500
+752sss,three suited,0.3833,0.1921,0.1118,1500
+743r,rainbow,0.3800,0.1697,0.0756,1500
+743-74s,two suited (top two),0.4063,0.2023,0.1012,1500
+743-73s,two suited (top+bottom),0.3933,0.1881,0.0954,1500
+743-43s,two suited (bottom two),0.4123,0.2206,0.1172,1500
+743sss,three suited,0.3970,0.1902,0.1061,1500
+742r,rainbow,0.3653,0.1516,0.0762,1500
+742-74s,two suited (top two),0.3967,0.2007,0.0982,1500
+742-72s,two suited (top+bottom),0.3973,0.1900,0.1011,1500
+742-42s,two suited (bottom two),0.3857,0.1786,0.0810,1500
+742sss,three suited,0.3727,0.1956,0.1017,1500
+732r,rainbow,0.3327,0.1284,0.0512,1500
+732-73s,two suited (top two),0.3740,0.1712,0.0817,1500
+732-72s,two suited (top+bottom),0.3663,0.1743,0.0774,1500
+732-32s,two suited (bottom two),0.3453,0.1524,0.0650,1500
+732sss,three suited,0.3540,0.1651,0.0972,1500
+666,trips,0.4267,0.1390,0.0620,1500
+66Ar,pair+kicker,0.5873,0.2701,0.1320,1500
+66As,pair+kicker suited,0.5877,0.2828,0.1510,1500
+66Kr,pair+kicker,0.5283,0.2296,0.1084,1500
+66Ks,pair+kicker suited,0.5537,0.2737,0.1500,1500
+66Qr,pair+kicker,0.5357,0.2229,0.1072,1500
+66Qs,pair+kicker suited,0.5890,0.2712,0.1374,1500
+66Jr,pair+kicker,0.5377,0.2290,0.1173,1500
+66Js,pair+kicker suited,0.5390,0.2554,0.1336,1500
+66Tr,pair+kicker,0.5277,0.2288,0.1123,1500
+66Ts,pair+kicker suited,0.5367,0.2537,0.1398,1500
+669r,pair+kicker,0.5437,0.2436,0.1264,1500
+669s,pair+kicker suited,0.5457,0.2582,0.1534,1500
+668r,pair+kicker,0.5313,0.2497,0.1290,1500
+668s,pair+kicker suited,0.5547,0.2684,0.1571,1500
+667r,pair+kicker,0.5167,0.2176,0.1125,1500
+667s,pair+kicker suited,0.5543,0.2801,0.1545,1500
+665r,pair+kicker,0.5087,0.2386,0.1314,1500
+665s,pair+kicker suited,0.5173,0.2553,0.1478,1500
+664r,pair+kicker,0.4990,0.2347,0.1232,1500
+664s,pair+kicker suited,0.5297,0.2769,0.1546,1500
+663r,pair+kicker,0.4770,0.2080,0.1209,1500
+663s,pair+kicker suited,0.5020,0.2444,0.1360,1500
+662r,pair+kicker,0.5010,0.1972,0.1202,1500
+662s,pair+kicker suited,0.4993,0.2430,0.1339,1500
+654r,rainbow,0.4177,0.2096,0.1171,1500
+654-65s,two suited (top two),0.4347,0.2383,0.1359,1500
+654-64s,two suited (top+bottom),0.4363,0.2457,0.1400,1500
+654-54s,two suited (bottom two),0.4437,0.2507,0.1391,1500
+654sss,three suited,0.4493,0.2402,0.1292,1500
+653r,rainbow,0.3883,0.1817,0.0914,1500
+653-65s,two suited (top two),0.4223,0.2211,0.1098,1500
+653-63s,two suited (top+bottom),0.4137,0.2133,0.1126,1500
+653-53s,two suited (bottom two),0.4277,0.2406,0.1406,1500
+653sss,three suited,0.4183,0.2259,0.1220,1500
+652r,rainbow,0.3527,0.1664,0.0811,1500
+652-65s,two suited (top two),0.4017,0.2096,0.1084,1500
+652-62s,two suited (top+bottom),0.3783,0.2057,0.1079,1500
+652-52s,two suited (bottom two),0.4027,0.1981,0.1024,1500
+652sss,three suited,0.4063,0.2096,0.1130,1500
+643r,rainbow,0.3797,0.1888,0.0974,1500
+643-64s,two suited (top two),0.4143,0.2255,0.1280,1500
+643-63s,two suited (top+bottom),0.4320,0.2429,0.1358,1500
+643-43s,two suited (bottom two),0.4070,0.2086,0.1061,1500
+643sss,three suited,0.4047,0.2042,0.1085,1500
+642r,rainbow,0.3657,0.1620,0.0853,1500
+642-64s,two suited (top two),0.3903,0.2084,0.1129,1500
+642-62s,two suited (top+bottom),0.3870,0.2022,0.1097,1500
+642-42s,two suited (bottom two),0.4037,0.2102,0.1025,1500
+642sss,three suited,0.3900,0.2099,0.1031,1500
+632r,rainbow,0.3533,0.1497,0.0636,1500
+632-63s,two suited (top two),0.3733,0.1936,0.0960,1500
+632-62s,two suited (top+bottom),0.3443,0.1505,0.0727,1500
+632-32s,two suited (bottom two),0.3870,0.1821,0.0888,1500
+632sss,three suited,0.3653,0.1771,0.0860,1500
+555,trips,0.3900,0.1220,0.0480,1500
+55Ar,pair+kicker,0.5517,0.2538,0.1329,1500
+55As,pair+kicker suited,0.5797,0.2984,0.1673,1500
+55Kr,pair+kicker,0.5180,0.2303,0.1124,1500
+55Ks,pair+kicker suited,0.5553,0.2676,0.1363,1500
+55Qr,pair+kicker,0.5133,0.2073,0.0974,1500
+55Qs,pair+kicker suited,0.5357,0.2554,0.1384,1500
+55Jr,pair+kicker,0.5327,0.2372,0.1297,1500
+55Js,pair+kicker suited,0.5223,0.2543,0.1410,1500
+55Tr,pair+kicker,0.5120,0.2059,0.0938,1500
+55Ts,pair+kicker suited,0.5153,0.2278,0.1191,1500
+559r,pair+kicker,0.4950,0.2091,0.1008,1500
+559s,pair+kicker suited,0.5400,0.2659,0.1385,1500
+558r,pair+kicker,0.5200,0.2214,0.1072,1500
+558s,pair+kicker suited,0.5377,0.2588,0.1378,1500
+557r,pair+kicker,0.4947,0.2282,0.1152,1500
+557s,pair+kicker suited,0.5217,0.2621,0.1516,1500
+556r,pair+kicker,0.4873,0.2134,0.1146,1500
+556s,pair+kicker suited,0.4943,0.2352,0.1403,1500
+554r,pair+kicker,0.4767,0.2161,0.1247,1500
+554s,pair+kicker suited,0.4913,0.2509,0.1428,1500
+553r,pair+kicker,0.4610,0.2114,0.1059,1500
+553s,pair+kicker suited,0.4853,0.2472,0.1536,1500
+552r,pair+kicker,0.4627,0.1988,0.1056,1500
+552s,pair+kicker suited,0.4910,0.2440,0.1346,1500
+543r,rainbow,0.3687,0.2018,0.1120,1500
+543-54s,two suited (top two),0.4223,0.2336,0.1323,1500
+543-53s,two suited (top+bottom),0.4100,0.2136,0.1078,1500
+543-43s,two suited (bottom two),0.4093,0.2421,0.1218,1500
+543sss,three suited,0.3987,0.2062,0.1171,1500
+542r,rainbow,0.3727,0.1768,0.0897,1500
+542-54s,two suited (top two),0.4013,0.2298,0.1219,1500
+542-52s,two suited (top+bottom),0.3850,0.2110,0.1146,1500
+542-42s,two suited (bottom two),0.3837,0.2133,0.1161,1500
+542sss,three suited,0.3823,0.2008,0.1054,1500
+532r,rainbow,0.3510,0.1473,0.0730,1500
+532-53s,two suited (top two),0.3730,0.2028,0.1109,1500
+532-52s,two suited (top+bottom),0.3833,0.2077,0.1063,1500
+532-32s,two suited (bottom two),0.3763,0.1869,0.1031,1500
+532sss,three suited,0.3660,0.1979,0.1006,1500
+444,trips,0.3343,0.0987,0.0458,1500
+44Ar,pair+kicker,0.5097,0.2312,0.1085,1500
+44As,pair+kicker suited,0.5457,0.2658,0.1545,1500
+44Kr,pair+kicker,0.5073,0.2220,0.1051,1500
+44Ks,pair+kicker suited,0.5280,0.2598,0.1371,1500
+44Qr,pair+kicker,0.4813,0.1966,0.1005,1500
+44Qs,pair+kicker suited,0.5177,0.2535,0.1476,1500
+44Jr,pair+kicker,0.4797,0.2041,0.0986,1500
+44Js,pair+kicker suited,0.5157,0.2479,0.1374,1500
+44Tr,pair+kicker,0.4793,0.1979,0.1012,1500
+44Ts,pair+kicker suited,0.5147,0.2381,0.1296,1500
+449r,pair+kicker,0.4570,0.2099,0.1085,1500
+449s,pair+kicker suited,0.5017,0.2215,0.1171,1500
+448r,pair+kicker,0.4777,0.1966,0.0891,1500
+448s,pair+kicker suited,0.4827,0.2471,0.1304,1500
+447r,pair+kicker,0.4500,0.2038,0.1021,1500
+447s,pair+kicker suited,0.5067,0.2547,0.1334,1500
+446r,pair+kicker,0.4570,0.2031,0.1134,1500
+446s,pair+kicker suited,0.4940,0.2345,0.1253,1500
+445r,pair+kicker,0.4727,0.2264,0.1418,1500
+445s,pair+kicker suited,0.5070,0.2611,0.1533,1500
+443r,pair+kicker,0.4543,0.2112,0.1172,1500
+443s,pair+kicker suited,0.4637,0.2247,0.1288,1500
+442r,pair+kicker,0.4113,0.1891,0.0976,1500
+442s,pair+kicker suited,0.4500,0.2169,0.1277,1500
+432r,rainbow,0.3410,0.1512,0.0787,1500
+432-43s,two suited (top two),0.3530,0.1694,0.0801,1500
+432-42s,two suited (top+bottom),0.3747,0.1922,0.0968,1500
+432-32s,two suited (bottom two),0.3593,0.1805,0.0903,1500
+432sss,three suited,0.3520,0.1868,0.0890,1500
+333,trips,0.2893,0.0850,0.0400,1500
+33Ar,pair+kicker,0.5100,0.2488,0.1211,1500
+33As,pair+kicker suited,0.5233,0.2624,0.1547,1500
+33Kr,pair+kicker,0.4673,0.1978,0.0982,1500
+33Ks,pair+kicker suited,0.5183,0.2763,0.1581,1500
+33Qr,pair+kicker,0.4787,0.2147,0.1106,1500
+33Qs,pair+kicker suited,0.4890,0.2450,0.1414,1500
+33Jr,pair+kicker,0.4413,0.1991,0.0982,1500
+33Js,pair+kicker suited,0.4827,0.2476,0.1360,1500
+33Tr,pair+kicker,0.4450,0.1925,0.0989,1500
+33Ts,pair+kicker suited,0.4770,0.2385,0.1319,1500
+339r,pair+kicker,0.4580,0.1972,0.1226,1500
+339s,pair+kicker suited,0.4583,0.2154,0.1168,1500
+338r,pair+kicker,0.4030,0.1694,0.0823,1500
+338s,pair+kicker suited,0.4550,0.2158,0.1195,1500
+337r,pair+kicker,0.4107,0.1706,0.0957,1500
+337s,pair+kicker suited,0.4533,0.2277,0.1291,1500
+336r,pair+kicker,0.4353,0.1972,0.1179,1500
+336s,pair+kicker suited,0.4750,0.2246,0.1202,1500
+335r,pair+kicker,0.4290,0.2009,0.1161,1500
+335s,pair+kicker suited,0.4560,0.2516,0.1515,1500
+334r,pair+kicker,0.4200,0.1951,0.1100,1500
+334s,pair+kicker suited,0.4377,0.2257,0.1382,1500
+332r,pair+kicker,0.3933,0.1790,0.1103,1500
+332s,pair+kicker suited,0.4170,0.2153,0.1286,1500
+222,trips,0.2620,0.0773,0.0404,1500
+22Ar,pair+kicker,0.4710,0.2285,0.1019,1500
+22As,pair+kicker suited,0.4803,0.2419,0.1287,1500
+22Kr,pair+kicker,0.4460,0.2022,0.1061,1500
+22Ks,pair+kicker suited,0.4723,0.2513,0.1547,1500
+22Qr,pair+kicker,0.4527,0.2052,0.1110,1500
+22Qs,pair+kicker suited,0.4577,0.2193,0.1349,1500
+22Jr,pair+kicker,0.4357,0.1897,0.0938,1500
+22Js,pair+kicker suited,0.4503,0.2329,0.1274,1500
+22Tr,pair+kicker,0.4393,0.1943,0.1058,1500
+22Ts,pair+kicker suited,0.4343,0.2158,0.1223,1500
+229r,pair+kicker,0.4057,0.1773,0.0878,1500
+229s,pair+kicker suited,0.4473,0.2191,0.1112,1500
+228r,pair+kicker,0.4140,0.1862,0.0989,1500
+228s,pair+kicker suited,0.4473,0.2254,0.1220,1500
+227r,pair+kicker,0.4013,0.1608,0.0831,1500
+227s,pair+kicker suited,0.4157,0.2126,0.1238,1500
+226r,pair+kicker,0.4097,0.2019,0.1063,1500
+226s,pair+kicker suited,0.4597,0.2192,0.1339,1500
+225r,pair+kicker,0.4167,0.1905,0.1024,1500
+225s,pair+kicker suited,0.4143,0.2070,0.1181,1500
+224r,pair+kicker,0.3850,0.1870,0.1156,1500
+224s,pair+kicker suited,0.4190,0.2177,0.1303,1500
+223r,pair+kicker,0.3777,0.1686,0.1007,1500
+223s,pair+kicker suited,0.4213,0.2095,0.1215,1500

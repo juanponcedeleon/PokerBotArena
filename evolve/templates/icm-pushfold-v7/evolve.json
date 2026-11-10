@@ -1,0 +1,175 @@
+{
+  "family": "icm-pushfold-v7",
+  "parent": "bots/icm-pushfold-v7",
+  "strategy": "ICM push/fold with Nash tables, per-seat frequencies and survival premium (strategy/06 S6.1-S6.3, 02 S2.5) on the v0-nowar deep game",
+  "generated_by": "evolve/hoist.py",
+  "parameters": {
+    "PUSH_MAX": {
+      "default": 15.0,
+      "min": 6.0,
+      "max": 22.0
+    },
+    "RESHOVE_MAX": {
+      "default": 18.0,
+      "min": 6.0,
+      "max": 28.0
+    },
+    "ALLIN_FRACTION": {
+      "default": 0.6,
+      "min": 0.3,
+      "max": 0.95
+    },
+    "COMMITTED": {
+      "default": 0.3,
+      "min": 0.1,
+      "max": 0.7
+    },
+    "OPEN_RANGE": {
+      "default": 25.0,
+      "min": 8.0,
+      "max": 60.0
+    },
+    "PRIOR_HANDS": {
+      "default": 10.0,
+      "min": 1.0,
+      "max": 50.0
+    },
+    "SHOVE_MARGIN": {
+      "default": 0.0,
+      "min": -1.5,
+      "max": 4.0
+    },
+    "CALL_MARGIN": {
+      "default": 0.0,
+      "min": -1.5,
+      "max": 4.0
+    },
+    "PREMIUM": {
+      "default": 0.3,
+      "min": 0.0,
+      "max": 0.6
+    },
+    "MULTIWAY_PREMIUM": {
+      "default": 0.5,
+      "min": 0.0,
+      "max": 2.0
+    },
+    "PREMIUM_UNOPENED_SCALE": {
+      "default": 0.5,
+      "min": 0.0,
+      "max": 1.5,
+      "note": "share of the survival premium charged on an unopened shove"
+    },
+    "OPEN_PREMIUM_BB": {
+      "default": 3.0,
+      "min": 2.0,
+      "max": 5.0,
+      "note": "deep: open size with class 3"
+    },
+    "OPEN_GOOD_BB": {
+      "default": 2.5,
+      "min": 2.0,
+      "max": 4.5,
+      "note": "deep: open size with class 2"
+    },
+    "THREEBET_MULT": {
+      "default": 3.0,
+      "min": 2.2,
+      "max": 5.0,
+      "note": "deep: 3-bet multiple (capped war, v0-nowar)"
+    },
+    "CALL_GOOD_MAX_BB": {
+      "default": 6.0,
+      "min": 2.0,
+      "max": 14.0
+    },
+    "CALL_MID_PAIR_FRAC": {
+      "default": 0.3,
+      "min": 0.05,
+      "max": 0.7
+    },
+    "CALL_LOW_PAIR_FRAC": {
+      "default": 0.12,
+      "min": 0.0,
+      "max": 0.4
+    },
+    "LIMP_MARGINAL_BB": {
+      "default": 1.0,
+      "min": 0.0,
+      "max": 3.0
+    },
+    "STRONG_BET_POT": {
+      "default": 0.7,
+      "min": 0.3,
+      "max": 1.5,
+      "note": "bet size (pot fraction) with two pair+"
+    },
+    "STRONG_CALL_POT": {
+      "default": 1.0,
+      "min": 0.3,
+      "max": 3.0,
+      "note": "two pair raises a bet up to this * pot, calls above"
+    },
+    "RAISE_MULT": {
+      "default": 2.5,
+      "min": 2.0,
+      "max": 4.0,
+      "note": "raise = this * to_call + RAISE_POT_ADD * pot"
+    },
+    "RAISE_POT_ADD": {
+      "default": 0.5,
+      "min": 0.0,
+      "max": 1.2
+    },
+    "MEDIUM_BET_POT": {
+      "default": 0.5,
+      "min": 0.2,
+      "max": 1.0,
+      "note": "bet size with top pair"
+    },
+    "MEDIUM_CALL_POT": {
+      "default": 0.6,
+      "min": 0.1,
+      "max": 1.5,
+      "note": "top pair calls up to this * pot"
+    },
+    "WEAK_CALL_POT": {
+      "default": 0.3,
+      "min": 0.0,
+      "max": 1.0,
+      "note": "any pair calls up to this * pot"
+    },
+    "FD_CALL_POT": {
+      "default": 0.35,
+      "min": 0.0,
+      "max": 1.0,
+      "note": "flush draw calls up to this * pot"
+    },
+    "CBET_POT": {
+      "default": 0.5,
+      "min": 0.25,
+      "max": 1.0,
+      "note": "continuation bet size"
+    },
+    "CBET_MIN_RANK": {
+      "default": 9,
+      "min": 5,
+      "max": 13,
+      "int": true,
+      "note": "c-bet needs a hole card of this rank (9 = J, 13 = never)"
+    },
+    "EXPOSE_LOW_PROB": {
+      "default": 1.0,
+      "min": 0.0,
+      "max": 1.0,
+      "note": "P(expose the weaker kept card); strategy/03 S3.2"
+    }
+  },
+  "constraints": [
+    [
+      "RESHOVE_MAX",
+      ">=",
+      "PUSH_MAX"
+    ]
+  ]
+}

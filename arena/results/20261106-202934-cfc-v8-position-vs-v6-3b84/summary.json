@@ -1,0 +1,721 @@
+{
+  "run": {
+    "name": "cfc-v8-position-vs-v6",
+    "started": "2026-11-06T20:29:34",
+    "argv": [
+      "ab",
+      "bots/cap-floor-count-v6",
+      "bots/cfc-v8-position",
+      "--field",
+      "keep-made-plus-draw-v2",
+      "v0-baseline",
+      "icm-pushfold",
+      "cap-floor-count-v5",
+      "min_raiser",
+      "check_or_fold",
+      "--tables",
+      "1600",
+      "--seed",
+      "cfc11",
+      "--log",
+      "--agent",
+      "Claude(cap-floor-count-agent)",
+      "--name",
+      "cfc-v8-position-vs-v6",
+      "--question",
+      "position-aware opening (class 1 opens from the last 2 seats when folded to) vs v6"
+    ],
+    "mode": "fast",
+    "seed": "cfc11",
+    "scheme": "ab",
+    "hero": "cap-floor-count-v6",
+    "challenger": "cfc-v8-position",
+    "tables_planned": 3206,
+    "rules": {
+      "variant": "flop_discard_reveal",
+      "players": 8,
+      "starting_stack": 2000,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hand_cap": 250,
+      "payouts": [
+        50,
+        30,
+        20
+      ],
+      "decision_ms": 1,
+      "time_bank_ms": 100,
+      "memory_bytes": 65536
+    },
+    "bots": {
+      "cap-floor-count-v6": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\cap-floor-count-v6",
+        "fingerprint": "ad2b69dc09c35f68"
+      },
+      "cfc-v8-position": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\cfc-v8-position",
+        "fingerprint": "f4f04546fe9c978f"
+      },
+      "keep-made-plus-draw-v2": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\keep-made-plus-draw-v2",
+        "fingerprint": "1e33159dc3c166e9"
+      },
+      "v0-baseline": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\v0-baseline",
+        "fingerprint": "a10ee1d03910be31"
+      },
+      "icm-pushfold": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\icm-pushfold",
+        "fingerprint": "f3b58a04582bfd4c"
+      },
+      "cap-floor-count-v5": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\cap-floor-count-v5",
+        "fingerprint": "831f3a7dc5c24a2d"
+      },
+      "min_raiser": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\starter-kit\\examples\\min_raiser",
+        "fingerprint": "573cab087d252756"
+      },
+      "check_or_fold": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\starter-kit\\examples\\check_or_fold",
+        "fingerprint": "11ac875de874fe93"
+      }
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10"
+  },
+  "run_dir": "arena/results/20261106-202934-cfc-v8-position-vs-v6-3b84",
+  "tables": 3206,
+  "hands": 309536,
+  "ranking": [
+    {
+      "label": "check_or_fold",
+      "tables": 2360,
+      "seats": 3664,
+      "avg_points": 20.125545851528383,
+      "ci95": 0.3471803145833853,
+      "sd": 10.718677569645143,
+      "avg_place": 2.8316048034934496,
+      "place_share": {
+        "2": 0.39192139737991266,
+        "3": 0.41866812227074235,
+        "4": 0.1580240174672489,
+        "5": 0.02920305676855895,
+        "6": 0.0016375545851528383,
+        "7": 0.0005458515283842794
+      },
+      "top3_share": 0.8105895196506551,
+      "decisions": 402452,
+      "failures": 9,
+      "timeouts": 9,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 2.2362915329033028e-05,
+      "lat_p50_ms": 0.0043,
+      "lat_p99_ms": 0.1082,
+      "lat_max_ms": 260.78,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 92.06659388646288,
+      "survived_share": 0.0
+    },
+    {
+      "label": "cfc-v8-position",
+      "tables": 1199,
+      "seats": 1832,
+      "avg_points": 16.91593886462882,
+      "ci95": 0.9194817886818012,
+      "sd": 20.06645233545407,
+      "avg_place": 3.7292576419213974,
+      "place_share": {
+        "1": 0.20414847161572053,
+        "2": 0.14683406113537117,
+        "3": 0.11517467248908297,
+        "4": 0.14956331877729256,
+        "5": 0.15338427947598254,
+        "6": 0.12336244541484716,
+        "7": 0.07969432314410481,
+        "8": 0.027838427947598252
+      },
+      "top3_share": 0.4661572052401747,
+      "decisions": 194762,
+      "failures": 52,
+      "timeouts": 52,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.00026699253447797823,
+      "lat_p50_ms": 0.0204,
+      "lat_p99_ms": 18.9824,
+      "lat_max_ms": 289.502,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 48.574074074074076,
+      "survived_share": 0.20414847161572053
+    },
+    {
+      "label": "cap-floor-count-v6",
+      "tables": 1199,
+      "seats": 1832,
+      "avg_points": 16.861353711790393,
+      "ci95": 0.9094359402755093,
+      "sd": 19.847215216573172,
+      "avg_place": 3.7232532751091703,
+      "place_share": {
+        "1": 0.1943231441048035,
+        "2": 0.16430131004366813,
+        "3": 0.11080786026200873,
+        "4": 0.15065502183406113,
+        "5": 0.14956331877729256,
+        "6": 0.12281659388646288,
+        "7": 0.07969432314410481,
+        "8": 0.027838427947598252
+      },
+      "top3_share": 0.46943231441048033,
+      "decisions": 187991,
+      "failures": 48,
+      "timeouts": 48,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.00025533137224654373,
+      "lat_p50_ms": 0.019,
+      "lat_p99_ms": 19.6865,
+      "lat_max_ms": 312.3523,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 50.62533875338753,
+      "survived_share": 0.1943231441048035
+    },
+    {
+      "label": "cap-floor-count-v5",
+      "tables": 2342,
+      "seats": 3664,
+      "avg_points": 14.986353711790393,
+      "ci95": 0.6376889735324558,
+      "sd": 19.687701778871176,
+      "avg_place": 3.957150655021834,
+      "place_share": {
+        "1": 0.18531659388646288,
+        "2": 0.1146288209606987,
+        "3": 0.11408296943231441,
+        "4": 0.15229257641921398,
+        "5": 0.16730349344978165,
+        "6": 0.14110262008733623,
+        "7": 0.09415938864628821,
+        "8": 0.03111353711790393
+      },
+      "top3_share": 0.41402838427947597,
+      "decisions": 422464,
+      "failures": 141,
+      "timeouts": 141,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.00033375624905317375,
+      "lat_p50_ms": 0.0194,
+      "lat_p99_ms": 19.3201,
+      "lat_max_ms": 340.1355,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 43.949413735343384,
+      "survived_share": 0.18531659388646288
+    },
+    {
+      "label": "keep-made-plus-draw-v2",
+      "tables": 2356,
+      "seats": 3664,
+      "avg_points": 12.423580786026202,
+      "ci95": 0.6341035774070266,
+      "sd": 19.577007988314396,
+      "avg_place": 4.553220524017467,
+      "place_share": {
+        "1": 0.18013100436681223,
+        "2": 0.06277292576419213,
+        "3": 0.07669213973799127,
+        "4": 0.11244541484716157,
+        "5": 0.1580240174672489,
+        "6": 0.16839519650655022,
+        "7": 0.16512008733624453,
+        "8": 0.07641921397379912
+      },
+      "top3_share": 0.31959606986899564,
+      "decisions": 311055,
+      "failures": 38,
+      "timeouts": 38,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.00012216489045345678,
+      "lat_p50_ms": 0.0188,
+      "lat_p99_ms": 17.2261,
+      "lat_max_ms": 347.3988,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 25.91011984021305,
+      "survived_share": 0.18013100436681223
+    },
+    {
+      "label": "v0-baseline",
+      "tables": 2326,
+      "seats": 3664,
+      "avg_points": 11.97325327510917,
+      "ci95": 0.6320121881929289,
+      "sd": 19.512439446502206,
+      "avg_place": 4.620360262008734,
+      "place_share": {
+        "1": 0.17712882096069868,
+        "2": 0.06277292576419213,
+        "3": 0.06168122270742358,
+        "4": 0.1168122270742358,
+        "5": 0.16129912663755458,
+        "6": 0.1765829694323144,
+        "7": 0.150382096069869,
+        "8": 0.09334061135371179
+      },
+      "top3_share": 0.3015829694323144,
+      "decisions": 296106,
+      "failures": 21,
+      "timeouts": 21,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 7.092054872241697e-05,
+      "lat_p50_ms": 0.0184,
+      "lat_p99_ms": 12.1088,
+      "lat_max_ms": 260.5174,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 24.338971807628525,
+      "survived_share": 0.17712882096069868
+    },
+    {
+      "label": "icm-pushfold",
+      "tables": 2326,
+      "seats": 3664,
+      "avg_points": 9.849890829694322,
+      "ci95": 0.5615552929716877,
+      "sd": 17.337187248401637,
+      "avg_place": 4.727347161572053,
+      "place_share": {
+        "1": 0.11708515283842795,
+        "2": 0.08296943231441048,
+        "3": 0.07532751091703056,
+        "4": 0.1427401746724891,
+        "5": 0.1634825327510917,
+        "6": 0.17958515283842794,
+        "7": 0.1580240174672489,
+        "8": 0.08078602620087336
+      },
+      "top3_share": 0.275382096069869,
+      "decisions": 290200,
+      "failures": 222,
+      "timeouts": 222,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0007649896623018608,
+      "lat_p50_ms": 0.0307,
+      "lat_p99_ms": 22.0931,
+      "lat_max_ms": 314.5548,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 29.89644513137558,
+      "survived_share": 0.11708515283842795
+    },
+    {
+      "label": "min_raiser",
+      "tables": 2328,
+      "seats": 3664,
+      "avg_points": 1.2527292576419213,
+      "ci95": 0.22702376328748236,
+      "sd": 7.009022162578622,
+      "avg_place": 6.567685589519651,
+      "place_share": {
+        "1": 0.016102620087336244,
+        "2": 0.0049126637554585155,
+        "3": 0.015010917030567686,
+        "4": 0.04312227074235808,
+        "5": 0.08296943231441048,
+        "6": 0.22816593886462883,
+        "7": 0.3373362445414847,
+        "8": 0.27237991266375544
+      },
+      "top3_share": 0.036026200873362446,
+      "decisions": 94730,
+      "failures": 2,
+      "timeouts": 2,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 2.1112635912593688e-05,
+      "lat_p50_ms": 0.0044,
+      "lat_p99_ms": 0.2629,
+      "lat_max_ms": 272.249,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 4.536199722607489,
+      "survived_share": 0.016102620087336244
+    }
+  ],
+  "head_to_head": {
+    "cap-floor-count-v5": {
+      "cap-floor-count-v6": [
+        389,
+        0,
+        450
+      ],
+      "check_or_fold": [
+        723,
+        0,
+        965
+      ],
+      "keep-made-plus-draw-v2": [
+        1008,
+        0,
+        670
+      ],
+      "min_raiser": [
+        1553,
+        6,
+        73
+      ],
+      "v0-baseline": [
+        968,
+        6,
+        670
+      ],
+      "cfc-v8-position": [
+        374,
+        0,
+        465
+      ],
+      "icm-pushfold": [
+        1015,
+        0,
+        635
+      ]
+    },
+    "cap-floor-count-v6": {
+      "cap-floor-count-v5": [
+        450,
+        0,
+        389
+      ],
+      "check_or_fold": [
+        401,
+        0,
+        460
+      ],
+      "keep-made-plus-draw-v2": [
+        500,
+        1,
+        353
+      ],
+      "min_raiser": [
+        818,
+        2,
+        36
+      ],
+      "v0-baseline": [
+        493,
+        1,
+        344
+      ],
+      "icm-pushfold": [
+        535,
+        0,
+        311
+      ]
+    },
+    "check_or_fold": {
+      "cap-floor-count-v5": [
+        965,
+        0,
+        723
+      ],
+      "cap-floor-count-v6": [
+        460,
+        0,
+        401
+      ],
+      "keep-made-plus-draw-v2": [
+        1093,
+        0,
+        587
+      ],
+      "min_raiser": [
+        1615,
+        0,
+        55
+      ],
+      "v0-baseline": [
+        1083,
+        0,
+        581
+      ],
+      "cfc-v8-position": [
+        464,
+        0,
+        397
+      ],
+      "icm-pushfold": [
+        1202,
+        0,
+        448
+      ]
+    },
+    "keep-made-plus-draw-v2": {
+      "cap-floor-count-v5": [
+        670,
+        0,
+        1008
+      ],
+      "cap-floor-count-v6": [
+        353,
+        1,
+        500
+      ],
+      "check_or_fold": [
+        587,
+        0,
+        1093
+      ],
+      "min_raiser": [
+        1337,
+        24,
+        293
+      ],
+      "v0-baseline": [
+        824,
+        10,
+        814
+      ],
+      "cfc-v8-position": [
+        351,
+        1,
+        502
+      ],
+      "icm-pushfold": [
+        847,
+        10,
+        775
+      ]
+    },
+    "min_raiser": {
+      "cap-floor-count-v5": [
+        73,
+        6,
+        1553
+      ],
+      "cap-floor-count-v6": [
+        36,
+        2,
+        818
+      ],
+      "check_or_fold": [
+        55,
+        0,
+        1615
+      ],
+      "keep-made-plus-draw-v2": [
+        293,
+        24,
+        1337
+      ],
+      "v0-baseline": [
+        272,
+        32,
+        1324
+      ],
+      "cfc-v8-position": [
+        39,
+        2,
+        815
+      ],
+      "icm-pushfold": [
+        249,
+        12,
+        1391
+      ]
+    },
+    "v0-baseline": {
+      "cap-floor-count-v5": [
+        670,
+        6,
+        968
+      ],
+      "cap-floor-count-v6": [
+        344,
+        1,
+        493
+      ],
+      "check_or_fold": [
+        581,
+        0,
+        1083
+      ],
+      "keep-made-plus-draw-v2": [
+        814,
+        10,
+        824
+      ],
+      "min_raiser": [
+        1324,
+        32,
+        272
+      ],
+      "cfc-v8-position": [
+        339,
+        1,
+        498
+      ],
+      "icm-pushfold": [
+        884,
+        0,
+        724
+      ]
+    },
+    "cfc-v8-position": {
+      "cap-floor-count-v5": [
+        465,
+        0,
+        374
+      ],
+      "check_or_fold": [
+        397,
+        0,
+        464
+      ],
+      "keep-made-plus-draw-v2": [
+        502,
+        1,
+        351
+      ],
+      "min_raiser": [
+        815,
+        2,
+        39
+      ],
+      "v0-baseline": [
+        498,
+        1,
+        339
+      ],
+      "icm-pushfold": [
+        542,
+        0,
+        304
+      ]
+    },
+    "icm-pushfold": {
+      "cfc-v8-position": [
+        304,
+        0,
+        542
+      ],
+      "keep-made-plus-draw-v2": [
+        775,
+        10,
+        847
+      ],
+      "min_raiser": [
+        1391,
+        12,
+        249
+      ],
+      "v0-baseline": [
+        724,
+        0,
+        884
+      ],
+      "cap-floor-count-v5": [
+        635,
+        0,
+        1015
+      ],
+      "check_or_fold": [
+        448,
+        0,
+        1202
+      ],
+      "cap-floor-count-v6": [
+        311,
+        0,
+        535
+      ]
+    }
+  },
+  "bot_errors": [],
+  "ab": {
+    "n": 1199,
+    "mean_diff": 0.23158187378370867,
+    "se": 0.25974450290462625,
+    "ci95": 0.5096047263299341,
+    "t": 0.8915756491244844,
+    "p_value": 0.37279945802020636,
+    "b_better_tables": 126,
+    "a_better_tables": 116,
+    "tied_tables": 957,
+    "hero": "cap-floor-count-v6",
+    "challenger": "cfc-v8-position",
+    "hero_avg_points": 17.1495690853489,
+    "challenger_avg_points": 17.38115095913261,
+    "tables_for_1pt": 311
+  },
+  "elapsed_s": 148.0
+}

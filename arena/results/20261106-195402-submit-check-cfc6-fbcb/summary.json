@@ -1,0 +1,329 @@
+{
+  "run": {
+    "name": "submit-check-cfc6",
+    "started": "2026-11-06T19:54:02",
+    "argv": [
+      "league",
+      "bot",
+      "v0-nowar",
+      "check_or_fold",
+      "min_raiser",
+      "--tables",
+      "200",
+      "--seed",
+      "submit-cfc6-1",
+      "--name",
+      "submit-check-cfc6",
+      "--agent",
+      "Claude (headmaster)",
+      "--question",
+      "pre-submission check: bot = cap-floor-count-v6 copy, zero failures required",
+      "--quiet"
+    ],
+    "mode": "fast",
+    "seed": "submit-cfc6-1",
+    "scheme": "league",
+    "hero": null,
+    "challenger": null,
+    "tables_planned": 200,
+    "rules": {
+      "variant": "flop_discard_reveal",
+      "players": 8,
+      "starting_stack": 2000,
+      "blinds": [
+        [
+          10,
+          20,
+          0
+        ],
+        [
+          20,
+          40,
+          0
+        ],
+        [
+          30,
+          60,
+          0
+        ],
+        [
+          50,
+          100,
+          0
+        ],
+        [
+          80,
+          160,
+          0
+        ],
+        [
+          125,
+          250,
+          0
+        ],
+        [
+          200,
+          400,
+          0
+        ],
+        [
+          300,
+          600,
+          0
+        ],
+        [
+          500,
+          1000,
+          0
+        ],
+        [
+          800,
+          1600,
+          0
+        ],
+        [
+          1200,
+          2400,
+          0
+        ],
+        [
+          2000,
+          4000,
+          0
+        ]
+      ],
+      "hands_per_level": 20,
+      "hand_cap": 250,
+      "payouts": [
+        50,
+        30,
+        20
+      ],
+      "decision_ms": 1,
+      "time_bank_ms": 100,
+      "memory_bytes": 65536
+    },
+    "bots": {
+      "bot": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bot",
+        "fingerprint": "ad2b69dc09c35f68"
+      },
+      "v0-nowar": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\bots\\v0-nowar",
+        "fingerprint": "c0330914fea447c7"
+      },
+      "check_or_fold": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\starter-kit\\examples\\check_or_fold",
+        "fingerprint": "11ac875de874fe93"
+      },
+      "min_raiser": {
+        "path": "C:\\Users\\jmast\\OneDrive\\Desktop\\Coding\\PokerBot\\starter-kit\\examples\\min_raiser",
+        "fingerprint": "573cab087d252756"
+      }
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10"
+  },
+  "run_dir": "arena/results/20261106-195402-submit-check-cfc6-fbcb",
+  "tables": 200,
+  "hands": 23415,
+  "ranking": [
+    {
+      "label": "bot",
+      "tables": 200,
+      "seats": 400,
+      "avg_points": 18.025,
+      "ci95": 2.0746426016975894,
+      "sd": 21.105995181025076,
+      "avg_place": 3.6875,
+      "place_share": {
+        "1": 0.2375,
+        "2": 0.175,
+        "3": 0.045,
+        "4": 0.0875,
+        "5": 0.1975,
+        "6": 0.175,
+        "7": 0.0825
+      },
+      "top3_share": 0.4575,
+      "decisions": 48029,
+      "failures": 8,
+      "timeouts": 8,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.00016656603302171605,
+      "lat_p50_ms": 0.0195,
+      "lat_p99_ms": 5.0293,
+      "lat_max_ms": 139.2025,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 64.10491803278688,
+      "survived_share": 0.2375
+    },
+    {
+      "label": "v0-nowar",
+      "tables": 200,
+      "seats": 400,
+      "avg_points": 15.65,
+      "ci95": 2.0995377447322427,
+      "sd": 21.35926134286441,
+      "avg_place": 3.9625,
+      "place_share": {
+        "1": 0.2375,
+        "2": 0.1025,
+        "3": 0.035,
+        "4": 0.1075,
+        "5": 0.2075,
+        "6": 0.2225,
+        "7": 0.0875
+      },
+      "top3_share": 0.375,
+      "decisions": 54564,
+      "failures": 3,
+      "timeouts": 3,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 5.4981306355839013e-05,
+      "lat_p50_ms": 0.0198,
+      "lat_p99_ms": 2.2218,
+      "lat_max_ms": 160.6285,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 54.27540983606557,
+      "survived_share": 0.2375
+    },
+    {
+      "label": "check_or_fold",
+      "tables": 200,
+      "seats": 400,
+      "avg_points": 15.0,
+      "ci95": 1.1686664086750362,
+      "sd": 11.889212903243285,
+      "avg_place": 3.205,
+      "place_share": {
+        "2": 0.22,
+        "3": 0.42,
+        "4": 0.295,
+        "5": 0.065
+      },
+      "top3_share": 0.64,
+      "decisions": 42599,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.0041,
+      "lat_p99_ms": 0.1584,
+      "lat_max_ms": 49.8623,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 97.17,
+      "survived_share": 0.0
+    },
+    {
+      "label": "min_raiser",
+      "tables": 200,
+      "seats": 400,
+      "avg_points": 1.325,
+      "ci95": 0.7811454196266118,
+      "sd": 7.9468393490178055,
+      "avg_place": 7.0175,
+      "place_share": {
+        "1": 0.025,
+        "2": 0.0025,
+        "4": 0.01,
+        "5": 0.03,
+        "6": 0.1075,
+        "7": 0.4475,
+        "8": 0.3775
+      },
+      "top3_share": 0.0275,
+      "decisions": 19337,
+      "failures": 0,
+      "timeouts": 0,
+      "errors": 0,
+      "illegal": 0,
+      "truncated": 0,
+      "failure_rate": 0.0,
+      "lat_p50_ms": 0.004,
+      "lat_p99_ms": 0.8902,
+      "lat_max_ms": 4.9408,
+      "mem_max_bytes": 0,
+      "avg_bust_hand": 6.402564102564103,
+      "survived_share": 0.025
+    }
+  ],
+  "head_to_head": {
+    "bot": {
+      "check_or_fold": [
+        142,
+        0,
+        58
+      ],
+      "min_raiser": [
+        188,
+        0,
+        12
+      ],
+      "v0-nowar": [
+        100,
+        0,
+        100
+      ]
+    },
+    "check_or_fold": {
+      "bot": [
+        58,
+        0,
+        142
+      ],
+      "min_raiser": [
+        189,
+        0,
+        11
+      ],
+      "v0-nowar": [
+        71,
+        0,
+        129
+      ]
+    },
+    "min_raiser": {
+      "bot": [
+        12,
+        0,
+        188
+      ],
+      "check_or_fold": [
+        11,
+        0,
+        189
+      ],
+      "v0-nowar": [
+        17,
+        0,
+        183
+      ]
+    },
+    "v0-nowar": {
+      "bot": [
+        100,
+        0,
+        100
+      ],
+      "check_or_fold": [
+        129,
+        0,
+        71
+      ],
+      "min_raiser": [
+        183,
+        0,
+        17
+      ]
+    }
+  },
+  "bot_errors": [],
+  "elapsed_s": 20.0
+}
